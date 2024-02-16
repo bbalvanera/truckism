@@ -1,0 +1,46 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "A program to create jobs in any save file for American Truck Simulator or European Truck Simulator",
+  "private": true,
+  "workspaces": [
+    "app/",
+    "ui/"
+  ],
+  "engines": {
+    "node": ">=18 <=20",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "pretty": "prettier -c \"**/src/**/*.{js,jsx,ts,tsx,json,css,scss}\"",
+    "pretty:fix": "prettier -w \"**/src/**/*.{js,jsx,ts,tsx,json,css,scss}\"",
+    "prepare": "husky",
+    "precommit": "npm run pretty && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbalvanera/truckism.git"
+  },
+  "author": "Bernardo Balvanera <bernardo@balvanera.me> (https://balvanera.me)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bbalvanera/truckism/issues"
+  },
+  "homepage": "https://github.com/bbalvanera/truckism#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "typescript": "^4"
+  }
+}

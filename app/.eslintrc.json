@@ -1,0 +1,15 @@
+{
+  "extends": ["plugin:import/electron"],
+  "parserOptions": {
+    "project": "./app/tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./app/tsconfig.json"
+      },
+      "node": true
+    }
+  }
+}

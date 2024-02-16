@@ -1,0 +1,78 @@
+// global
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    }
+  },
+  "plugins": ["import"],
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react*",
+            "position": "before",
+            "group": "builtin"
+          },
+          {
+            "pattern": "react*/**",
+            "position": "before",
+            "group": "builtin"
+          },
+          {
+            "pattern": "@mui/**",
+            "position": "before",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react*", "@mui/**"],
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "never"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "arrow-body-style": ["error", "as-needed"],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+
+    "react/jsx-props-no-spreading": ["off"],
+
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "@typescript-eslint/return-await": ["warn", "always"],
+    "@typescript-eslint/lines-between-class-members": ["off"],
+    "@typescript-eslint/no-explicit-any": ["off"]
+  }
+}

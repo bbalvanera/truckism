@@ -1,0 +1,13 @@
+// ui
+{
+  "extends": ["react-app", "react-app/jest", "airbnb-typescript", "plugin:react-hooks/recommended"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": true,
+      "node": true
+    }
+  }
+}
