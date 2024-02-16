@@ -1,3 +1,4 @@
 forge.config.ts
 webpack
 craco*
+**/node_modules
