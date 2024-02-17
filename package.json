@@ -12,6 +12,9 @@
     "npm": ">=10"
   },
   "scripts": {
+    "start": "concurrently \"cross-env npm run start:ui\" \"cross-env npm run start:app\"",
+    "start:ui": "cd ui && npm start",
+    "start:app": "wait-on http://localhost:3000 && cd app && npm start",
     "lint": "eslint **/src/**/*.{js,jsx,ts,tsx}",
     "pretty": "prettier -c \"**/src/**/*.{js,jsx,ts,tsx,json,css,scss}\"",
     "pretty:fix": "prettier -w \"**/src/**/*.{js,jsx,ts,tsx,json,css,scss}\"",
@@ -31,6 +34,8 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.1.0",
@@ -41,6 +46,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
-    "typescript": "^4"
+    "typescript": "^4",
+    "wait-on": "^7.2.0"
   }
 }

@@ -1,6 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "module": "nodenext",
     "baseUrl": ".",
     "outDir": "dist",
     "paths": {

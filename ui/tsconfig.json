@@ -1,6 +1,15 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"]
+    },
+    "baseUrl": "./src",
     "jsx": "react-jsx"
   },
   "include": ["src"]

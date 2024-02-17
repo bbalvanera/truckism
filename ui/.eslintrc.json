@@ -1,13 +1,60 @@
-// ui
 {
-  "extends": ["react-app", "react-app/jest", "airbnb-typescript", "plugin:react-hooks/recommended"],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb-typescript",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "settings": {
     "import/resolver": {
-      "typescript": true,
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./ui/tsconfig.json"
+      },
       "node": true
     }
+  },
+  "root": false,
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react*",
+            "position": "before",
+            "group": "builtin"
+          },
+          {
+            "pattern": "react*/**",
+            "position": "before",
+            "group": "builtin"
+          },
+          {
+            "pattern": "@mui/**",
+            "position": "before",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react*", "@mui/**"],
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "never"
+      }
+    ],
+    "@typescript-eslint/lines-between-class-members": ["off"]
   }
 }
