@@ -3,7 +3,7 @@ import handleGetGames from '@api/game/getGames/handleGetGames';
 import handleGetAllProfiles from '@api/profiles/handleGetAllProfiles';
 import createWindow from './createWindow';
 
-function registerEndpoints() {
+function registerReqHandlers() {
   ipcMain.handle('game:getGames', handleGetGames);
   ipcMain.handle('profiles:getAllProfiles', handleGetAllProfiles);
 }
@@ -15,7 +15,7 @@ async function run() {
   }
 
   app.whenReady().then(() => {
-    registerEndpoints();
+    registerReqHandlers();
     createWindow();
   });
 

@@ -1,5 +1,16 @@
 import React, { PropsWithChildren } from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-const ApiProvider = ({ children }: PropsWithChildren<unknown>) => <>{children}</>;
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});
+
+const ApiProvider = ({ children }: PropsWithChildren<unknown>) => (
+  <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+);
 
 export default ApiProvider;

@@ -1,10 +1,16 @@
 import { alpha } from '@mui/material/styles';
 import SxDef from '@core/types/SxDef';
 
-const useSx = (): SxDef => (theme) => ({
+// prettier-ignore
+const useSx = (isLoading = true): SxDef => (theme) => ({
+  '& .TsdAppBar-container': { display: 'flex', flexDirection: 'row' },
+  '& .TsdAppBar-toolbarFormControlInputLabel': {
+    fontStyle: isLoading ? 'italic' : 'normal',
+  },
   '& .MuiToolbar-root': {
-    justifyContent: 'space-between',
     p: `${theme.spacing(5)} ${theme.spacing(1)}`,
+    justifyContent: 'space-between',
+    flex: 1,
     gap: 3,
 
     '& .MuiFormControl-root': {

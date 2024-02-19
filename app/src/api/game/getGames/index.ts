@@ -1,7 +1,7 @@
 import { app } from 'electron';
 import { join as joinPath } from 'path';
 import Registry from 'winreg';
-import { Game } from '@common/types';
+import { Game, GameName } from '@common/types';
 import { isNumeric, getDirectories, existsdir } from '@common/utils';
 
 const noneAvailable: Game[] = [
@@ -47,7 +47,7 @@ function getSteamInstallPath(): Promise<string | null> {
   });
 }
 
-function getGameInfo(game: 'ets2' | 'ats', basePath: string): Game {
+function getGameInfo(game: GameName, basePath: string): Game {
   const { remotedir, localdir } = GAMES[game];
   const mydocuments = app.getPath('documents');
   const retVal: Game = { name: game, available: false };

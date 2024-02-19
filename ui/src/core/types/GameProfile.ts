@@ -1,8 +1,6 @@
-import { GameName } from './GameName';
-
 export default interface GameProfile {
   id: string;
-  gameName: GameName;
+  gameName: 'ats' | 'ets2';
   name: string;
   isRemote: boolean;
   path: string;

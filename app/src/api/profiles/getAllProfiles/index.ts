@@ -21,6 +21,7 @@ function getProfiles({
   for (const { name: dirname, path } of directories) {
     const name = hexToString(dirname);
     const profile = {
+      id: path,
       gameName,
       name,
       path,

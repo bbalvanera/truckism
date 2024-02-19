@@ -14,4 +14,4 @@ const Dispatcher = () => (
   </>
 );
 
-export default Dispatcher;
+export { Dispatcher };

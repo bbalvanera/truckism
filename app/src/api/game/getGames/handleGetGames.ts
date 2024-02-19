@@ -1,6 +1,7 @@
+import { Game } from '@common/types';
 import getGames from '.';
 
-async function handleGetGames() {
+async function handleGetGames(): Promise<Game[]> {
   return await getGames();
 }
 
