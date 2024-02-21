@@ -6,10 +6,18 @@ import JobGridCell from '../JobGridCell';
 
 const Actions = () => {
   const { t } = useTranslation();
+
+  const handleClick = () => {
+    const result = truckismAPI.getProfileSaveFiles('profileId');
+    console.log(result);
+  };
+
   return (
     <>
       <JobGridCell align="left" className="TsdJobGridCell-leftActionButton">
-        <Button variant="contained">{t('dispatcher.addJobBtn')}</Button>
+        <Button variant="contained" onClick={handleClick}>
+          {t('dispatcher.addJobBtn')}
+        </Button>
         <Button variant="outlined">{t('dispatcher.addRandomJobBtn')}</Button>
       </JobGridCell>
       <JobGridCell align="right" className="TsdJobGridCell-rightActionButton">
