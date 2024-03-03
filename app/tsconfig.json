@@ -7,7 +7,9 @@
     "paths": {
       "*": ["node_modules/*"],
       "@common/*": ["src/common/*"],
-      "@api/*": ["src/api/*"]
+      "@api/*": ["src/api/*"],
+      "@modules/*": ["src/modules/*"],
+      "@siihelper": ["src/modules/siihelper"]
     }
   },
   "include": ["src/**/*"]

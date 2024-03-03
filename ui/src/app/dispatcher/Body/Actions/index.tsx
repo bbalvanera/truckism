@@ -7,10 +7,7 @@ import JobGridCell from '../JobGridCell';
 const Actions = () => {
   const { t } = useTranslation();
 
-  const handleClick = () => {
-    const result = truckismAPI.getProfileSaveFiles('profileId');
-    console.log(result);
-  };
+  const handleClick = () => {};
 
   return (
     <>

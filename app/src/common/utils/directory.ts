@@ -12,4 +12,8 @@ function existsdir(path: string) {
   return fs.existsSync(path);
 }
 
-export { existsdir, getDirectories };
+function fileexists(path: string) {
+  return fs.existsSync(path);
+}
+
+export { existsdir, fileexists, getDirectories };

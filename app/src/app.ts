@@ -1,21 +1,23 @@
 import { app, ipcMain } from 'electron';
-import handleGetGames from '@api/game/getGames/handleGetGames';
-import handleGetAllProfiles from '@api/profiles/handleGetAllProfiles';
+import { channels } from './api';
+import getGames from './api/game/getGames';
+import getProfileSaves from './api/profiles/getProfileSaves';
+import getUserProfiles from './api/profiles/getUserProfiles';
 import createWindow from './createWindow';
 
-function registerReqHandlers() {
-  ipcMain.handle('game:getGames', handleGetGames);
-  ipcMain.handle('profiles:getAllProfiles', handleGetAllProfiles);
+function registerHandlers() {
+  ipcMain.handle(channels.games.getGames, getGames);
+  ipcMain.handle(channels.profiles.getUserProfiles, getUserProfiles);
+  ipcMain.handle(channels.profiles.getProfileSaves, (e, ...args) => getProfileSaves(args[0]));
 }
 
 async function run() {
-  // Handle creating/removing shortcuts on Windows when installing/uninstalling.
   if (require('electron-squirrel-startup')) {
     app.quit();
   }
 
   app.whenReady().then(() => {
-    registerReqHandlers();
+    registerHandlers();
     createWindow();
   });
 

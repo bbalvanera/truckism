@@ -8,8 +8,8 @@ export interface SelectorProps<Value> {
   label: string;
   disabled: boolean;
   value: Value;
-  onChange: (event: SelectChangeEvent<Value>, child: ReactNode) => void;
-  valueRenderer: (value: Value) => ReactNode;
+  onChange?: (event: SelectChangeEvent<Value>, child: ReactNode) => void;
+  valueRenderer?: (value: Value) => ReactNode;
 }
 
 // prettier-ignore

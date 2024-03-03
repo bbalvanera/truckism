@@ -1,16 +1,16 @@
 import { UseQueryResult, useQuery } from '@tanstack/react-query';
 import { GameProfile } from '@core/types';
-import getGameProfiles from '../api/getGameProfiles';
+import getUserProfiles from '../api/getUserProfiles';
 
-export type UseGameProfilesResult = Omit<UseQueryResult<GameProfile[], any>, 'data'> & {
+export type UseUserProfilesResult = Omit<UseQueryResult<GameProfile[], any>, 'data'> & {
   profiles?: GameProfile[];
 };
 
-const QUERY_KEY = 'useGameProfiles';
+const QUERY_KEY = 'useUserProfiles';
 
-function useGameProfiles(): UseGameProfilesResult {
+function useUserProfiles(): UseUserProfilesResult {
   const { data: profiles, ...rest } = useQuery({
-    queryFn: () => getGameProfiles(),
+    queryFn: () => getUserProfiles(),
     queryKey: [QUERY_KEY],
     select: (data) => data.sort((l, r) => l.gameName.localeCompare(r.gameName)),
   });
@@ -18,4 +18,4 @@ function useGameProfiles(): UseGameProfilesResult {
   return { profiles, ...rest };
 }
 
-export default useGameProfiles;
+export default useUserProfiles;

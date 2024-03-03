@@ -19,6 +19,8 @@ const resources = {
       'dispatcher.profileSelect-placeholder': 'Select your profile',
       'dispatcher.saveFileSelect': 'Saved Game',
       'dispatcher.saveFileSelect-placeholder': 'Select a saved game',
+      'dispatcher.saveSelect-loading': 'Loading saves...',
+      'dispatcher.saveSelect': 'Saves',
     },
   },
   es: {
@@ -38,6 +40,8 @@ const resources = {
       'dispatcher.profileSelect-placeholder': 'Selecciona tu perfil',
       'dispatcher.saveFileSelect': 'Juego Guardado',
       'dispatcher.saveFileSelect-placeholder': 'Selecciona un juego guardado',
+      'dispatcher.saveSelect-loading': 'Cargando juegos guardados...',
+      'dispatcher.saveSelect': 'Juegos guardados',
     },
   },
 };

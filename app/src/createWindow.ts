@@ -1,7 +1,7 @@
 import { BrowserWindow } from 'electron';
 import { join as joinPath } from 'path';
+import { development as isDev } from './environment';
 
-// declare const MAIN_WINDOW_WEBPACK_ENTRY: string;
 declare const MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: string;
 
 let win: BrowserWindow | null = null;
@@ -9,8 +9,6 @@ async function createWindow() {
   if (win !== null) {
     return;
   }
-
-  const isDev = (await import('electron-is-dev')).default;
 
   win = new BrowserWindow({
     width: 1181,
