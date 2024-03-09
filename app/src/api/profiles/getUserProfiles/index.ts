@@ -1,4 +1,4 @@
-import { GameName, GameProfile } from '@common/types';
+import { GameName, GameProfile } from 'truckism-types';
 import { existsdir, getDirectories } from '@common/utils';
 import getGames from '../../game/getGames';
 
@@ -34,33 +34,44 @@ function getProfiles({
   return profiles;
 }
 
+function getGameProfiles(gameName: GameName, remotePath: string, localPath: string): GameProfile[] {
+  const retVal: GameProfile[] = [];
+
+  if (existsdir(remotePath)) {
+    const remoteProfiles = getProfiles({
+      gameName,
+      location: remotePath,
+      isRemote: true,
+    });
+
+    retVal.push(...remoteProfiles);
+  }
+
+  if (existsdir(localPath)) {
+    const localProfiles = getProfiles({
+      gameName,
+      location: localPath,
+      isRemote: false,
+    });
+
+    retVal.push(...localProfiles);
+  }
+
+  return retVal;
+}
+
 async function getUserProfiles(): Promise<GameProfile[]> {
   const games = await getGames();
-
-  const availableGames = games.filter((g) => g.available);
   const profiles: GameProfile[] = [];
 
-  for (const game of availableGames) {
-    const { name, remotePath, localPath } = game;
-    if (existsdir(remotePath ?? '')) {
-      const remoteProfiles = getProfiles({
-        gameName: name,
-        location: remotePath,
-        isRemote: true,
-      });
+  if (games.ats.status === 'available') {
+    const { remotePath, localPath } = games.ats;
+    profiles.push(...getGameProfiles('ats', remotePath, localPath));
+  }
 
-      profiles.push(...remoteProfiles);
-    }
-
-    if (existsdir(localPath ?? '')) {
-      const localProfiles = getProfiles({
-        gameName: name,
-        location: localPath,
-        isRemote: false,
-      });
-
-      profiles.push(...localProfiles);
-    }
+  if (games.ets2.status === 'available') {
+    const { remotePath, localPath } = games.ets2;
+    profiles.push(...getGameProfiles('ets2', remotePath, localPath));
   }
 
   return profiles;

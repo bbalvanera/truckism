@@ -1,10 +1,9 @@
 import React from 'react';
+import { GameName } from 'truckism-types';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { GameName } from '@core/types';
-import AtsIcon from '../AtsIcon';
-import EtsIcon from '../EtsIcon';
+import { AtsIcon, Ets2Icon } from '../GameIcons';
 
 export interface OptionGroupHeaderProps {
   gameName: GameName;
@@ -12,7 +11,9 @@ export interface OptionGroupHeaderProps {
 
 const OptionGroupHeader = ({ gameName }: OptionGroupHeaderProps) => (
   <ListItem>
-    <ListItemIcon>{gameName === 'ats' ? <AtsIcon /> : <EtsIcon />}</ListItemIcon>
+    <ListItemIcon>
+      {gameName === 'ats' ? <AtsIcon width={32} /> : <Ets2Icon width={32} />}
+    </ListItemIcon>
     <ListItemText>
       {gameName === 'ats' ? 'American Truck Simulator' : 'Euro Truck Simulator 2'}
     </ListItemText>

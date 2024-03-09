@@ -1,5 +1,5 @@
 import { UseQueryResult, useQuery } from '@tanstack/react-query';
-import { GameProfile } from '@core/types';
+import { GameProfile } from 'truckism-types';
 import getUserProfiles from '../api/getUserProfiles';
 
 export type UseUserProfilesResult = Omit<UseQueryResult<GameProfile[], any>, 'data'> & {

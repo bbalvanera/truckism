@@ -8,13 +8,13 @@ const useSx = (isLoading = true): SxDef => (theme) => ({
     fontStyle: isLoading ? 'italic' : 'normal',
   },
   '& .MuiToolbar-root': {
-    p: `${theme.spacing(5)} ${theme.spacing(1)}`,
+    p: `${theme.spacing(5)} ${theme.spacing(8)}`,
     justifyContent: 'space-between',
     flex: 1,
     gap: 3,
 
     '& .MuiFormControl-root': {
-      flexBasis: '35%',
+      flexGrow: 1,
       position: 'relative',
       borderRadius: theme.spacing(5),
       backgroundColor: alpha(theme.palette.common.white, 0.15),
@@ -27,9 +27,6 @@ const useSx = (isLoading = true): SxDef => (theme) => ({
           color: theme.palette.primary.contrastText,
         },
       },
-    },
-    '& .TsdInstalledGames-root': {
-      flexGrow: 1,
     },
   },
 });

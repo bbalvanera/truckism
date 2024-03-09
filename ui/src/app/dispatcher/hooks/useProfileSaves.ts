@@ -1,5 +1,5 @@
 import { UseQueryResult, useQuery } from '@tanstack/react-query';
-import { SaveSlot } from '@core/types';
+import { SaveSlot } from 'truckism-types';
 import getProfileSaves from '../api/getProfileSaves';
 
 export type UseProfileSavesResult = Omit<UseQueryResult<SaveSlot[], any>, 'data'> & {

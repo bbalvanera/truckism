@@ -1,7 +1,7 @@
 import React from 'react';
+import { SaveSlot } from 'truckism-types';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
-import { SaveSlot } from '@core/types';
 
 const noSavesFound = [
   <MenuItem key="notfound" disabled>

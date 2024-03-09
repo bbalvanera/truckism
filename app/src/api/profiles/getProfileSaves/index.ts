@@ -1,6 +1,6 @@
-import { SaveSlot } from '@common/types';
+import { SaveSlot } from 'truckism-types';
 import { getDirectories, fileexists } from '@common/utils';
-import { getSiiFileContents } from '@siihelper';
+import { getSiiFileContents } from '@modules/sii-helper';
 
 const defaults = ['autosave', 'multiplayer_backup', 'quicksave'];
 

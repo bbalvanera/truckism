@@ -1,90 +1,42 @@
-import { app } from 'electron';
-import { join as joinPath } from 'path';
-import Registry from 'winreg';
-import { Game, GameName } from '@common/types';
-import { isNumeric, getDirectories, existsdir } from '@common/utils';
+import { join as joinPath } from 'node:path';
+import { AvailableGames, GameStatus } from 'truckism-types';
+import { existsdir } from '@common/utils';
+import getGameInfo from './getGameInfo';
+import getLogingUser from './getLogingUser';
+import getSteamInstallPath from './getSteamInstallPath';
+import getUserDirectory from './getUserDirectory';
 
-const noneAvailable: Game[] = [
-  {
-    name: 'ets2',
-    available: false,
-  },
-  {
-    name: 'ats',
-    available: false,
-  },
-];
-
-const GAMES = {
-  ets2: {
-    remotedir: '227300',
-    localdir: 'Euro Truck Simulator 2',
-    processName: 'eurotrucks2',
-  },
-  ats: {
-    remotedir: '270880',
-    localdir: 'American Truck Simulator',
-    processName: 'amtrucks',
-  },
-};
-
-function getSteamInstallPath(): Promise<string | null> {
-  return new Promise((resolve) => {
-    const regKey = new Registry({
-      hive: Registry.HKLM,
-      key: '\\SOFTWARE\\Valve\\Steam',
-      arch: 'x86',
-    });
-
-    regKey.get('InstallPath', (err: any, item) => {
-      if ((err || {}).code === 1) {
-        resolve(null);
-        return;
-      } else {
-        resolve(item.value);
-      }
-    });
-  });
-}
-
-function getGameInfo(game: GameName, basePath: string): Game {
-  const { remotedir, localdir } = GAMES[game];
-  const mydocuments = app.getPath('documents');
-  const retVal: Game = { name: game, available: false };
-  const remotePath = joinPath(basePath, remotedir);
-
-  if (!existsdir(remotePath)) {
-    return retVal;
-  }
-
+function noneAvailable(reason: GameStatus): AvailableGames {
   return {
-    name: game,
-    available: true,
-    remotePath: joinPath(remotePath, 'remote', 'profiles'),
-    localPath: joinPath(mydocuments, localdir, 'profiles'),
+    ets2: { status: reason, remotePath: '', localPath: '', exePath: '' },
+    ats: { status: reason, remotePath: '', localPath: '', exePath: '' },
   };
 }
 
-async function getGames(): Promise<Game[]> {
+async function getGames(): Promise<AvailableGames> {
   const steamInstallPath = await getSteamInstallPath();
   if (steamInstallPath === null) {
-    return noneAvailable;
+    return noneAvailable('steamNotInstalled');
   }
 
   const userData = joinPath(steamInstallPath, 'userdata');
   if (!existsdir(userData)) {
-    return noneAvailable;
+    return noneAvailable('steamNotInstalled');
   }
 
-  const userDirs = getDirectories(userData).filter((userDir) => isNumeric(userDir.name));
-  if (userDirs.length === 0) {
-    return noneAvailable;
+  const personaName = getLogingUser(steamInstallPath);
+  if (personaName === null) {
+    return noneAvailable('noLoginUser');
   }
 
-  const retVal = [];
-  const userPath = userDirs.at(0)?.path ?? '';
-  retVal.push(getGameInfo('ets2', userPath));
-  retVal.push(getGameInfo('ats', userPath));
+  const userDir = getUserDirectory(steamInstallPath, personaName);
+  if (userDir === undefined) {
+    return noneAvailable('noLoginUser');
+  }
+
+  const retVal = noneAvailable('noLoginUser');
+  retVal.ats = getGameInfo('ats', userDir);
+  retVal.ets2 = getGameInfo('ets2', userDir);
 
   return retVal;
 }

@@ -1,5 +1,5 @@
 import { ipcRenderer } from 'electron';
-import { Game, GameProfile, SaveSlot } from '@common/types';
+import { AvailableGames, GameProfile, SaveSlot } from 'truckism-types';
 
 const channels = {
   games: {
@@ -12,7 +12,7 @@ const channels = {
 };
 
 const api = {
-  getGames: () => ipcRenderer.invoke(channels.games.getGames) as Promise<Game[]>,
+  getGames: () => ipcRenderer.invoke(channels.games.getGames) as Promise<AvailableGames>,
   getUserProfiles: () =>
     ipcRenderer.invoke(channels.profiles.getUserProfiles) as Promise<GameProfile[]>,
   getProfileSaves: (profilePath: string) =>

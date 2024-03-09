@@ -1,7 +1,7 @@
 {
   "name": "truckism-app",
   "version": "1.0.0",
-  "description": "A program to create jobs in any save file for American Truck Simulator or European Truck Simulator",
+  "description": "A program to create jobs in any save file for American Truck Simulator or Euro Truck Simulator",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -36,6 +36,7 @@
     "style-loader": "^3.3.4",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
-    "tsconfig-paths-webpack-plugin": "^4.1.0"
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "truckism-types": "^1.0.0"
   }
 }

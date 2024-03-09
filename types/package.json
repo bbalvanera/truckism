@@ -1,0 +1,11 @@
+{
+  "name": "truckism-types",
+  "version": "1.0.0",
+  "description": "Types for truckism-app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernardo Balvanera <bernardo@balvanera.me>",
+  "license": "BSD-3-Clause"
+}

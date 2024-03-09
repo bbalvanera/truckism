@@ -8,8 +8,7 @@
       "*": ["node_modules/*"],
       "@common/*": ["src/common/*"],
       "@api/*": ["src/api/*"],
-      "@modules/*": ["src/modules/*"],
-      "@siihelper": ["src/modules/siihelper"]
+      "@modules/*": ["src/modules/*"]
     }
   },
   "include": ["src/**/*"]

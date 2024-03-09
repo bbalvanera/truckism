@@ -1,6 +1,4 @@
-import { SaveSlot } from '@core/types';
-
-function getProfileSaves(profilePath: string): Promise<SaveSlot[]> {
+function getProfileSaves(profilePath: string) {
   return truckismAPI.getProfileSaves(profilePath);
 }
 

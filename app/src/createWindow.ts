@@ -1,5 +1,5 @@
 import { BrowserWindow } from 'electron';
-import { join as joinPath } from 'path';
+import { join as joinPath } from 'node:path';
 import { development as isDev } from './environment';
 
 declare const MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: string;

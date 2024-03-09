@@ -1,5 +1,4 @@
 import React from 'react';
-import Box from '@mui/material/Box';
 import Selector from '../Selector';
 import renderProfileOptions from './renderProfileOptions';
 import renderProfileValue from './renderProfileValue';
@@ -12,6 +11,7 @@ const Selectors = () => {
     selectedSaveId,
     isLoadingProfiles,
     isLoadingSaves,
+    games,
     profiles,
     saves,
     t,
@@ -40,7 +40,7 @@ const Selectors = () => {
         onChange={(e) => setSelectedProfileId(e.target.value)}
         valueRenderer={renderProfileSelectorValue}
       >
-        {renderProfileOptions(profiles)}
+        {renderProfileOptions(games, profiles)}
       </Selector>
       <Selector
         id="saves"
@@ -51,7 +51,6 @@ const Selectors = () => {
       >
         {renderSaveOptions(saves)}
       </Selector>
-      <Box className="TsdInstalledGames-root">There be buttons here</Box>
     </>
   );
 };

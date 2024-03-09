@@ -55,6 +55,14 @@
         "newlines-between": "never"
       }
     ],
-    "@typescript-eslint/lines-between-class-members": ["off"]
+    "@typescript-eslint/lines-between-class-members": ["off"],
+    "import/no-extraneous-dependencies": [
+      "warn",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ]
   }
 }

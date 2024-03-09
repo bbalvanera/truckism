@@ -5,7 +5,8 @@
   "private": true,
   "workspaces": [
     "app/",
-    "ui/"
+    "ui/",
+    "types/"
   ],
   "engines": {
     "node": ">=18 <=20",
@@ -46,6 +47,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
+    "truckism-types": "^1.0.0",
     "typescript": "^4",
     "wait-on": "^7.2.0"
   }

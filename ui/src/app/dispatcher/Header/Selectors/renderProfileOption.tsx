@@ -1,8 +1,8 @@
 import React from 'react';
+import { GameProfile } from 'truckism-types';
 import ListItemText from '@mui/material/ListItemText';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
-import { GameProfile } from '@core/types';
 
 function renderOption({ id, name, isRemote }: GameProfile) {
   return (

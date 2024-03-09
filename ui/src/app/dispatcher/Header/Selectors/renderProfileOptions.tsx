@@ -1,7 +1,7 @@
 import React from 'react';
+import { AvailableGames, GameProfile } from 'truckism-types';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
-import { GameProfile } from '@core/types';
 import OptionGroupHeader from '../OptionGroupHeader';
 import renderProfileOption from './renderProfileOption';
 
@@ -19,20 +19,31 @@ function renderOptions(profiles: GameProfile[]): JSX.Element[] {
   return profiles.map(renderProfileOption);
 }
 
-function renderProfileOptions(profiles: GameProfile[] = []): JSX.Element[] {
+function renderProfileOptions(
+  availableGames?: AvailableGames,
+  profiles: GameProfile[] = [],
+): JSX.Element[] {
   if (profiles.length === 0) {
     return noProfilesFound;
   }
 
-  const atsProfs = profiles.filter(({ gameName }) => gameName === 'ats');
-  const ets2Profs = profiles.filter(({ gameName }) => gameName === 'ets2');
+  const retVal = [];
 
-  return [
-    <OptionGroupHeader key="ats" gameName="ats" />,
-    ...renderOptions(atsProfs),
-    <OptionGroupHeader key="ets2" gameName="ets2" />,
-    ...renderOptions(ets2Profs),
-  ];
+  if (availableGames?.ats.status === 'available') {
+    const atsProfs = profiles.filter(({ gameName }) => gameName === 'ats');
+
+    retVal.push(<OptionGroupHeader key="ats" gameName="ats" />);
+    retVal.push(...renderOptions(atsProfs));
+  }
+
+  if (availableGames?.ets2.status === 'available') {
+    const ets2Profs = profiles.filter(({ gameName }) => gameName === 'ets2');
+
+    retVal.push(<OptionGroupHeader key="ets2" gameName="ets2" />);
+    retVal.push(...renderOptions(ets2Profs));
+  }
+
+  return retVal;
 }
 
 export default renderProfileOptions;

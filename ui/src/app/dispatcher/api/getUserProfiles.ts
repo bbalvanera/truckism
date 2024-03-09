@@ -1,6 +1,4 @@
-import { GameProfile } from '@core/types';
-
-function getUserProfiles(): Promise<GameProfile[]> {
+function getUserProfiles() {
   return truckismAPI.getUserProfiles();
 }
 

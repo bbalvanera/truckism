@@ -1,5 +1,5 @@
-import fs from 'fs';
-import { join as joinPath } from 'path';
+import fs from 'node:fs';
+import { join as joinPath } from 'node:path';
 
 function getDirectories(path: string) {
   return fs
