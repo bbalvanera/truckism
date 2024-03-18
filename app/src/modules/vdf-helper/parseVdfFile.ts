@@ -1,7 +1,7 @@
 import FileReader from './FileReader';
 import VdfFile from './VdfFile';
 
-const quotedText = /"([^"]*)"/g;
+const quotedText = /"((?:[^"\\]|\\.)*)"/g;
 
 function parseVdfFile(lines: FileReader): VdfFile | undefined {
   const retVal: VdfFile = {
@@ -19,7 +19,7 @@ function parseVdfFile(lines: FileReader): VdfFile | undefined {
   const matches = [...line.matchAll(quotedText)];
 
   if (matches.length === 0 || matches.length > 2) {
-    throw new Error('Invalid format');
+    throw new Error(`Invalid format: ${line}`);
   }
 
   retVal.key = matches[0][1];

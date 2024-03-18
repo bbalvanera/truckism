@@ -5,3 +5,4 @@ export type { default as SaveSlot } from './SaveSlot';
 
 export * from './GameName';
 export * from './Game';
+export * from './AvailableGames';

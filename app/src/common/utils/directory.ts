@@ -16,4 +16,10 @@ function fileexists(path: string) {
   return fs.existsSync(path);
 }
 
-export { existsdir, fileexists, getDirectories };
+function deletefile(path: string) {
+  if (fileexists(path)) {
+    fs.unlinkSync(path);
+  }
+}
+
+export { existsdir, fileexists, deletefile, getDirectories };

@@ -1,4 +1,5 @@
-export type GameStatus = 'steamNotInstalled' | 'noLoginUser' | 'noProfilesFound' | 'available';
+export type GameStatus = 'noProfilesFound' | 'available';
+
 export default interface Game {
   readonly status: GameStatus;
   readonly remotePath: string;

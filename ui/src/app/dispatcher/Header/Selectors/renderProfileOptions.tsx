@@ -1,30 +1,42 @@
 import React from 'react';
-import { AvailableGames, GameProfile } from 'truckism-types';
+import { AvailableGames, GameProfile, GameStatus, SteamClientStatus } from 'truckism-types';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
+import i18n from '../../../../i18n';
 import OptionGroupHeader from '../OptionGroupHeader';
 import renderProfileOption from './renderProfileOption';
 
-const noProfilesFound = [
-  <MenuItem key="notfound" disabled>
-    <Typography fontStyle="italic">No profiles found</Typography>
-  </MenuItem>,
-];
+const noAvailableReasons = {
+  steamNotInstalled: 'dispatcher.profileSelect-steamNotInstalled',
+  noLoginUser: 'dispatcher.profileSelect-noLoginUser',
+  noProfilesFound: 'dispatcher.profileSelect-noProfilesFound',
+};
+
+type NoAvailableOptionsReasons = Exclude<SteamClientStatus | GameStatus, 'installed' | 'available'>;
+
+function noAvailableOptions(reason: NoAvailableOptionsReasons = 'noProfilesFound') {
+  const reasonMessage = i18n.t(noAvailableReasons[reason]);
+  return [
+    <MenuItem key="reason" disabled>
+      <Typography fontStyle="italic">{reasonMessage}</Typography>
+    </MenuItem>,
+  ];
+}
 
 function renderOptions(profiles: GameProfile[]): JSX.Element[] {
   if (profiles.length === 0) {
-    return noProfilesFound;
+    return noAvailableOptions();
   }
 
   return profiles.map(renderProfileOption);
 }
 
 function renderProfileOptions(
-  availableGames?: AvailableGames,
+  availableGames: AvailableGames,
   profiles: GameProfile[] = [],
 ): JSX.Element[] {
-  if (profiles.length === 0) {
-    return noProfilesFound;
+  if (availableGames.status !== 'installed') {
+    return noAvailableOptions(availableGames.status);
   }
 
   const retVal = [];

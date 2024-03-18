@@ -2,7 +2,7 @@ import { join as joinPath } from 'node:path';
 import { fileexists } from '@common/utils';
 import parseVdfFile, { FileReader, LoginUser } from '@modules/vdf-helper';
 
-function getLogingUser(steamInstallPath: string): string | null {
+function getLoginUser(steamInstallPath: string): string | null {
   const configFile = joinPath(steamInstallPath, 'config', 'loginusers.vdf');
 
   if (!fileexists(configFile)) {
@@ -24,4 +24,4 @@ function getLogingUser(steamInstallPath: string): string | null {
   return user?.personaName ?? null;
 }
 
-export default getLogingUser;
+export default getLoginUser;

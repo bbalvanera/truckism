@@ -1,40 +1,41 @@
 import { join as joinPath } from 'node:path';
-import { AvailableGames, GameStatus } from 'truckism-types';
+import { AvailableGames, SteamClientStatus } from 'truckism-types';
 import { existsdir } from '@common/utils';
 import getGameInfo from './getGameInfo';
-import getLogingUser from './getLogingUser';
+import getLoginUser from './getLoginUser';
 import getSteamInstallPath from './getSteamInstallPath';
 import getUserDirectory from './getUserDirectory';
 
-function noneAvailable(reason: GameStatus): AvailableGames {
+function availableGames(status: SteamClientStatus): AvailableGames {
   return {
-    ets2: { status: reason, remotePath: '', localPath: '', exePath: '' },
-    ats: { status: reason, remotePath: '', localPath: '', exePath: '' },
+    status,
+    ets2: { status: 'noProfilesFound', remotePath: '', localPath: '', exePath: '' },
+    ats: { status: 'noProfilesFound', remotePath: '', localPath: '', exePath: '' },
   };
 }
 
 async function getGames(): Promise<AvailableGames> {
   const steamInstallPath = await getSteamInstallPath();
   if (steamInstallPath === null) {
-    return noneAvailable('steamNotInstalled');
+    return availableGames('steamNotInstalled');
   }
 
   const userData = joinPath(steamInstallPath, 'userdata');
   if (!existsdir(userData)) {
-    return noneAvailable('steamNotInstalled');
+    return availableGames('steamNotInstalled');
   }
 
-  const personaName = getLogingUser(steamInstallPath);
+  const personaName = getLoginUser(steamInstallPath);
   if (personaName === null) {
-    return noneAvailable('noLoginUser');
+    return availableGames('noLoginUser');
   }
 
   const userDir = getUserDirectory(steamInstallPath, personaName);
   if (userDir === undefined) {
-    return noneAvailable('noLoginUser');
+    return availableGames('noLoginUser');
   }
 
-  const retVal = noneAvailable('noLoginUser');
+  const retVal = availableGames('installed');
   retVal.ats = getGameInfo('ats', userDir);
   retVal.ets2 = getGameInfo('ets2', userDir);
 
