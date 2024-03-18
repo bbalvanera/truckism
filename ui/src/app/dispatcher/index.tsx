@@ -3,14 +3,17 @@ import ContentLayout from '@components/ContentLayout';
 import Body from './Body';
 import Header from './Header';
 import Subheader from './Subheader';
+import CurrentProfileProvider from './providers/CurrentProfileProvider';
 
 const Dispatcher = () => (
   <>
-    <Header />
-    <ContentLayout>
-      <Subheader profileName="Profile Name" savefileName="Save name" />
-      <Body />
-    </ContentLayout>
+    <CurrentProfileProvider>
+      <Header />
+      <ContentLayout>
+        <Subheader />
+        <Body />
+      </ContentLayout>
+    </CurrentProfileProvider>
   </>
 );
 

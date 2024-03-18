@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logger from '@core/utils/logger';
-import useAvailableGames from '../../hooks/useAvailableGames';
-import useProfileSaves from '../../hooks/useProfileSaves';
-import useUserProfiles from '../../hooks/useUserProfiles';
+import {
+  useAvailableGames,
+  useProfileSaves,
+  useCurrentProfile,
+  useUserProfiles,
+} from '../../hooks/';
 
 const useSelectorsState = () => {
   const { t } = useTranslation();
@@ -16,6 +19,7 @@ const useSelectorsState = () => {
     error: savesError,
     saves,
   } = useProfileSaves(selectedProfileId);
+  const [currentProfile, setCurrentProfile] = useCurrentProfile();
 
   const error = gamesError ?? profileError ?? savesError;
   if (error) {
@@ -25,6 +29,7 @@ const useSelectorsState = () => {
   return {
     selectedProfileId,
     selectedSaveId,
+    currentProfile,
     isLoadingProfiles,
     isLoadingSaves,
     gamesError,
@@ -35,6 +40,7 @@ const useSelectorsState = () => {
     t,
     setSelectedProfileId,
     setSelectedSaveId,
+    setCurrentProfile,
   };
 };
 
