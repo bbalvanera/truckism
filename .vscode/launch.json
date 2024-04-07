@@ -11,6 +11,20 @@
       },
       "cwd": "${workspaceFolder}/app",
       "console": "integratedTerminal"
+    },
+    {
+      "type": "node-terminal",
+      "name": "test app",
+      "request": "launch",
+      "command": "npm run test",
+      "cwd": "${workspaceFolder}\\app"
+    },
+    {
+      "type": "node-terminal",
+      "name": "test app (watch)",
+      "request": "launch",
+      "command": "npm run test-watch",
+      "cwd": "${workspaceFolder}\\app"
     }
   ]
 }

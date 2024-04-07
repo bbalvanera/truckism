@@ -8,7 +8,9 @@
       "@assets/*": ["assets/*"],
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"],
-      "@common/*": ["../../app/src/common/*"]
+      "@common/*": ["../../app/src/common/*"],
+      "@modules/*": ["../../app/src/modules/*"],
+      "@data/*": ["../../app/src/data/*"]
     },
     "baseUrl": "./src",
     "jsx": "react-jsx"

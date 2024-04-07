@@ -1,0 +1,1990 @@
+[
+  {
+    "id": "42p_pck_pln",
+    "mapSet": "Promods",
+    "name": "42 Print",
+    "sortName": "42 print",
+    "suffix": "Packaging Plant"
+  },
+  {
+    "id": "yw_farm",
+    "mapSet": "Promods",
+    "name": "Young & Wyse",
+    "sortName": "young wyse",
+    "suffix": ""
+  },
+  {
+    "id": "42p_print",
+    "mapSet": "Promods",
+    "name": "42 Print",
+    "sortName": "42 print",
+    "suffix": "Printing Plant"
+  },
+  {
+    "id": "aport_ult",
+    "mapSet": "Promods",
+    "name": "Ultimus",
+    "sortName": "ultimus",
+    "suffix": ""
+  },
+  {
+    "id": "avs_met_scr",
+    "mapSet": "Promods",
+    "name": "Avalanche Steel",
+    "sortName": "avalanche steel",
+    "suffix": "Scrapyard"
+  },
+  {
+    "id": "avs_met_sml",
+    "mapSet": "Promods",
+    "name": "Avalanche Steel",
+    "sortName": "avalanche steel",
+    "suffix": "Steel mill"
+  },
+  {
+    "id": "bit_rd_grg",
+    "mapSet": "Promods",
+    "name": "Bitumen",
+    "sortName": "bitumen",
+    "suffix": "Garage"
+  },
+  {
+    "id": "bit_rd_svc",
+    "mapSet": "Promods",
+    "name": "Bitumen",
+    "sortName": "bitumen",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "bit_rd_wrk",
+    "mapSet": "Promods",
+    "name": "Bitumen",
+    "sortName": "bitumen",
+    "suffix": "Roadworks"
+  },
+  {
+    "id": "bn_farm",
+    "mapSet": "Promods",
+    "name": "Bushnell Farms",
+    "sortName": "bushnell farms",
+    "suffix": ""
+  },
+  {
+    "id": "bn_live_auc",
+    "mapSet": "Promods",
+    "name": "Bushnell Farms",
+    "sortName": "bushnell farms",
+    "suffix": "Auction"
+  },
+  {
+    "id": "cha_el_mkt",
+    "mapSet": "Promods",
+    "name": "Charged",
+    "sortName": "charged",
+    "suffix": "Market"
+  },
+  {
+    "id": "cha_el_whs",
+    "mapSet": "Promods",
+    "name": "Charged",
+    "sortName": "charged",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "chm_che_plnt",
+    "mapSet": "Promods",
+    "name": "Chemso Ltd.",
+    "sortName": "chemso",
+    "suffix": "Plant"
+  },
+  {
+    "id": "chm_che_str",
+    "mapSet": "Promods",
+    "name": "Chemso Ltd.",
+    "sortName": "chemso",
+    "suffix": "Storage"
+  },
+  {
+    "id": "cm_min_plnt",
+    "mapSet": "Promods",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Plant"
+  },
+  {
+    "id": "cm_min_qry",
+    "mapSet": "Promods",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Quarry"
+  },
+  {
+    "id": "cm_min_str",
+    "mapSet": "Promods",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Storage"
+  },
+  {
+    "id": "cm_min_svc",
+    "mapSet": "Promods",
+    "name": "Coastline mining",
+    "sortName": "coastline mining",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "dc_car_dlr",
+    "mapSet": "Promods",
+    "name": "Drake Cars",
+    "sortName": "drake cars",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "dg_wd_hrv",
+    "mapSet": "Promods",
+    "name": "Deepgrove",
+    "sortName": "deepgrove",
+    "suffix": "Harvest Site"
+  },
+  {
+    "id": "dg_wd_saw",
+    "mapSet": "Promods",
+    "name": "Deepgrove",
+    "sortName": "deepgrove",
+    "suffix": "Sawmill"
+  },
+  {
+    "id": "dg_wd_saw1",
+    "mapSet": "Promods",
+    "name": "Deepgrove",
+    "sortName": "deepgrove",
+    "suffix": "Sawmill"
+  },
+  {
+    "id": "dmc_car_dlr",
+    "mapSet": "Promods",
+    "name": "DeMuro Cars",
+    "sortName": "demuro cars",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "du_farm",
+    "mapSet": "Promods",
+    "name": "Darchelle Uzau",
+    "sortName": "darchelle uzau",
+    "suffix": ""
+  },
+  {
+    "id": "dw_air_pln",
+    "mapSet": "Promods",
+    "name": "Darwing",
+    "sortName": "darwing",
+    "suffix": "Depot"
+  },
+  {
+    "id": "ed_mkt",
+    "mapSet": "Promods",
+    "name": "Eddy's",
+    "sortName": "eddys",
+    "suffix": "Market"
+  },
+  {
+    "id": "fb_farm_mkt",
+    "mapSet": "Promods",
+    "name": "Farmer's Barn",
+    "sortName": "farmer's barn",
+    "suffix": "Market"
+  },
+  {
+    "id": "fb_farm_pln",
+    "mapSet": "Promods",
+    "name": "Farmer's Barn",
+    "sortName": "farmer's barn",
+    "suffix": "Depot"
+  },
+  {
+    "id": "ftf_food_pln",
+    "mapSet": "Promods",
+    "name": "Fish Tail Food",
+    "sortName": "fish tail food",
+    "suffix": "Depot"
+  },
+  {
+    "id": "gal_oil_gst",
+    "mapSet": "Promods",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Gas Station"
+  },
+  {
+    "id": "gal_oil_ref",
+    "mapSet": "Promods",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Refinery"
+  },
+  {
+    "id": "gal_oil_sit",
+    "mapSet": "Promods",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "gal_oil_str",
+    "mapSet": "Promods",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gal_oil_str1",
+    "mapSet": "Promods",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gm_chs_plnt",
+    "mapSet": "Promods",
+    "name": "Global Mills",
+    "sortName": "global mills",
+    "suffix": "Plant"
+  },
+  {
+    "id": "gm_food_plnt",
+    "mapSet": "Promods",
+    "name": "Global Mills",
+    "sortName": "global mills",
+    "suffix": "Plant"
+  },
+  {
+    "id": "hds_met_shp",
+    "mapSet": "Promods",
+    "name": "Haddock Shipyard",
+    "sortName": "haddock shipyard",
+    "suffix": ""
+  },
+  {
+    "id": "hf_wd_pln",
+    "mapSet": "Promods",
+    "name": "Heartwood Furniture",
+    "sortName": "heartwood furniture",
+    "suffix": "Depot"
+  },
+  {
+    "id": "hms_con_svc",
+    "mapSet": "Promods",
+    "name": "HMS Machinery",
+    "sortName": "hms machinery",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "hs_mkt",
+    "mapSet": "Promods",
+    "name": "Home Store",
+    "sortName": "home store",
+    "suffix": "Market"
+  },
+  {
+    "id": "hs_whs",
+    "mapSet": "Promods",
+    "name": "Home Store",
+    "sortName": "home store",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "mcs_con_sit",
+    "mapSet": "Promods",
+    "name": "Mud Creek slide",
+    "sortName": "mud creek slide",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "nmq_min_plnt",
+    "mapSet": "Promods",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Plant"
+  },
+  {
+    "id": "nmq_min_qry",
+    "mapSet": "Promods",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Quarry"
+  },
+  {
+    "id": "nmq_min_str",
+    "mapSet": "Promods",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Storage"
+  },
+  {
+    "id": "nmq_min_svc",
+    "mapSet": "Promods",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "oak_port",
+    "mapSet": "Promods",
+    "name": "Oakland Shippers",
+    "sortName": "oakland shippers",
+    "suffix": ""
+  },
+  {
+    "id": "oh_con_hom",
+    "mapSet": "Promods",
+    "name": "Olthon Homes",
+    "sortName": "olthon homes",
+    "suffix": ""
+  },
+  {
+    "id": "pnp_wd_pln",
+    "mapSet": "Promods",
+    "name": "Page & Price Paper",
+    "sortName": "page & price paper",
+    "suffix": "Depot"
+  },
+  {
+    "id": "pns_con_grg",
+    "mapSet": "Promods",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Garage"
+  },
+  {
+    "id": "pns_con_sit",
+    "mapSet": "Promods",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_sit1",
+    "mapSet": "Promods",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_sit2",
+    "mapSet": "Promods",
+    "name": "Plaster & Sons",
+    "sortName": "plaster & sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_sit3",
+    "mapSet": "Promods",
+    "name": "Plaster & Sons",
+    "sortName": "plaster & sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_whs",
+    "mapSet": "Promods",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "re_train",
+    "mapSet": "Promods",
+    "name": "Rail Export",
+    "sortName": "rail export",
+    "suffix": ""
+  },
+  {
+    "id": "sc_frm",
+    "mapSet": "Promods",
+    "name": "Sunshine Crops",
+    "sortName": "sunshine crops",
+    "suffix": ""
+  },
+  {
+    "id": "sc_frm_grg",
+    "mapSet": "Promods",
+    "name": "Sunshine Crops",
+    "sortName": "sunshine crops",
+    "suffix": "Garage"
+  },
+  {
+    "id": "sf_port",
+    "mapSet": "Promods",
+    "name": "Port of SF",
+    "sortName": "port of sf",
+    "suffix": ""
+  },
+  {
+    "id": "sg_whs",
+    "mapSet": "Promods",
+    "name": "SellGoods",
+    "sortName": "sellgoods",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "sh_shp_mar",
+    "mapSet": "Promods",
+    "name": "Sea Horizon",
+    "sortName": "sea horizon",
+    "suffix": "Marina"
+  },
+  {
+    "id": "sh_shp_plnt",
+    "mapSet": "Promods",
+    "name": "Sea Horizon",
+    "sortName": "sea horizon",
+    "suffix": "Plant"
+  },
+  {
+    "id": "st_met_whs",
+    "mapSet": "Promods",
+    "name": "Steeler",
+    "sortName": "steeler",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "st_met_wrk",
+    "mapSet": "Promods",
+    "name": "Steeler",
+    "sortName": "steeler",
+    "suffix": "Workshop"
+  },
+  {
+    "id": "tid_mkt",
+    "mapSet": "Promods",
+    "name": "Tidbit",
+    "sortName": "tidbit",
+    "suffix": "Market"
+  },
+  {
+    "id": "usb_food_pln",
+    "mapSet": "Promods",
+    "name": "US Beverages & Bottling",
+    "sortName": "us beverages & bottling",
+    "suffix": "Depot"
+  },
+  {
+    "id": "vm_car_dlr",
+    "mapSet": "Promods",
+    "name": "Voltison",
+    "sortName": "voltison",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "vm_car_pln",
+    "mapSet": "Promods",
+    "name": "Voltison",
+    "sortName": "voltison",
+    "suffix": "Factory"
+  },
+  {
+    "id": "vm_car_whs",
+    "mapSet": "Promods",
+    "name": "Voltison",
+    "sortName": "voltison",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "vp_epw_sit",
+    "mapSet": "Promods",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "wal_food_mkt",
+    "mapSet": "Promods",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Market"
+  },
+  {
+    "id": "wal_food_whs",
+    "mapSet": "Promods",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "wal_mkt",
+    "mapSet": "Promods",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Market"
+  },
+  {
+    "id": "wal_whs",
+    "mapSet": "Promods",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "aport_phx",
+    "mapSet": "Promods",
+    "name": "Phoenix Freight",
+    "sortName": "phoenix freight",
+    "suffix": ""
+  },
+  {
+    "id": "aport_den",
+    "mapSet": "Promods",
+    "name": "Airport Denver",
+    "sortName": "airport denver",
+    "suffix": ""
+  },
+  {
+    "id": "vp_epw_pln",
+    "mapSet": "Promods",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": "Depot"
+  },
+  {
+    "id": "kw_trk_dlr",
+    "mapSet": "Promods",
+    "name": "Kenworth",
+    "sortName": "kenworth",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "kw_trk_pln",
+    "mapSet": "Promods",
+    "name": "Kenworth",
+    "sortName": "kenworth",
+    "suffix": "Factory"
+  },
+  {
+    "id": "aport_abq",
+    "mapSet": "Promods",
+    "name": "ABQ Cargo Center",
+    "sortName": "abq cargo center",
+    "suffix": ""
+  },
+  {
+    "id": "aport_pcc",
+    "mapSet": "Promods",
+    "name": "Portland Cargo Central",
+    "sortName": "portland cargo central",
+    "suffix": ""
+  },
+  {
+    "id": "cm_min_qryp",
+    "mapSet": "Promods",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Quarry Plant"
+  },
+  {
+    "id": "port_sea",
+    "mapSet": "Promods",
+    "name": "Port of Seattle",
+    "sortName": "port of seattle",
+    "suffix": ""
+  },
+  {
+    "id": "port_tac",
+    "mapSet": "Promods",
+    "name": "Port of Tacoma",
+    "sortName": "port of tacoma",
+    "suffix": ""
+  },
+  {
+    "id": "ws_trk_dlr",
+    "mapSet": "Promods",
+    "name": "Western Star",
+    "sortName": "western star",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "ws_trk_pln",
+    "mapSet": "Promods",
+    "name": "Western Star",
+    "sortName": "western star",
+    "suffix": "Factory"
+  },
+  {
+    "id": "aml_rail_str",
+    "mapSet": "Promods",
+    "name": "American Lines",
+    "sortName": "american lines",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gol_trk_pln",
+    "mapSet": "Promods",
+    "name": "Goliath",
+    "sortName": "goliath",
+    "suffix": "Factory"
+  },
+  {
+    "id": "jns_rail_wrk",
+    "mapSet": "Promods",
+    "name": "Johnson and Smith",
+    "sortName": "johnson and smith",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "nmq_min_qrys",
+    "mapSet": "Promods",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Quarry Plant"
+  },
+  {
+    "id": "bc_hydro",
+    "mapSet": "Promods",
+    "name": "BC Hydro",
+    "sortName": "bc_hydro",
+    "suffix": ""
+  },
+  {
+    "id": "canoe",
+    "mapSet": "Promods",
+    "name": "Canoe Forest Products",
+    "sortName": "canoe",
+    "suffix": ""
+  },
+  {
+    "id": "chem_oil",
+    "mapSet": "Promods",
+    "name": "Chemron",
+    "sortName": "chemron",
+    "suffix": ""
+  },
+  {
+    "id": "fb_farm_tmp",
+    "mapSet": "Promods",
+    "name": "Farmer's Barn",
+    "sortName": "farmer's barn",
+    "suffix": ""
+  },
+  {
+    "id": "ikea",
+    "mapSet": "Promods",
+    "name": "IKEA",
+    "sortName": "ikea",
+    "suffix": ""
+  },
+  {
+    "id": "kel_mar",
+    "mapSet": "Promods",
+    "name": "Shelter Bay Marina",
+    "sortName": "shelter bay marina",
+    "suffix": "Marina"
+  },
+  {
+    "id": "lew_lodge",
+    "mapSet": "Promods",
+    "name": "Lewiston Lodge",
+    "sortName": "lewiston lodge",
+    "suffix": ""
+  },
+  {
+    "id": "ng_min_svc",
+    "mapSet": "Promods",
+    "name": "New Gold Inc.",
+    "sortName": "newgold",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "port_vanc",
+    "mapSet": "Promods",
+    "name": "Port of Vancouver - Coal",
+    "sortName": "port_vanc",
+    "suffix": ""
+  },
+  {
+    "id": "port_vanc_c",
+    "mapSet": "Promods",
+    "name": "Port of Vancouver - Container",
+    "sortName": "port_vanc_c",
+    "suffix": ""
+  },
+  {
+    "id": "18w_trl_svc",
+    "mapSet": "Base",
+    "name": "18 Wheels",
+    "sortName": "18 wheels",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "42p_pck_pln",
+    "mapSet": "Base",
+    "name": "42 Print",
+    "sortName": "42 print",
+    "suffix": "Packaging Plant"
+  },
+  {
+    "id": "42p_print",
+    "mapSet": "Base",
+    "name": "42 Print",
+    "sortName": "42 print",
+    "suffix": "Printing Plant"
+  },
+  {
+    "id": "ali_car_dlr",
+    "mapSet": "Base",
+    "name": "Alis Cars",
+    "sortName": "alis cars",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "aport_ult",
+    "mapSet": "Base",
+    "name": "Ultimus",
+    "sortName": "ultimus",
+    "suffix": ""
+  },
+  {
+    "id": "asu_car_dlr",
+    "mapSet": "Base",
+    "name": "Asuma",
+    "sortName": "asuma",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "asu_car_exp",
+    "mapSet": "Base",
+    "name": "Asuma",
+    "sortName": "asuma",
+    "suffix": ""
+  },
+  {
+    "id": "asu_car_whs",
+    "mapSet": "Base",
+    "name": "Asuma",
+    "sortName": "asuma",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "avs_met_scr",
+    "mapSet": "Base",
+    "name": "Avalanche Steel",
+    "sortName": "avalanche steel",
+    "suffix": "Scrapyard"
+  },
+  {
+    "id": "avs_met_sml",
+    "mapSet": "Base",
+    "name": "Avalanche Steel",
+    "sortName": "avalanche steel",
+    "suffix": "Steel mill"
+  },
+  {
+    "id": "bit_rd_grg",
+    "mapSet": "Base",
+    "name": "Bitumen",
+    "sortName": "bitumen",
+    "suffix": "Garage"
+  },
+  {
+    "id": "bit_rd_svc",
+    "mapSet": "Base",
+    "name": "Bitumen",
+    "sortName": "bitumen",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "bit_rd_wrk",
+    "mapSet": "Base",
+    "name": "Bitumen",
+    "sortName": "bitumen",
+    "suffix": "Roadworks"
+  },
+  {
+    "id": "bn_farm",
+    "mapSet": "Base",
+    "name": "Bushnell Farms",
+    "sortName": "bushnell farms",
+    "suffix": ""
+  },
+  {
+    "id": "bn_live_auc",
+    "mapSet": "Base",
+    "name": "Bushnell Farms",
+    "sortName": "bushnell farms",
+    "suffix": "Auction"
+  },
+  {
+    "id": "cha_el_mkt",
+    "mapSet": "Base",
+    "name": "Charged",
+    "sortName": "charged",
+    "suffix": "Market"
+  },
+  {
+    "id": "cha_el_whs",
+    "mapSet": "Base",
+    "name": "Charged",
+    "sortName": "charged",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "chm_che_plnt",
+    "mapSet": "Base",
+    "name": "Chemso Ltd.",
+    "sortName": "chemso",
+    "suffix": "Plant"
+  },
+  {
+    "id": "chm_che_str",
+    "mapSet": "Base",
+    "name": "Chemso Ltd.",
+    "sortName": "chemso",
+    "suffix": "Storage"
+  },
+  {
+    "id": "cm_min_plnt",
+    "mapSet": "Base",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Plant"
+  },
+  {
+    "id": "cm_min_qry",
+    "mapSet": "Base",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Quarry"
+  },
+  {
+    "id": "cm_min_str",
+    "mapSet": "Base",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Storage"
+  },
+  {
+    "id": "cm_min_svc",
+    "mapSet": "Base",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "dc_car_dlr",
+    "mapSet": "Base",
+    "name": "Drake Cars",
+    "sortName": "drake cars",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "dg_wd_hrv",
+    "mapSet": "Base",
+    "name": "Deepgrove",
+    "sortName": "deepgrove",
+    "suffix": "Harvest Site"
+  },
+  {
+    "id": "dg_wd_saw",
+    "mapSet": "Base",
+    "name": "Deepgrove",
+    "sortName": "deepgrove",
+    "suffix": "Sawmill"
+  },
+  {
+    "id": "dg_wd_saw1",
+    "mapSet": "Base",
+    "name": "Deepgrove",
+    "sortName": "deepgrove",
+    "suffix": "Sawmill"
+  },
+  {
+    "id": "dmc_car_dlr",
+    "mapSet": "Base",
+    "name": "DeMuro Cars",
+    "sortName": "demuro cars",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "dpw_oil_svc",
+    "mapSet": "Base",
+    "name": "Deep Wells",
+    "sortName": "deep wells",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "du_farm",
+    "mapSet": "Base",
+    "name": "Darchelle Uzau",
+    "sortName": "darchelle uzau",
+    "suffix": ""
+  },
+  {
+    "id": "dw_air_pln",
+    "mapSet": "Base",
+    "name": "Darwing",
+    "sortName": "darwing",
+    "suffix": "Depot"
+  },
+  {
+    "id": "ed_mkt",
+    "mapSet": "Base",
+    "name": "Eddy's",
+    "sortName": "eddys",
+    "suffix": "Market"
+  },
+  {
+    "id": "equ_whs",
+    "mapSet": "Base",
+    "name": "Equos Power Transport",
+    "sortName": "equos power transport",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "fb_farm_mkt",
+    "mapSet": "Base",
+    "name": "Farmer's Barn",
+    "sortName": "farmer's barn",
+    "suffix": "Market"
+  },
+  {
+    "id": "fb_farm_pln",
+    "mapSet": "Base",
+    "name": "Farmer's Barn",
+    "sortName": "farmer's barn",
+    "suffix": "Depot"
+  },
+  {
+    "id": "frd_epw_sit",
+    "mapSet": "Base",
+    "name": "Faraday",
+    "sortName": "faraday",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "frd_epw_svc",
+    "mapSet": "Base",
+    "name": "Faraday",
+    "sortName": "faraday",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "ftf_food_pln",
+    "mapSet": "Base",
+    "name": "Fish Tail Food",
+    "sortName": "fish tail food",
+    "suffix": "Depot"
+  },
+  {
+    "id": "gal_oil_gst",
+    "mapSet": "Base",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Gas Station"
+  },
+  {
+    "id": "gal_oil_ref",
+    "mapSet": "Base",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Refinery"
+  },
+  {
+    "id": "gal_oil_sit",
+    "mapSet": "Base",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "gal_oil_str",
+    "mapSet": "Base",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gal_oil_str1",
+    "mapSet": "Base",
+    "name": "Gallon Oil",
+    "sortName": "gallon oil",
+    "suffix": "Storage"
+  },
+  {
+    "id": "garc_train",
+    "mapSet": "Base",
+    "name": "GARC",
+    "sortName": "garc",
+    "suffix": ""
+  },
+  {
+    "id": "gld_frm",
+    "mapSet": "Base",
+    "name": "Golden Meadows",
+    "sortName": "golden meadows",
+    "suffix": ""
+  },
+  {
+    "id": "gld_frm_grg",
+    "mapSet": "Base",
+    "name": "Golden Meadows",
+    "sortName": "golden meadows",
+    "suffix": "Garage"
+  },
+  {
+    "id": "gm_chs_plnt",
+    "mapSet": "Base",
+    "name": "Global Mills",
+    "sortName": "global mills",
+    "suffix": "Plant"
+  },
+  {
+    "id": "gm_food_plnt",
+    "mapSet": "Base",
+    "name": "Global Mills",
+    "sortName": "global mills",
+    "suffix": "Plant"
+  },
+  {
+    "id": "gm_food_str",
+    "mapSet": "Base",
+    "name": "Global Mills",
+    "sortName": "global mills",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gp_farm",
+    "mapSet": "Base",
+    "name": "Grand Pastures",
+    "sortName": "grand pastures",
+    "suffix": ""
+  },
+  {
+    "id": "gp_live_auc",
+    "mapSet": "Base",
+    "name": "Grand Pastures",
+    "sortName": "grand pastures",
+    "suffix": "Auction"
+  },
+  {
+    "id": "hds_met_shp",
+    "mapSet": "Base",
+    "name": "Haddock Shipyard",
+    "sortName": "haddock shipyard",
+    "suffix": ""
+  },
+  {
+    "id": "hf_wd_pln",
+    "mapSet": "Base",
+    "name": "Heartwood Furniture",
+    "sortName": "heartwood furniture",
+    "suffix": "Depot"
+  },
+  {
+    "id": "hms_con_svc",
+    "mapSet": "Base",
+    "name": "HMS Machinery",
+    "sortName": "hms machinery",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "hs_mkt",
+    "mapSet": "Base",
+    "name": "Home Store",
+    "sortName": "home store",
+    "suffix": "Market"
+  },
+  {
+    "id": "hs_whs",
+    "mapSet": "Base",
+    "name": "Home Store",
+    "sortName": "home store",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "jns_rail_str",
+    "mapSet": "Base",
+    "name": "Johnson and Smith",
+    "sortName": "johnson and smith",
+    "suffix": "Storage"
+  },
+  {
+    "id": "jns_rail_wrk",
+    "mapSet": "Base",
+    "name": "Johnson and Smith",
+    "sortName": "johnson and smith",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "mcs_con_sit",
+    "mapSet": "Base",
+    "name": "Mud Creek slide",
+    "sortName": "mud creek slide",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "mon_farm",
+    "mapSet": "Base",
+    "name": "Mon Coeur",
+    "sortName": "mon coeur",
+    "suffix": ""
+  },
+  {
+    "id": "mr_cot_pln",
+    "mapSet": "Base",
+    "name": "Mary's Cotton",
+    "sortName": "mary's cotton",
+    "suffix": "Depot"
+  },
+  {
+    "id": "mwm_wst_whs",
+    "mapSet": "Base",
+    "name": "MWM",
+    "sortName": "mwm",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "nls_rd_svc",
+    "mapSet": "Base",
+    "name": "Nielsen Roads",
+    "sortName": "nielsen roads",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "nls_rd_wrk",
+    "mapSet": "Base",
+    "name": "Nielsen Roads",
+    "sortName": "nielsen roads",
+    "suffix": "Roadworks"
+  },
+  {
+    "id": "nmq_min_plnt",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Plant"
+  },
+  {
+    "id": "nmq_min_qry",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Quarry"
+  },
+  {
+    "id": "nmq_min_qrys",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Quarry Plant"
+  },
+  {
+    "id": "nmq_min_str",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Storage"
+  },
+  {
+    "id": "nmq_min_svc",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "oak_port",
+    "mapSet": "Base",
+    "name": "Oakland Shippers",
+    "sortName": "oakland shippers",
+    "suffix": ""
+  },
+  {
+    "id": "oh_con_hom",
+    "mapSet": "Base",
+    "name": "Olthon Homes",
+    "sortName": "olthon homes",
+    "suffix": ""
+  },
+  {
+    "id": "pet_oil_well",
+    "mapSet": "Base",
+    "name": "Petrolucent",
+    "sortName": "petrolucent",
+    "suffix": ""
+  },
+  {
+    "id": "pic_mkt",
+    "mapSet": "Base",
+    "name": "Pickit",
+    "sortName": "pickit",
+    "suffix": "Market"
+  },
+  {
+    "id": "plu_el_mkt",
+    "mapSet": "Base",
+    "name": "Plugged",
+    "sortName": "plugged",
+    "suffix": "Market"
+  },
+  {
+    "id": "plu_el_whs",
+    "mapSet": "Base",
+    "name": "Plugged",
+    "sortName": "plugged",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "pnp_wd_pln",
+    "mapSet": "Base",
+    "name": "Page & Price Paper",
+    "sortName": "page & price paper",
+    "suffix": "Depot"
+  },
+  {
+    "id": "pns_con_grg",
+    "mapSet": "Base",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Garage"
+  },
+  {
+    "id": "pns_con_sit",
+    "mapSet": "Base",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_sit1",
+    "mapSet": "Base",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_sit2",
+    "mapSet": "Base",
+    "name": "Plaster & Sons",
+    "sortName": "plaster & sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_sit3",
+    "mapSet": "Base",
+    "name": "Plaster & Sons",
+    "sortName": "plaster & sons",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "pns_con_whs",
+    "mapSet": "Base",
+    "name": "Plaster & Sons",
+    "sortName": "plaster sons",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "re_train",
+    "mapSet": "Base",
+    "name": "Rail Export",
+    "sortName": "rail export",
+    "suffix": ""
+  },
+  {
+    "id": "sc_frm",
+    "mapSet": "Base",
+    "name": "Sunshine Crops",
+    "sortName": "sunshine crops",
+    "suffix": ""
+  },
+  {
+    "id": "sc_frm_grg",
+    "mapSet": "Base",
+    "name": "Sunshine Crops",
+    "sortName": "sunshine crops",
+    "suffix": "Garage"
+  },
+  {
+    "id": "sf_port",
+    "mapSet": "Base",
+    "name": "Port of SF",
+    "sortName": "port of sf",
+    "suffix": ""
+  },
+  {
+    "id": "sg_whs",
+    "mapSet": "Base",
+    "name": "SellGoods",
+    "sortName": "sellgoods",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "sh_shp_mar",
+    "mapSet": "Base",
+    "name": "Sea Horizon",
+    "sortName": "sea horizon",
+    "suffix": "Marina"
+  },
+  {
+    "id": "sh_shp_plnt",
+    "mapSet": "Base",
+    "name": "Sea Horizon",
+    "sortName": "sea horizon",
+    "suffix": "Plant"
+  },
+  {
+    "id": "st_met_whs",
+    "mapSet": "Base",
+    "name": "Steeler",
+    "sortName": "steeler",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "st_met_wrk",
+    "mapSet": "Base",
+    "name": "Steeler",
+    "sortName": "steeler",
+    "suffix": "Workshop"
+  },
+  {
+    "id": "syn_che_plnt",
+    "mapSet": "Base",
+    "name": "Syntetico",
+    "sortName": "syntetico",
+    "suffix": "Plant"
+  },
+  {
+    "id": "tay_con_grg",
+    "mapSet": "Base",
+    "name": "Taylor Construction Group",
+    "sortName": "taylor construction group",
+    "suffix": "Garage"
+  },
+  {
+    "id": "tay_con_sit",
+    "mapSet": "Base",
+    "name": "Taylor Construction Group",
+    "sortName": "taylor construction group",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "tay_con_sit2",
+    "mapSet": "Base",
+    "name": "Taylor Construction Group",
+    "sortName": "taylor construction group",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "tay_con_sit3",
+    "mapSet": "Base",
+    "name": "Taylor Construction Group",
+    "sortName": "taylor construction group",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "tay_con_whs",
+    "mapSet": "Base",
+    "name": "Taylor Construction Group",
+    "sortName": "taylor construction group",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "tid_mkt",
+    "mapSet": "Base",
+    "name": "Tidbit",
+    "sortName": "tidbit",
+    "suffix": "Market"
+  },
+  {
+    "id": "usb_food_pln",
+    "mapSet": "Base",
+    "name": "US Beverages & Bottling",
+    "sortName": "us beverages & bottling",
+    "suffix": "Depot"
+  },
+  {
+    "id": "vm_car_dlr",
+    "mapSet": "Base",
+    "name": "Voltison",
+    "sortName": "voltison",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "vm_car_pln",
+    "mapSet": "Base",
+    "name": "Voltison",
+    "sortName": "voltison",
+    "suffix": "Factory"
+  },
+  {
+    "id": "vm_car_whs",
+    "mapSet": "Base",
+    "name": "Voltison",
+    "sortName": "voltison",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "vor_oil_gst",
+    "mapSet": "Base",
+    "name": "Vortex",
+    "sortName": "vortex",
+    "suffix": "Gas Station"
+  },
+  {
+    "id": "vor_oil_ref",
+    "mapSet": "Base",
+    "name": "Vortex",
+    "sortName": "vortex",
+    "suffix": "Refinery"
+  },
+  {
+    "id": "vor_oil_str1",
+    "mapSet": "Base",
+    "name": "Vortex",
+    "sortName": "vortex",
+    "suffix": "Storage"
+  },
+  {
+    "id": "vp_epw_pln",
+    "mapSet": "Base",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": "Depot"
+  },
+  {
+    "id": "vp_epw_sit",
+    "mapSet": "Base",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "wal_food_mkt",
+    "mapSet": "Base",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Market"
+  },
+  {
+    "id": "wal_food_whs",
+    "mapSet": "Base",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "wal_mkt",
+    "mapSet": "Base",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Market"
+  },
+  {
+    "id": "wal_whs",
+    "mapSet": "Base",
+    "name": "Wallbert",
+    "sortName": "wallbert",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "wld_frm_str",
+    "mapSet": "Base",
+    "name": "Waldens",
+    "sortName": "waldens",
+    "suffix": "Storage"
+  },
+  {
+    "id": "xtm_con_svc",
+    "mapSet": "Base",
+    "name": "X-Tech Machinery",
+    "sortName": "x-tech machinery",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "aport_phx",
+    "mapSet": "Base",
+    "name": "Phoenix Freight",
+    "sortName": "phoenix freight",
+    "suffix": ""
+  },
+  {
+    "id": "aport_den",
+    "mapSet": "Base",
+    "name": "Airport Denver",
+    "sortName": "airport denver",
+    "suffix": ""
+  },
+  {
+    "id": "kw_trk_dlr",
+    "mapSet": "Base",
+    "name": "Kenworth",
+    "sortName": "kenworth",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "kw_trk_pln",
+    "mapSet": "Base",
+    "name": "Kenworth",
+    "sortName": "kenworth",
+    "suffix": "Factory"
+  },
+  {
+    "id": "aport_gtf",
+    "mapSet": "Base",
+    "name": "GF Cargo",
+    "sortName": "gf cargo",
+    "suffix": ""
+  },
+  {
+    "id": "chm_che_plns",
+    "mapSet": "Base",
+    "name": "Chemso Ltd.",
+    "sortName": "chemso ltd.",
+    "suffix": "Silene Gas Plant"
+  },
+  {
+    "id": "nmq_min_pln1",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Depot"
+  },
+  {
+    "id": "swb_sug_plnt",
+    "mapSet": "Base",
+    "name": "Sweetbeets",
+    "sortName": "sweetbeets",
+    "suffix": "Plant"
+  },
+  {
+    "id": "aport_abq",
+    "mapSet": "Base",
+    "name": "ABQ Cargo Center",
+    "sortName": "abq cargo center",
+    "suffix": ""
+  },
+  {
+    "id": "ai_car_pln",
+    "mapSet": "Base",
+    "name": "AI Automotive",
+    "sortName": "ai automotive",
+    "suffix": "Factory"
+  },
+  {
+    "id": "aport_tul",
+    "mapSet": "Base",
+    "name": "Tulsa Freight",
+    "sortName": "tulsa freight",
+    "suffix": ""
+  },
+  {
+    "id": "ccw_rd_grg",
+    "mapSet": "Base",
+    "name": "Central Civil Works",
+    "sortName": "central civil works",
+    "suffix": "Garage"
+  },
+  {
+    "id": "dyn_car_pln",
+    "mapSet": "Base",
+    "name": "Dynamix",
+    "sortName": "dynamix",
+    "suffix": "Factory"
+  },
+  {
+    "id": "eg_che_str",
+    "mapSet": "Base",
+    "name": "Epro Gas",
+    "sortName": "epro gas",
+    "suffix": "Storage"
+  },
+  {
+    "id": "myr_wd_mkt",
+    "mapSet": "Base",
+    "name": "Myroo",
+    "sortName": "myroo",
+    "suffix": "Market"
+  },
+  {
+    "id": "plu_el_pln",
+    "mapSet": "Base",
+    "name": "Plugged",
+    "sortName": "plugged",
+    "suffix": "Depot"
+  },
+  {
+    "id": "rp_port",
+    "mapSet": "Base",
+    "name": "Rock Port",
+    "sortName": "rock port",
+    "suffix": ""
+  },
+  {
+    "id": "tch_el_pln",
+    "mapSet": "Base",
+    "name": "Technoma",
+    "sortName": "technoma",
+    "suffix": "Depot"
+  },
+  {
+    "id": "vor_oil_str",
+    "mapSet": "Base",
+    "name": "Vortex",
+    "sortName": "vortex",
+    "suffix": "Storage"
+  },
+  {
+    "id": "yel_bus_pln",
+    "mapSet": "Base",
+    "name": "Yelco Busses",
+    "sortName": "yelco busses",
+    "suffix": "Depot"
+  },
+  {
+    "id": "aport_pcc",
+    "mapSet": "Base",
+    "name": "Portland Cargo Central",
+    "sortName": "portland cargo central",
+    "suffix": ""
+  },
+  {
+    "id": "pt_trk_dlr",
+    "mapSet": "Base",
+    "name": "Peterbilt",
+    "sortName": "peterbilt",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "aport_dfw",
+    "mapSet": "Base",
+    "name": "Airport Dallas Fort Worth",
+    "sortName": "airport dallas fort worth",
+    "suffix": ""
+  },
+  {
+    "id": "aport_elp",
+    "mapSet": "Base",
+    "name": "El Paso Freight",
+    "sortName": "el paso freight",
+    "suffix": ""
+  },
+  {
+    "id": "aport_iah",
+    "mapSet": "Base",
+    "name": "Houston Intercont. Airport",
+    "sortName": "houston intercont. airport",
+    "suffix": ""
+  },
+  {
+    "id": "asu_car_pln",
+    "mapSet": "Base",
+    "name": "Asuma",
+    "sortName": "asuma",
+    "suffix": "Factory"
+  },
+  {
+    "id": "ath_trk_dlr",
+    "mapSet": "Base",
+    "name": "American Truck Haulers",
+    "sortName": "american truck haulers",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "az_gls_pln",
+    "mapSet": "Base",
+    "name": "Azure",
+    "sortName": "azure",
+    "suffix": "Depot"
+  },
+  {
+    "id": "ch_wd_hrv",
+    "mapSet": "Base",
+    "name": "Chuck & Jack's",
+    "sortName": "chuck & jack's",
+    "suffix": "Harvest Site"
+  },
+  {
+    "id": "ch_wd_saw",
+    "mapSet": "Base",
+    "name": "Chuck & Jack's",
+    "sortName": "chuck & jack's",
+    "suffix": "Sawmill"
+  },
+  {
+    "id": "lsf_crg_fwd",
+    "mapSet": "Base",
+    "name": "Lonestar Forwarding",
+    "sortName": "lonestar forwarding",
+    "suffix": ""
+  },
+  {
+    "id": "port_bea",
+    "mapSet": "Base",
+    "name": "Beaumont Freight Terminal",
+    "sortName": "beaumont freight terminal",
+    "suffix": ""
+  },
+  {
+    "id": "port_bro",
+    "mapSet": "Base",
+    "name": "Brownsville Port",
+    "sortName": "brownsville port",
+    "suffix": ""
+  },
+  {
+    "id": "port_cor",
+    "mapSet": "Base",
+    "name": "Corpus Christi Cargo Terminal",
+    "sortName": "corpus christi cargo terminal",
+    "suffix": ""
+  },
+  {
+    "id": "port_gal",
+    "mapSet": "Base",
+    "name": "Galveston Port",
+    "sortName": "galveston port",
+    "suffix": ""
+  },
+  {
+    "id": "port_hou",
+    "mapSet": "Base",
+    "name": "Houston Cargo Terminal",
+    "sortName": "houston cargo terminal",
+    "suffix": ""
+  },
+  {
+    "id": "spc_whs",
+    "mapSet": "Base",
+    "name": "Space Park",
+    "sortName": "space park",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "ter_met_shp",
+    "mapSet": "Base",
+    "name": "Tera",
+    "sortName": "tera",
+    "suffix": ""
+  },
+  {
+    "id": "vor_oil_sit",
+    "mapSet": "Base",
+    "name": "Vortex",
+    "sortName": "vortex",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "cm_min_qryp",
+    "mapSet": "Base",
+    "name": "Coastline Mining",
+    "sortName": "coastline mining",
+    "suffix": "Quarry Plant"
+  },
+  {
+    "id": "port_sea",
+    "mapSet": "Base",
+    "name": "Port of Seattle",
+    "sortName": "port of seattle",
+    "suffix": ""
+  },
+  {
+    "id": "port_tac",
+    "mapSet": "Base",
+    "name": "Port of Tacoma",
+    "sortName": "port of tacoma",
+    "suffix": ""
+  },
+  {
+    "id": "ws_trk_dlr",
+    "mapSet": "Base",
+    "name": "Western Star",
+    "sortName": "western star",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "ws_trk_pln",
+    "mapSet": "Base",
+    "name": "Western Star",
+    "sortName": "western star",
+    "suffix": "Factory"
+  },
+  {
+    "id": "aml_rail_str",
+    "mapSet": "Base",
+    "name": "American Lines",
+    "sortName": "american lines",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gol_trk_pln",
+    "mapSet": "Base",
+    "name": "Goliath",
+    "sortName": "goliath",
+    "suffix": "Factory"
+  },
+  {
+    "id": "nmq_min_qrya",
+    "mapSet": "Base",
+    "name": "NAMIQ",
+    "sortName": "namiq",
+    "suffix": "Quarry Plant"
+  },
+  {
+    "id": "flv_food_str",
+    "mapSet": "Base",
+    "name": "Flavorfair",
+    "sortName": "flavorfair",
+    "suffix": "Storage"
+  },
+  {
+    "id": "gar_rail_str",
+    "mapSet": "Base",
+    "name": "GARC",
+    "sortName": "garc",
+    "suffix": "Storage"
+  },
+  {
+    "id": "tay_con_sit1",
+    "mapSet": "Base",
+    "name": "Taylor Construction Group",
+    "sortName": "taylor construction group",
+    "suffix": "Worksite"
+  },
+  {
+    "id": "aron",
+    "mapSet": "Base",
+    "name": "Aron",
+    "sortName": "aron",
+    "suffix": ""
+  },
+  {
+    "id": "bc_hydro",
+    "mapSet": "Base",
+    "name": "BC Hydro",
+    "sortName": "bc_hydro",
+    "suffix": ""
+  },
+  {
+    "id": "canoe",
+    "mapSet": "Base",
+    "name": "Canoe Forest Products",
+    "sortName": "canoe",
+    "suffix": ""
+  },
+  {
+    "id": "fb_farm_tmp",
+    "mapSet": "Base",
+    "name": "Farmer's Barn",
+    "sortName": "farmer's barn",
+    "suffix": ""
+  },
+  {
+    "id": "ikea",
+    "mapSet": "Base",
+    "name": "IKEA",
+    "sortName": "ikea",
+    "suffix": ""
+  },
+  {
+    "id": "kel_mar",
+    "mapSet": "Base",
+    "name": "Shelter Bay Marina",
+    "sortName": "shelter bay marina",
+    "suffix": "Marina"
+  },
+  {
+    "id": "lew_lodge",
+    "mapSet": "Base",
+    "name": "Lewiston Lodge",
+    "sortName": "lewiston lodge",
+    "suffix": ""
+  },
+  {
+    "id": "ng_min_svc",
+    "mapSet": "Base",
+    "name": "New Gold Inc.",
+    "sortName": "newgold",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "port_vanc",
+    "mapSet": "Base",
+    "name": "Port of Vancouver - Coal",
+    "sortName": "port_vanc",
+    "suffix": ""
+  },
+  {
+    "id": "port_vanc_c",
+    "mapSet": "Base",
+    "name": "Port of Vancouver - Container",
+    "sortName": "port_vanc_c",
+    "suffix": ""
+  },
+  {
+    "id": "yw_farm",
+    "mapSet": "Base",
+    "name": "Young & Wyse",
+    "sortName": "young wyse",
+    "suffix": ""
+  },
+  {
+    "id": "ai_car_whs",
+    "mapSet": "Base",
+    "name": "AI Automotive",
+    "sortName": "ai automotive",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "aport_ict",
+    "mapSet": "Base",
+    "name": "Wichita Sky Harbor",
+    "sortName": "wichita sky harbor",
+    "suffix": ""
+  },
+  {
+    "id": "bm_con_pln",
+    "mapSet": "Base",
+    "name": "Buildmaster Manufacturing Co.",
+    "sortName": "buildmaster manufacturing co.",
+    "suffix": "Depot"
+  },
+  {
+    "id": "cal_car_exp",
+    "mapSet": "Base",
+    "name": "Caliber Motors",
+    "sortName": "caliber motors",
+    "suffix": ""
+  },
+  {
+    "id": "cal_car_pln",
+    "mapSet": "Base",
+    "name": "Caliber Motors",
+    "sortName": "caliber motors",
+    "suffix": "Factory"
+  },
+  {
+    "id": "elv_el_pln",
+    "mapSet": "Base",
+    "name": "Electravolt Industries",
+    "sortName": "electravolt industries",
+    "suffix": "Depot"
+  },
+  {
+    "id": "flv_food_pln",
+    "mapSet": "Base",
+    "name": "Flavorfair",
+    "sortName": "flavorfair",
+    "suffix": "Depot"
+  },
+  {
+    "id": "gss_air_svc",
+    "mapSet": "Base",
+    "name": "Global Sky Services",
+    "sortName": "global sky services",
+    "suffix": "Warehouse"
+  },
+  {
+    "id": "chem_oil",
+    "mapSet": "Base",
+    "name": "Chemron",
+    "sortName": "chemron",
+    "suffix": ""
+  }
+]

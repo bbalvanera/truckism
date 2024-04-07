@@ -1,0 +1,5231 @@
+[
+  {
+    "id": "acc",
+    "mapSet": "Base",
+    "name": "ACC",
+    "sortName": "acc",
+    "suffix": ""
+  },
+  {
+    "id": "egres",
+    "mapSet": "Base",
+    "name": "Maatila Egres",
+    "sortName": "maatila egres",
+    "suffix": ""
+  },
+  {
+    "id": "norr_food",
+    "mapSet": "Base",
+    "name": "Norrfood",
+    "sortName": "norrfood",
+    "suffix": ""
+  },
+  {
+    "id": "aci",
+    "mapSet": "Base",
+    "name": "ACI SRL",
+    "sortName": "aci srl",
+    "suffix": ""
+  },
+  {
+    "id": "eviksi",
+    "mapSet": "Base",
+    "name": "Evikši ZS",
+    "sortName": "eviksi zs",
+    "suffix": ""
+  },
+  {
+    "id": "norrsken",
+    "mapSet": "Base",
+    "name": "Norrsken",
+    "sortName": "norrsken",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_hs",
+    "mapSet": "Base",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "eviksi_a",
+    "mapSet": "Base",
+    "name": "Evikši ZS",
+    "sortName": "eviksi zs",
+    "suffix": ""
+  },
+  {
+    "id": "polar_fish",
+    "mapSet": "Base",
+    "name": "Polar Fish",
+    "sortName": "polar fish",
+    "suffix": ""
+  },
+  {
+    "id": "bcp",
+    "mapSet": "Base",
+    "name": "BCP",
+    "sortName": "bcp",
+    "suffix": ""
+  },
+  {
+    "id": "fintyre",
+    "mapSet": "Base",
+    "name": "Finnish Tyres",
+    "sortName": "finnish tyres",
+    "suffix": ""
+  },
+  {
+    "id": "sag_tre",
+    "mapSet": "Base",
+    "name": "Sag & Tre",
+    "sortName": "sag tre",
+    "suffix": ""
+  },
+  {
+    "id": "bhv",
+    "mapSet": "Base",
+    "name": "BHV",
+    "sortName": "bhv",
+    "suffix": ""
+  },
+  {
+    "id": "fintyre_ru",
+    "mapSet": "Base",
+    "name": "Финские шины",
+    "sortName": "finnish tyres",
+    "suffix": ""
+  },
+  {
+    "id": "scania_fac",
+    "mapSet": "Base",
+    "name": "Scania Truck Factory",
+    "sortName": "scania truck factory",
+    "suffix": ""
+  },
+  {
+    "id": "cargotras",
+    "mapSet": "Base",
+    "name": "Cargotras",
+    "sortName": "cargotras",
+    "suffix": ""
+  },
+  {
+    "id": "ibp",
+    "mapSet": "Base",
+    "name": "IBP",
+    "sortName": "ibp",
+    "suffix": ""
+  },
+  {
+    "id": "volvo_fac",
+    "mapSet": "Base",
+    "name": "Volvo Truck Factory",
+    "sortName": "volvo truck factory",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_fl_ru",
+    "mapSet": "Base",
+    "name": "Цемелтекс",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "ika_ru",
+    "mapSet": "Base",
+    "name": "ИКА мебель",
+    "sortName": "ika mebel",
+    "suffix": ""
+  },
+  {
+    "id": "vpc",
+    "mapSet": "Base",
+    "name": "VPC",
+    "sortName": "vpc",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_fla",
+    "mapSet": "Base",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "kamen_ru",
+    "mapSet": "Base",
+    "name": "Старый Камень",
+    "sortName": "staryj kamen",
+    "suffix": ""
+  },
+  {
+    "id": "cesare_smar",
+    "mapSet": "Base",
+    "name": "Cesare Supermercato",
+    "sortName": "cesare supermercato",
+    "suffix": "Marina"
+  },
+  {
+    "id": "kivi",
+    "mapSet": "Base",
+    "name": "Vanha Kivi",
+    "sortName": "vanha kivi",
+    "suffix": ""
+  },
+  {
+    "id": "cgla",
+    "mapSet": "Base",
+    "name": "CGLA",
+    "sortName": "cgla",
+    "suffix": ""
+  },
+  {
+    "id": "ladoga",
+    "mapSet": "Base",
+    "name": "Ladoga Auto",
+    "sortName": "ladoga auto",
+    "suffix": ""
+  },
+  {
+    "id": "cnp",
+    "mapSet": "Base",
+    "name": "CNP",
+    "sortName": "cnp",
+    "suffix": ""
+  },
+  {
+    "id": "ladoga_ru",
+    "mapSet": "Base",
+    "name": "Ладога авто",
+    "sortName": "ladoga auto",
+    "suffix": ""
+  },
+  {
+    "id": "comoto",
+    "mapSet": "Base",
+    "name": "Comoto",
+    "sortName": "comoto",
+    "suffix": ""
+  },
+  {
+    "id": "lateds",
+    "mapSet": "Base",
+    "name": "Lateds",
+    "sortName": "lateds",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port",
+    "mapSet": "Base",
+    "name": "Container port",
+    "sortName": "container port",
+    "suffix": ""
+  },
+  {
+    "id": "lintukainen",
+    "mapSet": "Base",
+    "name": "Lintukainen Oy",
+    "sortName": "lintukainen oy",
+    "suffix": ""
+  },
+  {
+    "id": "domdepo",
+    "mapSet": "Base",
+    "name": "DomDepo",
+    "sortName": "domdepo",
+    "suffix": ""
+  },
+  {
+    "id": "lvr",
+    "mapSet": "Base",
+    "name": "Latvijas Vagonu Rūpnīca",
+    "sortName": "latvijas vagonu rupnica",
+    "suffix": ""
+  },
+  {
+    "id": "domdepo_ru",
+    "mapSet": "Base",
+    "name": "ДомДепо",
+    "sortName": "domdepo",
+    "suffix": ""
+  },
+  {
+    "id": "nch",
+    "mapSet": "Base",
+    "name": "NCH",
+    "sortName": "nch",
+    "suffix": ""
+  },
+  {
+    "id": "eolo_lines",
+    "mapSet": "Base",
+    "name": "Eolo Lines",
+    "sortName": "eolo lines",
+    "suffix": ""
+  },
+  {
+    "id": "nch_ru",
+    "mapSet": "Base",
+    "name": "НКХ",
+    "sortName": "nch",
+    "suffix": ""
+  },
+  {
+    "id": "euroacres",
+    "mapSet": "Base",
+    "name": "EuroAcres",
+    "sortName": "euroacres",
+    "suffix": ""
+  },
+  {
+    "id": "nosko",
+    "mapSet": "Base",
+    "name": "Noskonitta",
+    "sortName": "noskonitta",
+    "suffix": ""
+  },
+  {
+    "id": "eurogoodies",
+    "mapSet": "Base",
+    "name": "EuroGoodies",
+    "sortName": "eurogoodies",
+    "suffix": ""
+  },
+  {
+    "id": "ns_chem_ru",
+    "mapSet": "Base",
+    "name": "НС Химия",
+    "sortName": "ns chimia",
+    "suffix": ""
+  },
+  {
+    "id": "exomar",
+    "mapSet": "Base",
+    "name": "Exomar",
+    "sortName": "exomar",
+    "suffix": "Marina"
+  },
+  {
+    "id": "ns_oil_ru",
+    "mapSet": "Base",
+    "name": "НС Ойл",
+    "sortName": "ns oil",
+    "suffix": ""
+  },
+  {
+    "id": "fcp",
+    "mapSet": "Base",
+    "name": "FCP",
+    "sortName": "fcp",
+    "suffix": ""
+  },
+  {
+    "id": "onnelik",
+    "mapSet": "Base",
+    "name": "Õnnelik talu",
+    "sortName": "onnelik talu",
+    "suffix": ""
+  },
+  {
+    "id": "fle",
+    "mapSet": "Base",
+    "name": "FLE",
+    "sortName": "fle",
+    "suffix": ""
+  },
+  {
+    "id": "onnelik_a",
+    "mapSet": "Base",
+    "name": "Õnnelik talu",
+    "sortName": "onnelik talu",
+    "suffix": ""
+  },
+  {
+    "id": "gallia_ferry",
+    "mapSet": "Base",
+    "name": "Gallia Ferries",
+    "sortName": "gallia ferries",
+    "suffix": ""
+  },
+  {
+    "id": "pk_medved_ru",
+    "mapSet": "Base",
+    "name": "ПК Медведь",
+    "sortName": "pk medved",
+    "suffix": ""
+  },
+  {
+    "id": "gnt",
+    "mapSet": "Base",
+    "name": "GNT",
+    "sortName": "gnt",
+    "suffix": ""
+  },
+  {
+    "id": "rosmark",
+    "mapSet": "Base",
+    "name": "Rosmark",
+    "sortName": "rosmark",
+    "suffix": ""
+  },
+  {
+    "id": "ika_bohag",
+    "mapSet": "Base",
+    "name": "Ika Bohag",
+    "sortName": "ika bohag",
+    "suffix": ""
+  },
+  {
+    "id": "rosmark_ru",
+    "mapSet": "Base",
+    "name": "Росмарк",
+    "sortName": "rosmark",
+    "suffix": ""
+  },
+  {
+    "id": "itcc",
+    "mapSet": "Base",
+    "name": "ITCC",
+    "sortName": "itcc",
+    "suffix": ""
+  },
+  {
+    "id": "sal_fi",
+    "mapSet": "Base",
+    "name": "SAL",
+    "sortName": "sal",
+    "suffix": ""
+  },
+  {
+    "id": "kaarfor",
+    "mapSet": "Base",
+    "name": "Kaarfor",
+    "sortName": "kaarfor",
+    "suffix": ""
+  },
+  {
+    "id": "severoatm_ru",
+    "mapSet": "Base",
+    "name": "Североатом",
+    "sortName": "severoatom",
+    "suffix": ""
+  },
+  {
+    "id": "kolico",
+    "mapSet": "Base",
+    "name": "Kolico",
+    "sortName": "kolico",
+    "suffix": ""
+  },
+  {
+    "id": "suprema",
+    "mapSet": "Base",
+    "name": "Suprema",
+    "sortName": "suprema",
+    "suffix": ""
+  },
+  {
+    "id": "libellula",
+    "mapSet": "Base",
+    "name": "Libellula",
+    "sortName": "libellula",
+    "suffix": ""
+  },
+  {
+    "id": "suprema_ru",
+    "mapSet": "Base",
+    "name": "Супрема",
+    "sortName": "suprema",
+    "suffix": ""
+  },
+  {
+    "id": "lisette_log",
+    "mapSet": "Base",
+    "name": "Lisette Logistics",
+    "sortName": "lisette logistics",
+    "suffix": ""
+  },
+  {
+    "id": "ukko",
+    "mapSet": "Base",
+    "name": "UKKO Voima",
+    "sortName": "ukko voima",
+    "suffix": ""
+  },
+  {
+    "id": "lkwlog",
+    "mapSet": "Base",
+    "name": "LkwLog GmbH",
+    "sortName": "lkwlog gmbh",
+    "suffix": ""
+  },
+  {
+    "id": "viljo_paper",
+    "mapSet": "Base",
+    "name": "Viljo paperitehdas Oy",
+    "sortName": "viljo paperitehdas oy",
+    "suffix": ""
+  },
+  {
+    "id": "marina_fr",
+    "mapSet": "Base",
+    "name": "Marina",
+    "sortName": "marina",
+    "suffix": ""
+  },
+  {
+    "id": "viln_paper",
+    "mapSet": "Base",
+    "name": "Vilniaus Popieriaus Fabrikas",
+    "sortName": "vilniaus popieriaus fabrikas",
+    "suffix": ""
+  },
+  {
+    "id": "marina_it",
+    "mapSet": "Base",
+    "name": "Marina",
+    "sortName": "marina",
+    "suffix": ""
+  },
+  {
+    "id": "zelenye",
+    "mapSet": "Base",
+    "name": "Зелёные Поля OOO",
+    "sortName": "zelenye",
+    "suffix": ""
+  },
+  {
+    "id": "nbfc",
+    "mapSet": "Base",
+    "name": "NBFC",
+    "sortName": "nbfc",
+    "suffix": ""
+  },
+  {
+    "id": "zelenye_a",
+    "mapSet": "Base",
+    "name": "Зелёные Поля OOO",
+    "sortName": "zelenye",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat_brg",
+    "mapSet": "Base",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_base",
+    "mapSet": "Base",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat_cf",
+    "mapSet": "Base",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_road",
+    "mapSet": "Base",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat_lhv",
+    "mapSet": "Base",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_wind",
+    "mapSet": "Base",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "ns_chem",
+    "mapSet": "Base",
+    "name": "NS Chemicals",
+    "sortName": "ns chemicals",
+    "suffix": ""
+  },
+  {
+    "id": "bhb_raffin",
+    "mapSet": "Base",
+    "name": "BHB - La Raffinerie",
+    "sortName": "bhb - la raffinerie",
+    "suffix": ""
+  },
+  {
+    "id": "ns_oil",
+    "mapSet": "Base",
+    "name": "NS Oil",
+    "sortName": "ns oil",
+    "suffix": ""
+  },
+  {
+    "id": "boisserie",
+    "mapSet": "Base",
+    "name": "BOISSERIE J-P",
+    "sortName": "boisserie j-p",
+    "suffix": ""
+  },
+  {
+    "id": "nucleon",
+    "mapSet": "Base",
+    "name": "Nucléon",
+    "sortName": "nucleon",
+    "suffix": ""
+  },
+  {
+    "id": "chimi",
+    "mapSet": "Base",
+    "name": "Chimi",
+    "sortName": "chimi",
+    "suffix": ""
+  },
+  {
+    "id": "ocean_sol",
+    "mapSet": "Base",
+    "name": "Ocean Solutions Group",
+    "sortName": "ocean solutions group",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port_fr",
+    "mapSet": "Base",
+    "name": "Port de Conteneur",
+    "sortName": "port de conteneur",
+    "suffix": ""
+  },
+  {
+    "id": "polarislines",
+    "mapSet": "Base",
+    "name": "Polaris Lines",
+    "sortName": "polaris lines",
+    "suffix": ""
+  },
+  {
+    "id": "dans_jardin",
+    "mapSet": "Base",
+    "name": "Dans le Jardin",
+    "sortName": "dans le jardin",
+    "suffix": ""
+  },
+  {
+    "id": "posped",
+    "mapSet": "Base",
+    "name": "Posped",
+    "sortName": "posped",
+    "suffix": ""
+  },
+  {
+    "id": "eco",
+    "mapSet": "Base",
+    "name": "ÉCO",
+    "sortName": "ezco",
+    "suffix": ""
+  },
+  {
+    "id": "quarry",
+    "mapSet": "Base",
+    "name": "Steinbruch",
+    "sortName": "steinbruch",
+    "suffix": ""
+  },
+  {
+    "id": "globeur",
+    "mapSet": "Base",
+    "name": "Globeur",
+    "sortName": "globeur",
+    "suffix": ""
+  },
+  {
+    "id": "radus",
+    "mapSet": "Base",
+    "name": "Radus",
+    "sortName": "radus",
+    "suffix": ""
+  },
+  {
+    "id": "gomme_monde",
+    "mapSet": "Base",
+    "name": "Gomme du Monde",
+    "sortName": "gomme du monde",
+    "suffix": ""
+  },
+  {
+    "id": "radus_ru",
+    "mapSet": "Base",
+    "name": "Радус",
+    "sortName": "radus",
+    "suffix": ""
+  },
+  {
+    "id": "huilant",
+    "mapSet": "Base",
+    "name": "Huilant",
+    "sortName": "huilant",
+    "suffix": ""
+  },
+  {
+    "id": "renar",
+    "mapSet": "Base",
+    "name": "Renar Logistik",
+    "sortName": "renar logistik",
+    "suffix": ""
+  },
+  {
+    "id": "mvm_carriere",
+    "mapSet": "Base",
+    "name": "MVM carrière",
+    "sortName": "mvm carriere",
+    "suffix": ""
+  },
+  {
+    "id": "renat",
+    "mapSet": "Base",
+    "name": "Renat",
+    "sortName": "renat",
+    "suffix": ""
+  },
+  {
+    "id": "wilnet_trans",
+    "mapSet": "Base",
+    "name": "Wilnet Transport",
+    "sortName": "wilnet transport",
+    "suffix": ""
+  },
+  {
+    "id": "sanbuilders",
+    "mapSet": "Base",
+    "name": "Sanbuilders",
+    "sortName": "sanbuilders",
+    "suffix": ""
+  },
+  {
+    "id": "agregados",
+    "mapSet": "Base",
+    "name": "Agregados, S.A.",
+    "sortName": "agregados, s.a.",
+    "suffix": ""
+  },
+  {
+    "id": "scania_dlr",
+    "mapSet": "Base",
+    "name": "Scania dealer",
+    "sortName": "scania dealer",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "app",
+    "mapSet": "Base",
+    "name": "APP",
+    "sortName": "app",
+    "suffix": ""
+  },
+  {
+    "id": "scs_paper",
+    "mapSet": "Base",
+    "name": "SCS Paper",
+    "sortName": "scs paper",
+    "suffix": ""
+  },
+  {
+    "id": "cantera",
+    "mapSet": "Base",
+    "name": "Cantera Ibérica",
+    "sortName": "cantera iberica",
+    "suffix": ""
+  },
+  {
+    "id": "sellplan",
+    "mapSet": "Base",
+    "name": "SellPlan",
+    "sortName": "sellplan",
+    "suffix": ""
+  },
+  {
+    "id": "canteras_ds",
+    "mapSet": "Base",
+    "name": "Canteras del Sur",
+    "sortName": "canteras del sur",
+    "suffix": ""
+  },
+  {
+    "id": "skoda",
+    "mapSet": "Base",
+    "name": "Scout",
+    "sortName": "scout",
+    "suffix": ""
+  },
+  {
+    "id": "casa_olivera",
+    "mapSet": "Base",
+    "name": "Casa Olivera",
+    "sortName": "casa olivera",
+    "suffix": ""
+  },
+  {
+    "id": "spinelli",
+    "mapSet": "Base",
+    "name": "Spinelli",
+    "sortName": "spinelli",
+    "suffix": ""
+  },
+  {
+    "id": "cesta_sl",
+    "mapSet": "Base",
+    "name": "Cesta, S.L.",
+    "sortName": "cesta, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "stokes",
+    "mapSet": "Base",
+    "name": "Stokes",
+    "sortName": "stokes",
+    "suffix": ""
+  },
+  {
+    "id": "cortica",
+    "mapSet": "Base",
+    "name": "Cortiça Prima",
+    "sortName": "cortica prima",
+    "suffix": ""
+  },
+  {
+    "id": "subse",
+    "mapSet": "Base",
+    "name": "Subse",
+    "sortName": "subse",
+    "suffix": ""
+  },
+  {
+    "id": "elcano_fla",
+    "mapSet": "Base",
+    "name": "Construcciones Elcano, S.L.",
+    "sortName": "construcciones elcano, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "tesore_gust",
+    "mapSet": "Base",
+    "name": "Tesoro Gustoso",
+    "sortName": "tesoro gustoso",
+    "suffix": ""
+  },
+  {
+    "id": "engeron",
+    "mapSet": "Base",
+    "name": "Engeron",
+    "sortName": "engeron",
+    "suffix": ""
+  },
+  {
+    "id": "tradeaux",
+    "mapSet": "Base",
+    "name": "Tradeaux",
+    "sortName": "tradeaux",
+    "suffix": ""
+  },
+  {
+    "id": "eppa",
+    "mapSet": "Base",
+    "name": "EPPA",
+    "sortName": "eppa",
+    "suffix": ""
+  },
+  {
+    "id": "trainfoundry",
+    "mapSet": "Base",
+    "name": "Train Foundry",
+    "sortName": "train foundry",
+    "suffix": ""
+  },
+  {
+    "id": "huerta",
+    "mapSet": "Base",
+    "name": "Huerta del Mar Menor, S.L.",
+    "sortName": "huerta del mar menor, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "trameri",
+    "mapSet": "Base",
+    "name": "Trameri",
+    "sortName": "trameri",
+    "suffix": ""
+  },
+  {
+    "id": "iberatomica",
+    "mapSet": "Base",
+    "name": "Iberatómica",
+    "sortName": "iberatomica",
+    "suffix": ""
+  },
+  {
+    "id": "transinet",
+    "mapSet": "Base",
+    "name": "TransiNet",
+    "sortName": "transinet",
+    "suffix": ""
+  },
+  {
+    "id": "lavish_food",
+    "mapSet": "Base",
+    "name": "Lavish Foods",
+    "sortName": "lavish foods",
+    "suffix": ""
+  },
+  {
+    "id": "tree_et",
+    "mapSet": "Base",
+    "name": "Tree-ET",
+    "sortName": "tree-et",
+    "suffix": ""
+  },
+  {
+    "id": "log_atlan",
+    "mapSet": "Base",
+    "name": "Logística Atlântica",
+    "sortName": "logistica atlantica",
+    "suffix": ""
+  },
+  {
+    "id": "vitas_pwr",
+    "mapSet": "Base",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": ""
+  },
+  {
+    "id": "ortiz",
+    "mapSet": "Base",
+    "name": "Ortiz",
+    "sortName": "ortiz",
+    "suffix": ""
+  },
+  {
+    "id": "voitureux",
+    "mapSet": "Base",
+    "name": "Voitureux",
+    "sortName": "voitureux",
+    "suffix": ""
+  },
+  {
+    "id": "rt_log",
+    "mapSet": "Base",
+    "name": "RT Log",
+    "sortName": "rt log",
+    "suffix": ""
+  },
+  {
+    "id": "volvo_dlr",
+    "mapSet": "Base",
+    "name": "Volvo dealer",
+    "sortName": "volvo dealer",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "supercesta",
+    "mapSet": "Base",
+    "name": "SuperCesta",
+    "sortName": "supercesta",
+    "suffix": ""
+  },
+  {
+    "id": "wgcc",
+    "mapSet": "Base",
+    "name": "WGCC",
+    "sortName": "wgcc",
+    "suffix": ""
+  },
+  {
+    "id": "tdc_auto",
+    "mapSet": "Base",
+    "name": "TDC Auto Terminal",
+    "sortName": "tdc auto terminal",
+    "suffix": ""
+  },
+  {
+    "id": "balkan_loco",
+    "mapSet": "Base",
+    "name": "Balkan Loco",
+    "sortName": "balkan loco",
+    "suffix": ""
+  },
+  {
+    "id": "trans_cab",
+    "mapSet": "Base",
+    "name": "Transportes Caballería",
+    "sortName": "transportes caballeria",
+    "suffix": ""
+  },
+  {
+    "id": "baltrak",
+    "mapSet": "Base",
+    "name": "Baltrak Lojistik",
+    "sortName": "baltrak lojistik",
+    "suffix": ""
+  },
+  {
+    "id": "ts_atlas",
+    "mapSet": "Base",
+    "name": "TS Atlas",
+    "sortName": "ts atlas",
+    "suffix": ""
+  },
+  {
+    "id": "brawen",
+    "mapSet": "Base",
+    "name": "Brawen Transport",
+    "sortName": "brawen transport",
+    "suffix": ""
+  },
+  {
+    "id": "vitas_pwr_co",
+    "mapSet": "Base",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": ""
+  },
+  {
+    "id": "dobr_ferm_bg",
+    "mapSet": "Base",
+    "name": "добра ферма",
+    "sortName": "dobra ferma",
+    "suffix": ""
+  },
+  {
+    "id": "aaa",
+    "mapSet": "Base",
+    "name": "AA - Auto di Alonso",
+    "sortName": "aa - auto di alonso",
+    "suffix": ""
+  },
+  {
+    "id": "dulcis",
+    "mapSet": "Base",
+    "name": "Dulcis",
+    "sortName": "dulcis",
+    "suffix": ""
+  },
+  {
+    "id": "c_navale",
+    "mapSet": "Base",
+    "name": "Cantiere Navale",
+    "sortName": "cantiere navale",
+    "suffix": ""
+  },
+  {
+    "id": "fallow",
+    "mapSet": "Base",
+    "name": "Fallow Cargo",
+    "sortName": "fallow cargo",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port_it",
+    "mapSet": "Base",
+    "name": "Terminal Container",
+    "sortName": "terminal container",
+    "suffix": ""
+  },
+  {
+    "id": "imp_otel",
+    "mapSet": "Base",
+    "name": "Oţel Impecabil",
+    "sortName": "otel impecabil",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_bas",
+    "mapSet": "Base",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "lognstick",
+    "mapSet": "Base",
+    "name": "Log n Stick",
+    "sortName": "log n stick",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_fla",
+    "mapSet": "Base",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "low_field",
+    "mapSet": "Base",
+    "name": "Low Field",
+    "sortName": "low field",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_hal",
+    "mapSet": "Base",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "rimaf",
+    "mapSet": "Base",
+    "name": "RIMAF",
+    "sortName": "rimaf",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_win",
+    "mapSet": "Base",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "rock_eater",
+    "mapSet": "Base",
+    "name": "Rock Eater",
+    "sortName": "rock eater",
+    "suffix": ""
+  },
+  {
+    "id": "fattoria_f",
+    "mapSet": "Base",
+    "name": "Fattoria Felice",
+    "sortName": "fattoria felice",
+    "suffix": ""
+  },
+  {
+    "id": "rump",
+    "mapSet": "Base",
+    "name": "Rump",
+    "sortName": "rump",
+    "suffix": ""
+  },
+  {
+    "id": "fui",
+    "mapSet": "Base",
+    "name": "FUI SpA",
+    "sortName": "fui",
+    "suffix": ""
+  },
+  {
+    "id": "sporklift",
+    "mapSet": "Base",
+    "name": "Sporklift",
+    "sortName": "sporklift",
+    "suffix": ""
+  },
+  {
+    "id": "ini",
+    "mapSet": "Base",
+    "name": "Ini",
+    "sortName": "ini",
+    "suffix": ""
+  },
+  {
+    "id": "st_roza_bg",
+    "mapSet": "Base",
+    "name": "Стоманена Роза",
+    "sortName": "stomanena roza",
+    "suffix": ""
+  },
+  {
+    "id": "marmo",
+    "mapSet": "Base",
+    "name": "Marmo SpA",
+    "sortName": "marmo",
+    "suffix": ""
+  },
+  {
+    "id": "timberturtle",
+    "mapSet": "Base",
+    "name": "Timber Turtle",
+    "sortName": "timber turtle",
+    "suffix": ""
+  },
+  {
+    "id": "piac",
+    "mapSet": "Base",
+    "name": "PIAC",
+    "sortName": "piac",
+    "suffix": ""
+  },
+  {
+    "id": "tm_istanbul",
+    "mapSet": "Base",
+    "name": "Trade Market Istanbul",
+    "sortName": "trade market istanbul",
+    "suffix": ""
+  },
+  {
+    "id": "pp_chimica",
+    "mapSet": "Base",
+    "name": "PP Chimica Italia",
+    "sortName": "pp chimica italia",
+    "suffix": ""
+  },
+  {
+    "id": "ttk_bg",
+    "mapSet": "Base",
+    "name": "ТТК",
+    "sortName": "ttk",
+    "suffix": ""
+  },
+  {
+    "id": "quadrelli",
+    "mapSet": "Base",
+    "name": "Quadrelli SpA",
+    "sortName": "quadrelli",
+    "suffix": ""
+  },
+  {
+    "id": "aerobalt",
+    "mapSet": "Base",
+    "name": "AeroBaltica",
+    "sortName": "aerobaltica",
+    "suffix": ""
+  },
+  {
+    "id": "sal",
+    "mapSet": "Base",
+    "name": "S.A.L. S.R.L.",
+    "sortName": "s.a.l. s.r.l.",
+    "suffix": ""
+  },
+  {
+    "id": "aerobalt_ru",
+    "mapSet": "Base",
+    "name": "АэроБалтика",
+    "sortName": "aerobaltica",
+    "suffix": ""
+  },
+  {
+    "id": "te_logistica",
+    "mapSet": "Base",
+    "name": "TE Logistica",
+    "sortName": "te logistica",
+    "suffix": ""
+  },
+  {
+    "id": "agrominta",
+    "mapSet": "Base",
+    "name": "Agrominta UAB",
+    "sortName": "agrominta uab",
+    "suffix": ""
+  },
+  {
+    "id": "tras_med",
+    "mapSet": "Base",
+    "name": "Trasporti Mediterraneo",
+    "sortName": "trasporti mediterraneo",
+    "suffix": ""
+  },
+  {
+    "id": "agrominta_a",
+    "mapSet": "Base",
+    "name": "Agrominta UAB",
+    "sortName": "agrominta uab",
+    "suffix": ""
+  },
+  {
+    "id": "agronord",
+    "mapSet": "Base",
+    "name": "Agronord",
+    "sortName": "agronord",
+    "suffix": ""
+  },
+  {
+    "id": "ateria",
+    "mapSet": "Base",
+    "name": "Ateria",
+    "sortName": "ateria",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_albg",
+    "mapSet": "Base",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "baltomors_ru",
+    "mapSet": "Base",
+    "name": "Балтоморск",
+    "sortName": "baltomorsk",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_esbj",
+    "mapSet": "Base",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "baltomorsk",
+    "mapSet": "Base",
+    "name": "Baltomorsk",
+    "sortName": "baltomorsk",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_jnpg",
+    "mapSet": "Base",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "blt",
+    "mapSet": "Base",
+    "name": "BLT",
+    "sortName": "blt",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_trbg",
+    "mapSet": "Base",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "blt_ru",
+    "mapSet": "Base",
+    "name": "БЛТ",
+    "sortName": "blt",
+    "suffix": ""
+  },
+  {
+    "id": "bjork",
+    "mapSet": "Base",
+    "name": "Bjork",
+    "sortName": "bjork",
+    "suffix": ""
+  },
+  {
+    "id": "blt_yacht",
+    "mapSet": "Base",
+    "name": "Balteus Yachts",
+    "sortName": "balteus yachts",
+    "suffix": ""
+  },
+  {
+    "id": "drekkar",
+    "mapSet": "Base",
+    "name": "Drekkar Trans",
+    "sortName": "drekkar trans",
+    "suffix": ""
+  },
+  {
+    "id": "blt_yacht_ru",
+    "mapSet": "Base",
+    "name": "Балтеус Яхты",
+    "sortName": "balteus yachts",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr",
+    "mapSet": "Base",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "bltmetal",
+    "mapSet": "Base",
+    "name": "Baltic Metallurgy",
+    "sortName": "baltic metallurgy",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr_br",
+    "mapSet": "Base",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "bltmetal_ru",
+    "mapSet": "Base",
+    "name": "Балтийская Металлургия",
+    "sortName": "baltic metallurgy",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr_hs",
+    "mapSet": "Base",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_bas",
+    "mapSet": "Base",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr_wind",
+    "mapSet": "Base",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_hal",
+    "mapSet": "Base",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "marina",
+    "mapSet": "Base",
+    "name": "Marina",
+    "sortName": "marina",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_win",
+    "mapSet": "Base",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "ms_stein",
+    "mapSet": "Base",
+    "name": "MS Stein",
+    "sortName": "ms stein",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port_ru",
+    "mapSet": "Base",
+    "name": "Контейнерный пункт",
+    "sortName": "container port",
+    "suffix": ""
+  },
+  {
+    "id": "nord_crown",
+    "mapSet": "Base",
+    "name": "Nordic Crown",
+    "sortName": "nordic crown",
+    "suffix": ""
+  },
+  {
+    "id": "ee_paper",
+    "mapSet": "Base",
+    "name": "Estonian Paper AS",
+    "sortName": "estonian paper as",
+    "suffix": ""
+  },
+  {
+    "id": "nord_sten",
+    "mapSet": "Base",
+    "name": "Nordic Stenbrott",
+    "sortName": "nordic stenbrott",
+    "suffix": ""
+  },
+  {
+    "id": "acc",
+    "mapSet": "Promods",
+    "name": "ACC",
+    "sortName": "acc",
+    "suffix": ""
+  },
+  {
+    "id": "egres",
+    "mapSet": "Promods",
+    "name": "Maatila Egres",
+    "sortName": "maatila egres",
+    "suffix": ""
+  },
+  {
+    "id": "norr_food",
+    "mapSet": "Promods",
+    "name": "Norrfood",
+    "sortName": "norrfood",
+    "suffix": ""
+  },
+  {
+    "id": "homebase",
+    "mapSet": "Promods",
+    "name": "Homebase",
+    "sortName": "homebase",
+    "suffix": ""
+  },
+  {
+    "id": "port_bolun",
+    "mapSet": "Promods",
+    "name": "Bolungarvíkurhöfn",
+    "sortName": "bolungarvikurhofn",
+    "suffix": ""
+  },
+  {
+    "id": "aci",
+    "mapSet": "Promods",
+    "name": "ACI SRL",
+    "sortName": "aci srl",
+    "suffix": ""
+  },
+  {
+    "id": "eviksi",
+    "mapSet": "Promods",
+    "name": "Evikši ZS",
+    "sortName": "eviksi zs",
+    "suffix": ""
+  },
+  {
+    "id": "norrsken",
+    "mapSet": "Promods",
+    "name": "Norrsken",
+    "sortName": "norrsken",
+    "suffix": ""
+  },
+  {
+    "id": "iav",
+    "mapSet": "Promods",
+    "name": "ÍAV",
+    "sortName": "iav",
+    "suffix": ""
+  },
+  {
+    "id": "port_isa",
+    "mapSet": "Promods",
+    "name": "Ísafjarðarhöfn",
+    "sortName": "isafjardarhofn",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_hs",
+    "mapSet": "Promods",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "eviksi_a",
+    "mapSet": "Promods",
+    "name": "Evikši ZS",
+    "sortName": "eviksi zs",
+    "suffix": ""
+  },
+  {
+    "id": "polar_fish",
+    "mapSet": "Promods",
+    "name": "Polar Fish",
+    "sortName": "polar fish",
+    "suffix": ""
+  },
+  {
+    "id": "ica_kvantum",
+    "mapSet": "Promods",
+    "name": "ICA Kvantum",
+    "sortName": "ica kvantum",
+    "suffix": ""
+  },
+  {
+    "id": "port_sudavik",
+    "mapSet": "Promods",
+    "name": "Súðavíkurhöfn",
+    "sortName": "sudavikurhofn",
+    "suffix": ""
+  },
+  {
+    "id": "bcp",
+    "mapSet": "Promods",
+    "name": "BCP",
+    "sortName": "bcp",
+    "suffix": ""
+  },
+  {
+    "id": "fintyre",
+    "mapSet": "Promods",
+    "name": "Finnish Tyres",
+    "sortName": "finnish tyres",
+    "suffix": ""
+  },
+  {
+    "id": "sag_tre",
+    "mapSet": "Promods",
+    "name": "Sag & Tre",
+    "sortName": "sag tre",
+    "suffix": ""
+  },
+  {
+    "id": "icelandair",
+    "mapSet": "Promods",
+    "name": "Icelandair Cargo",
+    "sortName": "icelandair",
+    "suffix": ""
+  },
+  {
+    "id": "port_sudur",
+    "mapSet": "Promods",
+    "name": "Suðureyrarhöfn",
+    "sortName": "sudureyrarhofn",
+    "suffix": ""
+  },
+  {
+    "id": "bhv",
+    "mapSet": "Promods",
+    "name": "BHV",
+    "sortName": "bhv",
+    "suffix": ""
+  },
+  {
+    "id": "fintyre_ru",
+    "mapSet": "Promods",
+    "name": "Финские шины",
+    "sortName": "finnish tyres",
+    "suffix": ""
+  },
+  {
+    "id": "scania_fac",
+    "mapSet": "Promods",
+    "name": "Scania Truck Factory",
+    "sortName": "scania truck factory",
+    "suffix": ""
+  },
+  {
+    "id": "ice_gla",
+    "mapSet": "Promods",
+    "name": "Icelandic",
+    "sortName": "icelandic",
+    "suffix": ""
+  },
+  {
+    "id": "prisma",
+    "mapSet": "Promods",
+    "name": "Prisma",
+    "sortName": "prisma",
+    "suffix": ""
+  },
+  {
+    "id": "cargotras",
+    "mapSet": "Promods",
+    "name": "Cargotras",
+    "sortName": "cargotras",
+    "suffix": ""
+  },
+  {
+    "id": "ibp",
+    "mapSet": "Promods",
+    "name": "IBP",
+    "sortName": "ibp",
+    "suffix": ""
+  },
+  {
+    "id": "volvo_fac",
+    "mapSet": "Promods",
+    "name": "Volvo Truck Factory",
+    "sortName": "volvo truck factory",
+    "suffix": ""
+  },
+  {
+    "id": "ikea",
+    "mapSet": "Promods",
+    "name": "IKEA",
+    "sortName": "ikea",
+    "suffix": ""
+  },
+  {
+    "id": "psa_ant",
+    "mapSet": "Promods",
+    "name": "PSA Antwerp",
+    "sortName": "psa antwerp",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_fl_ru",
+    "mapSet": "Promods",
+    "name": "Цемелтекс",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "ika_ru",
+    "mapSet": "Promods",
+    "name": "ИКА мебель",
+    "sortName": "ika mebel",
+    "suffix": ""
+  },
+  {
+    "id": "vpc",
+    "mapSet": "Promods",
+    "name": "VPC",
+    "sortName": "vpc",
+    "suffix": ""
+  },
+  {
+    "id": "ikea_dist_pl",
+    "mapSet": "Promods",
+    "name": "IKEA Dist. Srv. SA",
+    "sortName": "ikeadistpl",
+    "suffix": ""
+  },
+  {
+    "id": "raben",
+    "mapSet": "Promods",
+    "name": "Raben",
+    "sortName": "raben",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_fla",
+    "mapSet": "Promods",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "kamen_ru",
+    "mapSet": "Promods",
+    "name": "Старый Камень",
+    "sortName": "staryj kamen",
+    "suffix": ""
+  },
+  {
+    "id": "arabfood",
+    "mapSet": "Promods",
+    "name": "Arabian Food",
+    "sortName": "arabian food",
+    "suffix": ""
+  },
+  {
+    "id": "ikea_pl",
+    "mapSet": "Promods",
+    "name": "IKEA Retail Sp. z.o.o.",
+    "sortName": "ikeapl",
+    "suffix": ""
+  },
+  {
+    "id": "radisson",
+    "mapSet": "Promods",
+    "name": "Radisson Blu Resort Bukovel",
+    "sortName": "radisson",
+    "suffix": ""
+  },
+  {
+    "id": "cesare_smar",
+    "mapSet": "Promods",
+    "name": "Cesare Supermercato",
+    "sortName": "cesare supermercato",
+    "suffix": "Marina"
+  },
+  {
+    "id": "kivi",
+    "mapSet": "Promods",
+    "name": "Vanha Kivi",
+    "sortName": "vanha kivi",
+    "suffix": ""
+  },
+  {
+    "id": "isrfish",
+    "mapSet": "Promods",
+    "name": "Israel Fish",
+    "sortName": "israel fish",
+    "suffix": ""
+  },
+  {
+    "id": "iki",
+    "mapSet": "Promods",
+    "name": "Iki",
+    "sortName": "iki",
+    "suffix": ""
+  },
+  {
+    "id": "renault",
+    "mapSet": "Promods",
+    "name": "Renault",
+    "sortName": "renault",
+    "suffix": ""
+  },
+  {
+    "id": "cgla",
+    "mapSet": "Promods",
+    "name": "CGLA",
+    "sortName": "cgla",
+    "suffix": ""
+  },
+  {
+    "id": "ladoga",
+    "mapSet": "Promods",
+    "name": "Ladoga Auto",
+    "sortName": "ladoga auto",
+    "suffix": ""
+  },
+  {
+    "id": "isrfood",
+    "mapSet": "Promods",
+    "name": "Israeli Food",
+    "sortName": "israeli food",
+    "suffix": ""
+  },
+  {
+    "id": "ina",
+    "mapSet": "Promods",
+    "name": "INA d.d.",
+    "sortName": "ina",
+    "suffix": ""
+  },
+  {
+    "id": "repsol",
+    "mapSet": "Promods",
+    "name": "Repsol",
+    "sortName": "repsol",
+    "suffix": ""
+  },
+  {
+    "id": "cnp",
+    "mapSet": "Promods",
+    "name": "CNP",
+    "sortName": "cnp",
+    "suffix": ""
+  },
+  {
+    "id": "ladoga_ru",
+    "mapSet": "Promods",
+    "name": "Ладога авто",
+    "sortName": "ladoga auto",
+    "suffix": ""
+  },
+  {
+    "id": "turkfood",
+    "mapSet": "Promods",
+    "name": "Turkish Food",
+    "sortName": "turkish food",
+    "suffix": ""
+  },
+  {
+    "id": "ina_dist",
+    "mapSet": "Promods",
+    "name": "INA d.d.",
+    "sortName": "ina",
+    "suffix": ""
+  },
+  {
+    "id": "rewe",
+    "mapSet": "Promods",
+    "name": "REWE",
+    "sortName": "rewe",
+    "suffix": ""
+  },
+  {
+    "id": "comoto",
+    "mapSet": "Promods",
+    "name": "Comoto",
+    "sortName": "comoto",
+    "suffix": ""
+  },
+  {
+    "id": "lateds",
+    "mapSet": "Promods",
+    "name": "Lateds",
+    "sortName": "lateds",
+    "suffix": ""
+  },
+  {
+    "id": "aero_elblag",
+    "mapSet": "Promods",
+    "name": "Aeroklub Elbląski",
+    "sortName": "aeroklub elblaski",
+    "suffix": ""
+  },
+  {
+    "id": "inermat",
+    "mapSet": "Promods",
+    "name": "Inermat",
+    "sortName": "inermat",
+    "suffix": ""
+  },
+  {
+    "id": "rimi",
+    "mapSet": "Promods",
+    "name": "Rimi",
+    "sortName": "rimi",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port",
+    "mapSet": "Promods",
+    "name": "Container port",
+    "sortName": "container port",
+    "suffix": ""
+  },
+  {
+    "id": "lintukainen",
+    "mapSet": "Promods",
+    "name": "Lintukainen Oy",
+    "sortName": "lintukainen oy",
+    "suffix": ""
+  },
+  {
+    "id": "ahorramas",
+    "mapSet": "Promods",
+    "name": "Ahorram�s",
+    "sortName": "ahorramas",
+    "suffix": ""
+  },
+  {
+    "id": "isavia",
+    "mapSet": "Promods",
+    "name": "Isavia",
+    "sortName": "isavia",
+    "suffix": ""
+  },
+  {
+    "id": "roadworks_a7",
+    "mapSet": "Promods",
+    "name": "Roadworks A7",
+    "sortName": "roadworks",
+    "suffix": ""
+  },
+  {
+    "id": "domdepo",
+    "mapSet": "Promods",
+    "name": "DomDepo",
+    "sortName": "domdepo",
+    "suffix": ""
+  },
+  {
+    "id": "lvr",
+    "mapSet": "Promods",
+    "name": "Latvijas Vagonu Rūpnīca",
+    "sortName": "latvijas vagonu rupnica",
+    "suffix": ""
+  },
+  {
+    "id": "albertheijn",
+    "mapSet": "Promods",
+    "name": "Albert Heijn",
+    "sortName": "albert heijn",
+    "suffix": ""
+  },
+  {
+    "id": "istros_av",
+    "mapSet": "Promods",
+    "name": "Įstros aviaparkas",
+    "sortName": "istros",
+    "suffix": ""
+  },
+  {
+    "id": "roadworks_a9",
+    "mapSet": "Promods",
+    "name": "Roadworks A9",
+    "sortName": "roadworks",
+    "suffix": ""
+  },
+  {
+    "id": "domdepo_ru",
+    "mapSet": "Promods",
+    "name": "ДомДепо",
+    "sortName": "domdepo",
+    "suffix": ""
+  },
+  {
+    "id": "nch",
+    "mapSet": "Promods",
+    "name": "NCH",
+    "sortName": "nch",
+    "suffix": ""
+  },
+  {
+    "id": "aldn",
+    "mapSet": "Promods",
+    "name": "Aldi Nord",
+    "sortName": "aldi nord",
+    "suffix": ""
+  },
+  {
+    "id": "jadranska",
+    "mapSet": "Promods",
+    "name": "Jadranska Trgovina",
+    "sortName": "jadranska",
+    "suffix": ""
+  },
+  {
+    "id": "roboty",
+    "mapSet": "Promods",
+    "name": "Roboty drogowe",
+    "sortName": "roadworks",
+    "suffix": ""
+  },
+  {
+    "id": "eolo_lines",
+    "mapSet": "Promods",
+    "name": "Eolo Lines",
+    "sortName": "eolo lines",
+    "suffix": ""
+  },
+  {
+    "id": "nch_ru",
+    "mapSet": "Promods",
+    "name": "НКХ",
+    "sortName": "nch",
+    "suffix": ""
+  },
+  {
+    "id": "alds",
+    "mapSet": "Promods",
+    "name": "Aldi Süd",
+    "sortName": "aldi sud",
+    "suffix": ""
+  },
+  {
+    "id": "jadranska1",
+    "mapSet": "Promods",
+    "name": "Jadranska Trgovina Gate A",
+    "sortName": "jadranska",
+    "suffix": ""
+  },
+  {
+    "id": "rothschild",
+    "mapSet": "Promods",
+    "name": "Rothschild",
+    "sortName": "rothschild",
+    "suffix": ""
+  },
+  {
+    "id": "euroacres",
+    "mapSet": "Promods",
+    "name": "EuroAcres",
+    "sortName": "euroacres",
+    "suffix": ""
+  },
+  {
+    "id": "nosko",
+    "mapSet": "Promods",
+    "name": "Noskonitta",
+    "sortName": "noskonitta",
+    "suffix": ""
+  },
+  {
+    "id": "alko1000",
+    "mapSet": "Promods",
+    "name": "Alko1000 Market",
+    "sortName": "alko1000",
+    "suffix": ""
+  },
+  {
+    "id": "jadranska2",
+    "mapSet": "Promods",
+    "name": "Jadranska Trgovina Gate B",
+    "sortName": "jadranska",
+    "suffix": ""
+  },
+  {
+    "id": "rybackie_elk",
+    "mapSet": "Promods",
+    "name": "Gospodarstwo Rybackie Sp. z o.o.",
+    "sortName": "rybackie_elk",
+    "suffix": ""
+  },
+  {
+    "id": "eurogoodies",
+    "mapSet": "Promods",
+    "name": "EuroGoodies",
+    "sortName": "eurogoodies",
+    "suffix": ""
+  },
+  {
+    "id": "ns_chem_ru",
+    "mapSet": "Promods",
+    "name": "НС Химия",
+    "sortName": "ns chimia",
+    "suffix": ""
+  },
+  {
+    "id": "alstom",
+    "mapSet": "Promods",
+    "name": "Alstom",
+    "sortName": "alstom",
+    "suffix": ""
+  },
+  {
+    "id": "jewson",
+    "mapSet": "Promods",
+    "name": "Jewson",
+    "sortName": "jewson",
+    "suffix": ""
+  },
+  {
+    "id": "saab",
+    "mapSet": "Promods",
+    "name": "Saab Factory",
+    "sortName": "saab",
+    "suffix": ""
+  },
+  {
+    "id": "exomar",
+    "mapSet": "Promods",
+    "name": "Exomar",
+    "sortName": "exomar",
+    "suffix": "Marina"
+  },
+  {
+    "id": "ns_oil_ru",
+    "mapSet": "Promods",
+    "name": "НС Ойл",
+    "sortName": "ns oil",
+    "suffix": ""
+  },
+  {
+    "id": "aluprof",
+    "mapSet": "Promods",
+    "name": "Aluprof SA",
+    "sortName": "aluprof",
+    "suffix": ""
+  },
+  {
+    "id": "jumbo",
+    "mapSet": "Promods",
+    "name": "Jumbo",
+    "sortName": "jumbo",
+    "suffix": ""
+  },
+  {
+    "id": "sah_afurdir",
+    "mapSet": "Promods",
+    "name": "SAH Afurðir ehf.",
+    "sortName": "sah afurdir",
+    "suffix": ""
+  },
+  {
+    "id": "fcp",
+    "mapSet": "Promods",
+    "name": "FCP",
+    "sortName": "fcp",
+    "suffix": ""
+  },
+  {
+    "id": "onnelik",
+    "mapSet": "Promods",
+    "name": "Õnnelik talu",
+    "sortName": "onnelik talu",
+    "suffix": ""
+  },
+  {
+    "id": "anklam_flug",
+    "mapSet": "Promods",
+    "name": "Anklamer Flugplatz GmbH",
+    "sortName": "anklamer flugplatz",
+    "suffix": ""
+  },
+  {
+    "id": "kaarfor2",
+    "mapSet": "Promods",
+    "name": "Kaarfor",
+    "sortName": "kaarforz",
+    "suffix": ""
+  },
+  {
+    "id": "sainsbury",
+    "mapSet": "Promods",
+    "name": "Sainsbury's",
+    "sortName": "sainsbury",
+    "suffix": ""
+  },
+  {
+    "id": "fle",
+    "mapSet": "Promods",
+    "name": "FLE",
+    "sortName": "fle",
+    "suffix": ""
+  },
+  {
+    "id": "onnelik_a",
+    "mapSet": "Promods",
+    "name": "Õnnelik talu",
+    "sortName": "onnelik talu",
+    "suffix": ""
+  },
+  {
+    "id": "aquael",
+    "mapSet": "Promods",
+    "name": "Aquael",
+    "sortName": "Aquael",
+    "suffix": ""
+  },
+  {
+    "id": "kaarfor_in",
+    "mapSet": "Promods",
+    "name": "Kaarfor",
+    "sortName": "kaarfor",
+    "suffix": ""
+  },
+  {
+    "id": "salag",
+    "mapSet": "Promods",
+    "name": "Salag Sp. o.o.",
+    "sortName": "Salag",
+    "suffix": ""
+  },
+  {
+    "id": "gallia_ferry",
+    "mapSet": "Promods",
+    "name": "Gallia Ferries",
+    "sortName": "gallia ferries",
+    "suffix": ""
+  },
+  {
+    "id": "pk_medved_ru",
+    "mapSet": "Promods",
+    "name": "ПК Медведь",
+    "sortName": "pk medved",
+    "suffix": ""
+  },
+  {
+    "id": "aria_nordic",
+    "mapSet": "Promods",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "karuzela",
+    "mapSet": "Promods",
+    "name": "Park Handlowy Karuzela",
+    "sortName": "karuzela",
+    "suffix": ""
+  },
+  {
+    "id": "samkaup",
+    "mapSet": "Promods",
+    "name": "Samkaup",
+    "sortName": "samkaup",
+    "suffix": ""
+  },
+  {
+    "id": "gnt",
+    "mapSet": "Promods",
+    "name": "GNT",
+    "sortName": "gnt",
+    "suffix": ""
+  },
+  {
+    "id": "rosmark",
+    "mapSet": "Promods",
+    "name": "Rosmark",
+    "sortName": "rosmark",
+    "suffix": ""
+  },
+  {
+    "id": "ashan",
+    "mapSet": "Promods",
+    "name": "Ашан",
+    "sortName": "auchan",
+    "suffix": ""
+  },
+  {
+    "id": "kaufland",
+    "mapSet": "Promods",
+    "name": "Kaufland",
+    "sortName": "kaufland",
+    "suffix": ""
+  },
+  {
+    "id": "samskip",
+    "mapSet": "Promods",
+    "name": "Samskip",
+    "sortName": "samskip",
+    "suffix": ""
+  },
+  {
+    "id": "ika_bohag",
+    "mapSet": "Promods",
+    "name": "IKEA",
+    "sortName": "ikea",
+    "suffix": ""
+  },
+  {
+    "id": "rosmark_ru",
+    "mapSet": "Promods",
+    "name": "Росмарк",
+    "sortName": "rosmark",
+    "suffix": ""
+  },
+  {
+    "id": "atriaeesti",
+    "mapSet": "Promods",
+    "name": "Atria Eesti",
+    "sortName": "atriaeesti",
+    "suffix": ""
+  },
+  {
+    "id": "kielce_expo",
+    "mapSet": "Promods",
+    "name": "Targi Kielce S.A.",
+    "sortName": "kielceexpo",
+    "suffix": ""
+  },
+  {
+    "id": "sawmillforst",
+    "mapSet": "Promods",
+    "name": "Sägewerk Forst GmbH",
+    "sortName": "sagewerk forst",
+    "suffix": ""
+  },
+  {
+    "id": "itcc",
+    "mapSet": "Promods",
+    "name": "ITCC",
+    "sortName": "itcc",
+    "suffix": ""
+  },
+  {
+    "id": "sal_fi",
+    "mapSet": "Promods",
+    "name": "SAL",
+    "sortName": "sal",
+    "suffix": ""
+  },
+  {
+    "id": "auchan",
+    "mapSet": "Promods",
+    "name": "Auchan",
+    "sortName": "auchan",
+    "suffix": ""
+  },
+  {
+    "id": "kiwi",
+    "mapSet": "Promods",
+    "name": "KIWI Minipris",
+    "sortName": "kiwi",
+    "suffix": ""
+  },
+  {
+    "id": "scania_dem",
+    "mapSet": "Promods",
+    "name": "Scania Democentre",
+    "sortName": "scania democentre",
+    "suffix": ""
+  },
+  {
+    "id": "kaarfor",
+    "mapSet": "Promods",
+    "name": "Kaarfor",
+    "sortName": "kaarfor",
+    "suffix": ""
+  },
+  {
+    "id": "severoatm_ru",
+    "mapSet": "Promods",
+    "name": "Североатом",
+    "sortName": "severoatom",
+    "suffix": ""
+  },
+  {
+    "id": "audi",
+    "mapSet": "Promods",
+    "name": "Audi Hungaria Motor Kft.",
+    "sortName": "audi",
+    "suffix": ""
+  },
+  {
+    "id": "klasmann_d",
+    "mapSet": "Promods",
+    "name": "Klasmann-Deilmann",
+    "sortName": "klasmann",
+    "suffix": ""
+  },
+  {
+    "id": "scania_wh",
+    "mapSet": "Promods",
+    "name": "Scania Warehouse",
+    "sortName": "scania warehouse",
+    "suffix": ""
+  },
+  {
+    "id": "kolico",
+    "mapSet": "Promods",
+    "name": "Kolico",
+    "sortName": "kolico",
+    "suffix": ""
+  },
+  {
+    "id": "suprema",
+    "mapSet": "Promods",
+    "name": "Suprema",
+    "sortName": "suprema",
+    "suffix": ""
+  },
+  {
+    "id": "auhof",
+    "mapSet": "Promods",
+    "name": "Construction Wien-Auhof",
+    "sortName": "autohof wien",
+    "suffix": ""
+  },
+  {
+    "id": "komfort",
+    "mapSet": "Promods",
+    "name": "Komfort",
+    "sortName": "komfort",
+    "suffix": ""
+  },
+  {
+    "id": "schenker",
+    "mapSet": "Promods",
+    "name": "DB Schenker",
+    "sortName": "db schenker",
+    "suffix": ""
+  },
+  {
+    "id": "libellula",
+    "mapSet": "Promods",
+    "name": "Libellula",
+    "sortName": "libellula",
+    "suffix": ""
+  },
+  {
+    "id": "suprema_ru",
+    "mapSet": "Promods",
+    "name": "Супрема",
+    "sortName": "suprema",
+    "suffix": ""
+  },
+  {
+    "id": "bader",
+    "mapSet": "Promods",
+    "name": "Bader",
+    "sortName": "bader",
+    "suffix": ""
+  },
+  {
+    "id": "konzum",
+    "mapSet": "Promods",
+    "name": "Konzum",
+    "sortName": "konzum",
+    "suffix": ""
+  },
+  {
+    "id": "seedvault",
+    "mapSet": "Promods",
+    "name": "Global Seed Vault",
+    "sortName": "seed vault",
+    "suffix": ""
+  },
+  {
+    "id": "lisette_log",
+    "mapSet": "Promods",
+    "name": "Lisette Logistics",
+    "sortName": "lisette logistics",
+    "suffix": ""
+  },
+  {
+    "id": "ukko",
+    "mapSet": "Promods",
+    "name": "UKKO Voima",
+    "sortName": "ukko voima",
+    "suffix": ""
+  },
+  {
+    "id": "batisse",
+    "mapSet": "Promods",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "kronan",
+    "mapSet": "Promods",
+    "name": "Krónan",
+    "sortName": "kronan",
+    "suffix": ""
+  },
+  {
+    "id": "seljaland",
+    "mapSet": "Promods",
+    "name": "Seljaland",
+    "sortName": "seljaland",
+    "suffix": ""
+  },
+  {
+    "id": "lkwlog",
+    "mapSet": "Promods",
+    "name": "LkwLog GmbH",
+    "sortName": "lkwlog gmbh",
+    "suffix": ""
+  },
+  {
+    "id": "viljo_paper",
+    "mapSet": "Promods",
+    "name": "Viljo paperitehdas Oy",
+    "sortName": "viljo paperitehdas oy",
+    "suffix": ""
+  },
+  {
+    "id": "bauhaus",
+    "mapSet": "Promods",
+    "name": "Bauhaus",
+    "sortName": "bauhaus",
+    "suffix": ""
+  },
+  {
+    "id": "kronospan",
+    "mapSet": "Promods",
+    "name": "Kronospan",
+    "sortName": "kronospan",
+    "suffix": ""
+  },
+  {
+    "id": "seur",
+    "mapSet": "Promods",
+    "name": "SEUR",
+    "sortName": "seur",
+    "suffix": ""
+  },
+  {
+    "id": "marina_fr",
+    "mapSet": "Promods",
+    "name": "Marina",
+    "sortName": "marina",
+    "suffix": ""
+  },
+  {
+    "id": "viln_paper",
+    "mapSet": "Promods",
+    "name": "Vilniaus Popieriaus Fabrikas",
+    "sortName": "vilniaus popieriaus fabrikas",
+    "suffix": ""
+  },
+  {
+    "id": "bct",
+    "mapSet": "Promods",
+    "name": "BCT Gdynia",
+    "sortName": "bct",
+    "suffix": ""
+  },
+  {
+    "id": "kroschu",
+    "mapSet": "Promods",
+    "name": "Kromberg & Schubert",
+    "sortName": "kromberg",
+    "suffix": ""
+  },
+  {
+    "id": "shell",
+    "mapSet": "Promods",
+    "name": "Shell",
+    "sortName": "shell",
+    "suffix": ""
+  },
+  {
+    "id": "marina_it",
+    "mapSet": "Promods",
+    "name": "Marina",
+    "sortName": "marina",
+    "suffix": ""
+  },
+  {
+    "id": "zelenye",
+    "mapSet": "Promods",
+    "name": "Зелёные Поля OOO",
+    "sortName": "zelenye",
+    "suffix": ""
+  },
+  {
+    "id": "bg_wood",
+    "mapSet": "Promods",
+    "name": "Wood",
+    "sortName": "wood",
+    "suffix": ""
+  },
+  {
+    "id": "kuenenagelll",
+    "mapSet": "Promods",
+    "name": "Kuehne + Nagel",
+    "sortName": "kuehne nagel",
+    "suffix": ""
+  },
+  {
+    "id": "shell_fac",
+    "mapSet": "Promods",
+    "name": "Shell",
+    "sortName": "shell",
+    "suffix": ""
+  },
+  {
+    "id": "nbfc",
+    "mapSet": "Promods",
+    "name": "NBFC",
+    "sortName": "nbfc",
+    "suffix": ""
+  },
+  {
+    "id": "zelenye_a",
+    "mapSet": "Promods",
+    "name": "Зелёные Поля OOO",
+    "sortName": "zelenye",
+    "suffix": ""
+  },
+  {
+    "id": "biedronka",
+    "mapSet": "Promods",
+    "name": "Biedronka",
+    "sortName": "biedronka",
+    "suffix": ""
+  },
+  {
+    "id": "lacquide",
+    "mapSet": "Promods",
+    "name": "Air Lacquide",
+    "sortName": "air lacquide",
+    "suffix": ""
+  },
+  {
+    "id": "sildarvinn",
+    "mapSet": "Promods",
+    "name": "Síldarvinnslan hf.",
+    "sortName": "sildarvinnslan",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat_brg",
+    "mapSet": "Promods",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_base",
+    "mapSet": "Promods",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "biedronka_in",
+    "mapSet": "Promods",
+    "name": "Biedronka",
+    "sortName": "biedronka",
+    "suffix": ""
+  },
+  {
+    "id": "lafarge",
+    "mapSet": "Promods",
+    "name": "Lafarge",
+    "sortName": "lafarge",
+    "suffix": ""
+  },
+  {
+    "id": "skn",
+    "mapSet": "Promods",
+    "name": "SKN - Kopalnia Gabra Braszowice",
+    "sortName": "skn",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat_cf",
+    "mapSet": "Promods",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_road",
+    "mapSet": "Promods",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "bilka",
+    "mapSet": "Promods",
+    "name": "Bilka",
+    "sortName": "bilka",
+    "suffix": ""
+  },
+  {
+    "id": "lafarge_t",
+    "mapSet": "Promods",
+    "name": "Tarmac",
+    "sortName": "tarmac",
+    "suffix": ""
+  },
+  {
+    "id": "smyril",
+    "mapSet": "Promods",
+    "name": "Smyril Blue Water",
+    "sortName": "smyril blue water",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat_lhv",
+    "mapSet": "Promods",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "batisse_wind",
+    "mapSet": "Promods",
+    "name": "Bâtisse",
+    "sortName": "batisse",
+    "suffix": ""
+  },
+  {
+    "id": "billa",
+    "mapSet": "Promods",
+    "name": "Billa",
+    "sortName": "billa",
+    "suffix": ""
+  },
+  {
+    "id": "landsvirkjun",
+    "mapSet": "Promods",
+    "name": "Landsvirkjun",
+    "sortName": "landsvirkjun",
+    "suffix": ""
+  },
+  {
+    "id": "snb",
+    "mapSet": "Promods",
+    "name": "Slibverwerking Noord-Brabant",
+    "sortName": "slibverwerking noord-brabant",
+    "suffix": ""
+  },
+  {
+    "id": "ns_chem",
+    "mapSet": "Promods",
+    "name": "NS Chemicals",
+    "sortName": "ns chemicals",
+    "suffix": ""
+  },
+  {
+    "id": "bhb_raffin",
+    "mapSet": "Promods",
+    "name": "BHB - La Raffinerie",
+    "sortName": "bhb - la raffinerie",
+    "suffix": ""
+  },
+  {
+    "id": "biltema",
+    "mapSet": "Promods",
+    "name": "Biltema",
+    "sortName": "biltema",
+    "suffix": ""
+  },
+  {
+    "id": "leclerc",
+    "mapSet": "Promods",
+    "name": "Leclerc",
+    "sortName": "e leclerc",
+    "suffix": ""
+  },
+  {
+    "id": "statoil",
+    "mapSet": "Promods",
+    "name": "Statoil",
+    "sortName": "statoil",
+    "suffix": ""
+  },
+  {
+    "id": "ns_oil",
+    "mapSet": "Promods",
+    "name": "NS Oil",
+    "sortName": "ns oil",
+    "suffix": ""
+  },
+  {
+    "id": "boisserie",
+    "mapSet": "Promods",
+    "name": "BOISSERIE J-P",
+    "sortName": "boisserie j-p",
+    "suffix": ""
+  },
+  {
+    "id": "boliden",
+    "mapSet": "Promods",
+    "name": "Boliden",
+    "sortName": "boliden",
+    "suffix": ""
+  },
+  {
+    "id": "leoni",
+    "mapSet": "Promods",
+    "name": "Leoni",
+    "sortName": "leoni",
+    "suffix": ""
+  },
+  {
+    "id": "stryiliso",
+    "mapSet": "Promods",
+    "name": "Stryilisoprodukt",
+    "sortName": "stryiliso",
+    "suffix": ""
+  },
+  {
+    "id": "nucleon",
+    "mapSet": "Promods",
+    "name": "Nucléon",
+    "sortName": "nucleon",
+    "suffix": ""
+  },
+  {
+    "id": "chimi",
+    "mapSet": "Promods",
+    "name": "Chimi",
+    "sortName": "chimi",
+    "suffix": ""
+  },
+  {
+    "id": "bondi",
+    "mapSet": "Promods",
+    "name": "Bændasamtök Íslands",
+    "sortName": "baendasamtok islands",
+    "suffix": ""
+  },
+  {
+    "id": "leroymerlin",
+    "mapSet": "Promods",
+    "name": "Leroy Merlin",
+    "sortName": "leroy merlin",
+    "suffix": ""
+  },
+  {
+    "id": "supernetto",
+    "mapSet": "Promods",
+    "name": "Supernetto",
+    "sortName": "supernetto",
+    "suffix": ""
+  },
+  {
+    "id": "ocean_sol",
+    "mapSet": "Promods",
+    "name": "Ocean Solutions Group",
+    "sortName": "ocean solutions group",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port_fr",
+    "mapSet": "Promods",
+    "name": "Port de Conteneur",
+    "sortName": "port de conteneur",
+    "suffix": ""
+  },
+  {
+    "id": "bonus",
+    "mapSet": "Promods",
+    "name": "Bónus",
+    "sortName": "bonus",
+    "suffix": ""
+  },
+  {
+    "id": "lidl",
+    "mapSet": "Promods",
+    "name": "Lidl",
+    "sortName": "lidl",
+    "suffix": ""
+  },
+  {
+    "id": "svalsat",
+    "mapSet": "Promods",
+    "name": "Svalbard Satellite station",
+    "sortName": "svalbard satellite",
+    "suffix": ""
+  },
+  {
+    "id": "polarislines",
+    "mapSet": "Promods",
+    "name": "Polaris Lines",
+    "sortName": "polaris lines",
+    "suffix": ""
+  },
+  {
+    "id": "dans_jardin",
+    "mapSet": "Promods",
+    "name": "Dans le Jardin",
+    "sortName": "dans le jardin",
+    "suffix": ""
+  },
+  {
+    "id": "bp_retail",
+    "mapSet": "Promods",
+    "name": "BP Retail",
+    "sortName": "bp retail",
+    "suffix": ""
+  },
+  {
+    "id": "lidl_centrum",
+    "mapSet": "Promods",
+    "name": "LIDL Distribution",
+    "sortName": "lidl distribution",
+    "suffix": ""
+  },
+  {
+    "id": "szatmari",
+    "mapSet": "Promods",
+    "name": "Szatmári",
+    "sortName": "szatmari",
+    "suffix": ""
+  },
+  {
+    "id": "posped",
+    "mapSet": "Promods",
+    "name": "Posped",
+    "sortName": "posped",
+    "suffix": ""
+  },
+  {
+    "id": "eco",
+    "mapSet": "Promods",
+    "name": "ÉCO",
+    "sortName": "ezco",
+    "suffix": ""
+  },
+  {
+    "id": "brw",
+    "mapSet": "Promods",
+    "name": "Black Red White",
+    "sortName": "brw",
+    "suffix": ""
+  },
+  {
+    "id": "likmerge{",
+    "mapSet": "Promods",
+    "name": "UAB Likmerė",
+    "sortName": "likmere",
+    "suffix": ""
+  },
+  {
+    "id": "tartak",
+    "mapSet": "Promods",
+    "name": "TARTAK - Skład drzewny",
+    "sortName": "tartak",
+    "suffix": ""
+  },
+  {
+    "id": "quarry",
+    "mapSet": "Promods",
+    "name": "Steinbruch",
+    "sortName": "steinbruch",
+    "suffix": ""
+  },
+  {
+    "id": "globeur",
+    "mapSet": "Promods",
+    "name": "Globeur",
+    "sortName": "globeur",
+    "suffix": ""
+  },
+  {
+    "id": "budimex",
+    "mapSet": "Promods",
+    "name": "Budimex S.A",
+    "sortName": "budimex",
+    "suffix": ""
+  },
+  {
+    "id": "ljug_handel",
+    "mapSet": "Promods",
+    "name": "Ljugarns Handel AB",
+    "sortName": "ljugarns",
+    "suffix": ""
+  },
+  {
+    "id": "tesco",
+    "mapSet": "Promods",
+    "name": "Tesco",
+    "sortName": "tesco",
+    "suffix": ""
+  },
+  {
+    "id": "radus",
+    "mapSet": "Promods",
+    "name": "Radus",
+    "sortName": "radus",
+    "suffix": ""
+  },
+  {
+    "id": "gomme_monde",
+    "mapSet": "Promods",
+    "name": "Gomme du Monde",
+    "sortName": "gomme du monde",
+    "suffix": ""
+  },
+  {
+    "id": "budowa",
+    "mapSet": "Promods",
+    "name": "Budowa",
+    "sortName": "budowa",
+    "suffix": ""
+  },
+  {
+    "id": "lkw_walter",
+    "mapSet": "Promods",
+    "name": "Lkw Walter",
+    "sortName": "lkw walter",
+    "suffix": ""
+  },
+  {
+    "id": "te_conn",
+    "mapSet": "Promods",
+    "name": "TE Connectivity",
+    "sortName": "te",
+    "suffix": ""
+  },
+  {
+    "id": "radus_ru",
+    "mapSet": "Promods",
+    "name": "Радус",
+    "sortName": "radus",
+    "suffix": ""
+  },
+  {
+    "id": "huilant",
+    "mapSet": "Promods",
+    "name": "Huilant",
+    "sortName": "huilant",
+    "suffix": ""
+  },
+  {
+    "id": "bunnings",
+    "mapSet": "Promods",
+    "name": "Bunnings Warehouse",
+    "sortName": "bunnings",
+    "suffix": ""
+  },
+  {
+    "id": "loftorka",
+    "mapSet": "Promods",
+    "name": "LOFTORKA ehf",
+    "sortName": "loftorka",
+    "suffix": ""
+  },
+  {
+    "id": "timbursala",
+    "mapSet": "Promods",
+    "name": "Timbursala",
+    "sortName": "timbursala",
+    "suffix": ""
+  },
+  {
+    "id": "renar",
+    "mapSet": "Promods",
+    "name": "Renar Logistik",
+    "sortName": "renar logistik",
+    "suffix": ""
+  },
+  {
+    "id": "mvm_carriere",
+    "mapSet": "Promods",
+    "name": "MVM carrière",
+    "sortName": "mvm carriere",
+    "suffix": ""
+  },
+  {
+    "id": "captcook",
+    "mapSet": "Promods",
+    "name": "Capitaine Cook",
+    "sortName": "capitaine cook",
+    "suffix": ""
+  },
+  {
+    "id": "lubartbeer",
+    "mapSet": "Promods",
+    "name": "Lubartbeer",
+    "sortName": "lubart",
+    "suffix": ""
+  },
+  {
+    "id": "toom",
+    "mapSet": "Promods",
+    "name": "toom",
+    "sortName": "toom",
+    "suffix": ""
+  },
+  {
+    "id": "renat",
+    "mapSet": "Promods",
+    "name": "Renat",
+    "sortName": "renat",
+    "suffix": ""
+  },
+  {
+    "id": "wilnet_trans",
+    "mapSet": "Promods",
+    "name": "Wilnet Transport",
+    "sortName": "wilnet transport",
+    "suffix": ""
+  },
+  {
+    "id": "captiglo",
+    "mapSet": "Promods",
+    "name": "Iglo",
+    "sortName": "iglo",
+    "suffix": ""
+  },
+  {
+    "id": "lukoil",
+    "mapSet": "Promods",
+    "name": "Lukoil",
+    "sortName": "lukoil",
+    "suffix": ""
+  },
+  {
+    "id": "toyota",
+    "mapSet": "Promods",
+    "name": "Toyota",
+    "sortName": "toyota",
+    "suffix": ""
+  },
+  {
+    "id": "sanbuilders",
+    "mapSet": "Promods",
+    "name": "Sanbuilders",
+    "sortName": "sanbuilders",
+    "suffix": ""
+  },
+  {
+    "id": "agregados",
+    "mapSet": "Promods",
+    "name": "Agregados, S.A.",
+    "sortName": "agregados, s.a.",
+    "suffix": ""
+  },
+  {
+    "id": "cargoexpress",
+    "mapSet": "Promods",
+    "name": "Cargo Express",
+    "sortName": "cargo express",
+    "suffix": ""
+  },
+  {
+    "id": "m1",
+    "mapSet": "Promods",
+    "name": "Centrum Handlowe M1",
+    "sortName": "m1",
+    "suffix": ""
+  },
+  {
+    "id": "transwood",
+    "mapSet": "Promods",
+    "name": "Trans-Wood",
+    "sortName": "transwood",
+    "suffix": ""
+  },
+  {
+    "id": "scania_dlr",
+    "mapSet": "Promods",
+    "name": "Scania dealer",
+    "sortName": "scania dealer",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "app",
+    "mapSet": "Promods",
+    "name": "APP",
+    "sortName": "app",
+    "suffix": ""
+  },
+  {
+    "id": "carr",
+    "mapSet": "Promods",
+    "name": "Carrefour",
+    "sortName": "carrefour",
+    "suffix": ""
+  },
+  {
+    "id": "makro",
+    "mapSet": "Promods",
+    "name": "Makro",
+    "sortName": "makro",
+    "suffix": ""
+  },
+  {
+    "id": "unilevr_dist",
+    "mapSet": "Promods",
+    "name": "Unilever",
+    "sortName": "unilever",
+    "suffix": ""
+  },
+  {
+    "id": "scs_paper",
+    "mapSet": "Promods",
+    "name": "SCS Paper",
+    "sortName": "scs paper",
+    "suffix": ""
+  },
+  {
+    "id": "cantera",
+    "mapSet": "Promods",
+    "name": "Cantera Ibérica",
+    "sortName": "cantera iberica",
+    "suffix": ""
+  },
+  {
+    "id": "castorama",
+    "mapSet": "Promods",
+    "name": "Castorama",
+    "sortName": "castorama",
+    "suffix": ""
+  },
+  {
+    "id": "mannvit",
+    "mapSet": "Promods",
+    "name": "Mannvit Engineering",
+    "sortName": "mannvit",
+    "suffix": ""
+  },
+  {
+    "id": "valeo",
+    "mapSet": "Promods",
+    "name": "Valeo",
+    "sortName": "valeo",
+    "suffix": ""
+  },
+  {
+    "id": "sellplan",
+    "mapSet": "Promods",
+    "name": "SellPlan",
+    "sortName": "sellplan",
+    "suffix": ""
+  },
+  {
+    "id": "canteras_ds",
+    "mapSet": "Promods",
+    "name": "Canteras del Sur",
+    "sortName": "canteras del sur",
+    "suffix": ""
+  },
+  {
+    "id": "castorama_in",
+    "mapSet": "Promods",
+    "name": "Castorama",
+    "sortName": "castorama",
+    "suffix": ""
+  },
+  {
+    "id": "mann_wind",
+    "mapSet": "Promods",
+    "name": "Mannvit Engineering",
+    "sortName": "mannvit",
+    "suffix": ""
+  },
+  {
+    "id": "van_cargo",
+    "mapSet": "Promods",
+    "name": "Van Cargo",
+    "sortName": "van cargo",
+    "suffix": ""
+  },
+  {
+    "id": "skoda",
+    "mapSet": "Promods",
+    "name": "Scout",
+    "sortName": "skoda",
+    "suffix": ""
+  },
+  {
+    "id": "casa_olivera",
+    "mapSet": "Promods",
+    "name": "Casa Olivera",
+    "sortName": "casa olivera",
+    "suffix": ""
+  },
+  {
+    "id": "cegielka",
+    "mapSet": "Promods",
+    "name": "Cegielnia Cegiełka",
+    "sortName": "cegielka",
+    "suffix": ""
+  },
+  {
+    "id": "man_dlr",
+    "mapSet": "Promods",
+    "name": "MAN Dealer",
+    "sortName": "man dealer",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "vegagerdin",
+    "mapSet": "Promods",
+    "name": "Vegagerðin",
+    "sortName": "vegagerdin",
+    "suffix": ""
+  },
+  {
+    "id": "spinelli",
+    "mapSet": "Promods",
+    "name": "Spinelli",
+    "sortName": "spinelli",
+    "suffix": ""
+  },
+  {
+    "id": "cesta_sl",
+    "mapSet": "Promods",
+    "name": "Cesta, S.L.",
+    "sortName": "cesta, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "cemex",
+    "mapSet": "Promods",
+    "name": "CEMEX",
+    "sortName": "cemex",
+    "suffix": ""
+  },
+  {
+    "id": "man_fac",
+    "mapSet": "Promods",
+    "name": "MAN Factory",
+    "sortName": "man factory",
+    "suffix": ""
+  },
+  {
+    "id": "vegagerdin_r",
+    "mapSet": "Promods",
+    "name": "Vegagerðin",
+    "sortName": "vegagerdin",
+    "suffix": ""
+  },
+  {
+    "id": "stokes",
+    "mapSet": "Promods",
+    "name": "Stokes",
+    "sortName": "stokes",
+    "suffix": ""
+  },
+  {
+    "id": "cortica",
+    "mapSet": "Promods",
+    "name": "Cortiça Prima",
+    "sortName": "cortica prima",
+    "suffix": ""
+  },
+  {
+    "id": "cepsa",
+    "mapSet": "Promods",
+    "name": "CEPSA",
+    "sortName": "cepsa",
+    "suffix": ""
+  },
+  {
+    "id": "maxima",
+    "mapSet": "Promods",
+    "name": "Maxima",
+    "sortName": "maxima",
+    "suffix": ""
+  },
+  {
+    "id": "vest_port",
+    "mapSet": "Promods",
+    "name": "Vestmannaeyjahöfn",
+    "sortName": "vestmannaeyjahofn",
+    "suffix": ""
+  },
+  {
+    "id": "subse",
+    "mapSet": "Promods",
+    "name": "Subse",
+    "sortName": "subse",
+    "suffix": ""
+  },
+  {
+    "id": "elcano_fla",
+    "mapSet": "Promods",
+    "name": "Construcciones Elcano, S.L.",
+    "sortName": "construcciones elcano, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "circlek",
+    "mapSet": "Promods",
+    "name": "Circle K",
+    "sortName": "circle k",
+    "suffix": ""
+  },
+  {
+    "id": "mazet",
+    "mapSet": "Promods",
+    "name": "Mazet",
+    "sortName": "mazet",
+    "suffix": ""
+  },
+  {
+    "id": "vilvi",
+    "mapSet": "Promods",
+    "name": "Vilvi Group",
+    "sortName": "vilvi",
+    "suffix": ""
+  },
+  {
+    "id": "tesore_gust",
+    "mapSet": "Promods",
+    "name": "Tesoro Gustoso",
+    "sortName": "tesoro gustoso",
+    "suffix": ""
+  },
+  {
+    "id": "engeron",
+    "mapSet": "Promods",
+    "name": "Engeron",
+    "sortName": "engeron",
+    "suffix": ""
+  },
+  {
+    "id": "citronex",
+    "mapSet": "Promods",
+    "name": "CITRONEX",
+    "sortName": "citronex",
+    "suffix": ""
+  },
+  {
+    "id": "mcdonalds",
+    "mapSet": "Promods",
+    "name": "McDonald's",
+    "sortName": "mcdonalds",
+    "suffix": ""
+  },
+  {
+    "id": "volvo_pow",
+    "mapSet": "Promods",
+    "name": "Volvo Powertrain AB",
+    "sortName": "volvo powertrain",
+    "suffix": ""
+  },
+  {
+    "id": "tradeaux",
+    "mapSet": "Promods",
+    "name": "Tradeaux",
+    "sortName": "tradeaux",
+    "suffix": ""
+  },
+  {
+    "id": "eppa",
+    "mapSet": "Promods",
+    "name": "EPPA",
+    "sortName": "eppa",
+    "suffix": ""
+  },
+  {
+    "id": "continental",
+    "mapSet": "Promods",
+    "name": "Continental",
+    "sortName": "continental",
+    "suffix": ""
+  },
+  {
+    "id": "mebli_city",
+    "mapSet": "Promods",
+    "name": "Mebli City",
+    "sortName": "mebli",
+    "suffix": ""
+  },
+  {
+    "id": "vrtranspoint",
+    "mapSet": "Promods",
+    "name": "VR Transpoint",
+    "sortName": "vr transpoint",
+    "suffix": ""
+  },
+  {
+    "id": "trainfoundry",
+    "mapSet": "Promods",
+    "name": "Train Foundry",
+    "sortName": "train foundry",
+    "suffix": ""
+  },
+  {
+    "id": "huerta",
+    "mapSet": "Promods",
+    "name": "Huerta del Mar Menor, S.L.",
+    "sortName": "huerta del mar menor, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "coop",
+    "mapSet": "Promods",
+    "name": "Coop",
+    "sortName": "coop",
+    "suffix": ""
+  },
+  {
+    "id": "mediaexpert",
+    "mapSet": "Promods",
+    "name": "Mediaexpert",
+    "sortName": "mediaexpert",
+    "suffix": ""
+  },
+  {
+    "id": "vsv",
+    "mapSet": "Promods",
+    "name": "VSV",
+    "sortName": "vsv",
+    "suffix": ""
+  },
+  {
+    "id": "trameri",
+    "mapSet": "Promods",
+    "name": "Trameri",
+    "sortName": "trameri",
+    "suffix": ""
+  },
+  {
+    "id": "iberatomica",
+    "mapSet": "Promods",
+    "name": "Iberatómica",
+    "sortName": "iberatomica",
+    "suffix": ""
+  },
+  {
+    "id": "creamery",
+    "mapSet": "Promods",
+    "name": "Wensleydale Creamery",
+    "sortName": "wensleydale creamery",
+    "suffix": ""
+  },
+  {
+    "id": "mediamarkt",
+    "mapSet": "Promods",
+    "name": "Media-Markt",
+    "sortName": "mediamarkt",
+    "suffix": ""
+  },
+  {
+    "id": "waberers",
+    "mapSet": "Promods",
+    "name": "Waberer's",
+    "sortName": "waberers",
+    "suffix": ""
+  },
+  {
+    "id": "transinet",
+    "mapSet": "Promods",
+    "name": "TransiNet",
+    "sortName": "transinet",
+    "suffix": ""
+  },
+  {
+    "id": "lavish_food",
+    "mapSet": "Promods",
+    "name": "Lavish Foods",
+    "sortName": "lavish foods",
+    "suffix": ""
+  },
+  {
+    "id": "daf_dlr",
+    "mapSet": "Promods",
+    "name": "DAF Dealer",
+    "sortName": "daf dealer",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "mercadona",
+    "mapSet": "Promods",
+    "name": "Mercadona",
+    "sortName": "mercadona",
+    "suffix": ""
+  },
+  {
+    "id": "willys",
+    "mapSet": "Promods",
+    "name": "Willys",
+    "sortName": "willys",
+    "suffix": ""
+  },
+  {
+    "id": "tree_et",
+    "mapSet": "Promods",
+    "name": "Tree-ET",
+    "sortName": "treeet",
+    "suffix": ""
+  },
+  {
+    "id": "log_atlan",
+    "mapSet": "Promods",
+    "name": "Logística Atlântica",
+    "sortName": "logistica atlantica",
+    "suffix": ""
+  },
+  {
+    "id": "daf_fac",
+    "mapSet": "Promods",
+    "name": "DAF Truck Factory",
+    "sortName": "daf truck factory",
+    "suffix": ""
+  },
+  {
+    "id": "mercesiegmar",
+    "mapSet": "Promods",
+    "name": "Autohaus Siegmar",
+    "sortName": "Mercedes",
+    "suffix": "Marina"
+  },
+  {
+    "id": "wurth",
+    "mapSet": "Promods",
+    "name": "Würth",
+    "sortName": "wurth",
+    "suffix": ""
+  },
+  {
+    "id": "vitas_pwr",
+    "mapSet": "Promods",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": ""
+  },
+  {
+    "id": "ortiz",
+    "mapSet": "Promods",
+    "name": "Ortiz",
+    "sortName": "ortiz",
+    "suffix": ""
+  },
+  {
+    "id": "dagli",
+    "mapSet": "Promods",
+    "name": "Dagli' Brugsen",
+    "sortName": "dagli brugsen",
+    "suffix": ""
+  },
+  {
+    "id": "metro",
+    "mapSet": "Promods",
+    "name": "Metro",
+    "sortName": "metro",
+    "suffix": ""
+  },
+  {
+    "id": "xxxl",
+    "mapSet": "Promods",
+    "name": "XXXLutz",
+    "sortName": "xxxlutz",
+    "suffix": ""
+  },
+  {
+    "id": "voitureux",
+    "mapSet": "Promods",
+    "name": "Voitureux",
+    "sortName": "voitureux",
+    "suffix": ""
+  },
+  {
+    "id": "rt_log",
+    "mapSet": "Promods",
+    "name": "RT Log",
+    "sortName": "rt log",
+    "suffix": ""
+  },
+  {
+    "id": "depo",
+    "mapSet": "Promods",
+    "name": "DEPO",
+    "sortName": "depo",
+    "suffix": ""
+  },
+  {
+    "id": "minimarket3",
+    "mapSet": "Promods",
+    "name": "MiniMarket",
+    "sortName": "minimarket",
+    "suffix": ""
+  },
+  {
+    "id": "yazaki",
+    "mapSet": "Promods",
+    "name": "Yazaki",
+    "sortName": "yazaki",
+    "suffix": ""
+  },
+  {
+    "id": "volvo_dlr",
+    "mapSet": "Promods",
+    "name": "Volvo dealer",
+    "sortName": "volvo dealer",
+    "suffix": "Dealer"
+  },
+  {
+    "id": "supercesta",
+    "mapSet": "Promods",
+    "name": "SuperCesta",
+    "sortName": "supercesta",
+    "suffix": ""
+  },
+  {
+    "id": "deret",
+    "mapSet": "Promods",
+    "name": "Deret",
+    "sortName": "deret",
+    "suffix": ""
+  },
+  {
+    "id": "minimarket5",
+    "mapSet": "Promods",
+    "name": "MiniMarket",
+    "sortName": "minimarket",
+    "suffix": ""
+  },
+  {
+    "id": "zbyszko",
+    "mapSet": "Promods",
+    "name": "Zbyszko Meats",
+    "sortName": "zbyszko",
+    "suffix": ""
+  },
+  {
+    "id": "wgcc",
+    "mapSet": "Promods",
+    "name": "WGCC",
+    "sortName": "wgcc",
+    "suffix": ""
+  },
+  {
+    "id": "tdc_auto",
+    "mapSet": "Promods",
+    "name": "TDC Auto Terminal",
+    "sortName": "tdc auto terminal",
+    "suffix": ""
+  },
+  {
+    "id": "dhl",
+    "mapSet": "Promods",
+    "name": "DHL",
+    "sortName": "dhl",
+    "suffix": ""
+  },
+  {
+    "id": "minimarket6",
+    "mapSet": "Promods",
+    "name": "MiniMarket",
+    "sortName": "minimarket",
+    "suffix": ""
+  },
+  {
+    "id": "zlecenie",
+    "mapSet": "Promods",
+    "name": "Zlecenie",
+    "sortName": "zlecenie",
+    "suffix": ""
+  },
+  {
+    "id": "balkan_loco",
+    "mapSet": "Promods",
+    "name": "Balkan Loco",
+    "sortName": "balkan loco",
+    "suffix": ""
+  },
+  {
+    "id": "trans_cab",
+    "mapSet": "Promods",
+    "name": "Transportes Caballería",
+    "sortName": "transportes caballeria",
+    "suffix": ""
+  },
+  {
+    "id": "dia",
+    "mapSet": "Promods",
+    "name": "Dia",
+    "sortName": "dia",
+    "suffix": ""
+  },
+  {
+    "id": "minimarket7",
+    "mapSet": "Promods",
+    "name": "MiniMarket",
+    "sortName": "minimarket",
+    "suffix": ""
+  },
+  {
+    "id": "baltrak",
+    "mapSet": "Promods",
+    "name": "Baltrak Lojistik",
+    "sortName": "baltrak lojistik",
+    "suffix": ""
+  },
+  {
+    "id": "ts_atlas",
+    "mapSet": "Promods",
+    "name": "TS Atlas",
+    "sortName": "ts atlas",
+    "suffix": ""
+  },
+  {
+    "id": "dino",
+    "mapSet": "Promods",
+    "name": "Dino",
+    "sortName": "dino",
+    "suffix": ""
+  },
+  {
+    "id": "mlekpol",
+    "mapSet": "Promods",
+    "name": "Spółdzielnia Mleczarska „Mlekpol”",
+    "sortName": "mlekpol",
+    "suffix": ""
+  },
+  {
+    "id": "brawen",
+    "mapSet": "Promods",
+    "name": "Brawen Transport",
+    "sortName": "brawen transport",
+    "suffix": ""
+  },
+  {
+    "id": "vitas_pwr_co",
+    "mapSet": "Promods",
+    "name": "Vitas Power",
+    "sortName": "vitas power",
+    "suffix": ""
+  },
+  {
+    "id": "domdepo2",
+    "mapSet": "Promods",
+    "name": "DomDepo",
+    "sortName": "domdepo",
+    "suffix": ""
+  },
+  {
+    "id": "morsh",
+    "mapSet": "Promods",
+    "name": "Моршинська",
+    "sortName": "morshynska",
+    "suffix": ""
+  },
+  {
+    "id": "dobr_ferm_bg",
+    "mapSet": "Promods",
+    "name": "добра ферма",
+    "sortName": "dobra ferma",
+    "suffix": ""
+  },
+  {
+    "id": "aaa",
+    "mapSet": "Promods",
+    "name": "AA - Auto di Alonso",
+    "sortName": "aa - auto di alonso",
+    "suffix": ""
+  },
+  {
+    "id": "dreams",
+    "mapSet": "Promods",
+    "name": "Dreams",
+    "sortName": "dreams",
+    "suffix": ""
+  },
+  {
+    "id": "mostostal",
+    "mapSet": "Promods",
+    "name": "Mostostal",
+    "sortName": "mostostal",
+    "suffix": ""
+  },
+  {
+    "id": "dulcis",
+    "mapSet": "Promods",
+    "name": "Dulcis",
+    "sortName": "dulcis",
+    "suffix": ""
+  },
+  {
+    "id": "c_navale",
+    "mapSet": "Promods",
+    "name": "Cantiere Navale",
+    "sortName": "cantiere navale",
+    "suffix": ""
+  },
+  {
+    "id": "easydis",
+    "mapSet": "Promods",
+    "name": "Easydis",
+    "sortName": "easydis",
+    "suffix": ""
+  },
+  {
+    "id": "n1",
+    "mapSet": "Promods",
+    "name": "N1",
+    "sortName": "n1",
+    "suffix": ""
+  },
+  {
+    "id": "fallow",
+    "mapSet": "Promods",
+    "name": "Fallow Cargo",
+    "sortName": "fallow cargo",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port_it",
+    "mapSet": "Promods",
+    "name": "Terminal Container",
+    "sortName": "terminal container",
+    "suffix": ""
+  },
+  {
+    "id": "effo",
+    "mapSet": "Promods",
+    "name": "Effo",
+    "sortName": "effo",
+    "suffix": ""
+  },
+  {
+    "id": "nash_kraj",
+    "mapSet": "Promods",
+    "name": "Наш Край",
+    "sortName": "nashkraj",
+    "suffix": ""
+  },
+  {
+    "id": "imp_otel",
+    "mapSet": "Promods",
+    "name": "Oţel Impecabil",
+    "sortName": "otel impecabil",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_bas",
+    "mapSet": "Promods",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "eimskip",
+    "mapSet": "Promods",
+    "name": "Eimskip",
+    "sortName": "eimskip",
+    "suffix": ""
+  },
+  {
+    "id": "nd",
+    "mapSet": "Promods",
+    "name": "Norbert Dentressangle",
+    "sortName": "norbert dentressangle",
+    "suffix": ""
+  },
+  {
+    "id": "lognstick",
+    "mapSet": "Promods",
+    "name": "Log n Stick",
+    "sortName": "log n stick",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_fla",
+    "mapSet": "Promods",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "elgiganten",
+    "mapSet": "Promods",
+    "name": "Elgiganten",
+    "sortName": "elgiganten",
+    "suffix": ""
+  },
+  {
+    "id": "nestle_dist",
+    "mapSet": "Promods",
+    "name": "Nestle UA Distribution Center",
+    "sortName": "nestle",
+    "suffix": ""
+  },
+  {
+    "id": "low_field",
+    "mapSet": "Promods",
+    "name": "Low Field",
+    "sortName": "low field",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_hal",
+    "mapSet": "Promods",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "eliassons",
+    "mapSet": "Promods",
+    "name": "W Eliassons Partiaffär AB",
+    "sortName": "eliassons",
+    "suffix": ""
+  },
+  {
+    "id": "netto",
+    "mapSet": "Promods",
+    "name": "NETTO",
+    "sortName": "netto",
+    "suffix": ""
+  },
+  {
+    "id": "rimaf",
+    "mapSet": "Promods",
+    "name": "RIMAF",
+    "sortName": "rimaf",
+    "suffix": ""
+  },
+  {
+    "id": "costruzi_win",
+    "mapSet": "Promods",
+    "name": "Costruzione di Edifici",
+    "sortName": "costruzione di edifici",
+    "suffix": ""
+  },
+  {
+    "id": "epicentrk",
+    "mapSet": "Promods",
+    "name": "Epicentr K",
+    "sortName": "epicentrk",
+    "suffix": ""
+  },
+  {
+    "id": "nordural",
+    "mapSet": "Promods",
+    "name": "Norðurál",
+    "sortName": "nordural",
+    "suffix": ""
+  },
+  {
+    "id": "rock_eater",
+    "mapSet": "Promods",
+    "name": "Rock Eater",
+    "sortName": "rock eater",
+    "suffix": ""
+  },
+  {
+    "id": "fattoria_f",
+    "mapSet": "Promods",
+    "name": "Fattoria Felice",
+    "sortName": "fattoria felice",
+    "suffix": ""
+  },
+  {
+    "id": "eroski",
+    "mapSet": "Promods",
+    "name": "Eroski",
+    "sortName": "eroski",
+    "suffix": ""
+  },
+  {
+    "id": "nordurf",
+    "mapSet": "Promods",
+    "name": "Norðurfjörðurhöfn",
+    "sortName": "nordurfjord",
+    "suffix": ""
+  },
+  {
+    "id": "rump",
+    "mapSet": "Promods",
+    "name": "Rump",
+    "sortName": "rump",
+    "suffix": ""
+  },
+  {
+    "id": "fui",
+    "mapSet": "Promods",
+    "name": "FUI SpA",
+    "sortName": "fui",
+    "suffix": ""
+  },
+  {
+    "id": "euroacres_in",
+    "mapSet": "Promods",
+    "name": "EuroAcres",
+    "sortName": "euroacres",
+    "suffix": ""
+  },
+  {
+    "id": "norfa",
+    "mapSet": "Promods",
+    "name": "Norfa",
+    "sortName": "norfa",
+    "suffix": ""
+  },
+  {
+    "id": "sporklift",
+    "mapSet": "Promods",
+    "name": "Sporklift",
+    "sortName": "sporklift",
+    "suffix": ""
+  },
+  {
+    "id": "ini",
+    "mapSet": "Promods",
+    "name": "Ini",
+    "sortName": "ini",
+    "suffix": ""
+  },
+  {
+    "id": "europcar",
+    "mapSet": "Promods",
+    "name": "Europcar",
+    "sortName": "europcar",
+    "suffix": ""
+  },
+  {
+    "id": "norr_food2",
+    "mapSet": "Promods",
+    "name": "Norrfood",
+    "sortName": "norrfood",
+    "suffix": ""
+  },
+  {
+    "id": "st_roza_bg",
+    "mapSet": "Promods",
+    "name": "Стоманена Роза",
+    "sortName": "stomanena roza",
+    "suffix": ""
+  },
+  {
+    "id": "marmo",
+    "mapSet": "Promods",
+    "name": "Marmo SpA",
+    "sortName": "marmo",
+    "suffix": ""
+  },
+  {
+    "id": "expert",
+    "mapSet": "Promods",
+    "name": "Expert",
+    "sortName": "expert",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat",
+    "mapSet": "Promods",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "timberturtle",
+    "mapSet": "Promods",
+    "name": "Timber Turtle",
+    "sortName": "timber turtle",
+    "suffix": ""
+  },
+  {
+    "id": "piac",
+    "mapSet": "Promods",
+    "name": "PIAC",
+    "sortName": "piac",
+    "suffix": ""
+  },
+  {
+    "id": "fandwhr",
+    "mapSet": "Promods",
+    "name": "Ffestiniog and Welsh Highland Railway",
+    "sortName": "ffestiniog and welsh highland railway",
+    "suffix": ""
+  },
+  {
+    "id": "nova_poshta",
+    "mapSet": "Promods",
+    "name": "Нова пошта",
+    "sortName": "novaposhta",
+    "suffix": ""
+  },
+  {
+    "id": "tm_istanbul",
+    "mapSet": "Promods",
+    "name": "Trade Market Istanbul",
+    "sortName": "trade market istanbul",
+    "suffix": ""
+  },
+  {
+    "id": "pp_chimica",
+    "mapSet": "Promods",
+    "name": "PP Chimica Italia",
+    "sortName": "pp chimica italia",
+    "suffix": ""
+  },
+  {
+    "id": "fca",
+    "mapSet": "Promods",
+    "name": "Fiat Chrysler Automobiles",
+    "sortName": "fca",
+    "suffix": ""
+  },
+  {
+    "id": "obi",
+    "mapSet": "Promods",
+    "name": "OBI",
+    "sortName": "obi",
+    "suffix": ""
+  },
+  {
+    "id": "ttk_bg",
+    "mapSet": "Promods",
+    "name": "ТТК",
+    "sortName": "ttk",
+    "suffix": ""
+  },
+  {
+    "id": "quadrelli",
+    "mapSet": "Promods",
+    "name": "Quadrelli SpA",
+    "sortName": "quadrelli",
+    "suffix": ""
+  },
+  {
+    "id": "fcc",
+    "mapSet": "Promods",
+    "name": "FCC",
+    "sortName": "fcc",
+    "suffix": ""
+  },
+  {
+    "id": "olis",
+    "mapSet": "Promods",
+    "name": "Olís",
+    "sortName": "olis",
+    "suffix": ""
+  },
+  {
+    "id": "aerobalt",
+    "mapSet": "Promods",
+    "name": "AeroBaltica",
+    "sortName": "aerobaltica",
+    "suffix": ""
+  },
+  {
+    "id": "sal",
+    "mapSet": "Promods",
+    "name": "S.A.L. S.R.L.",
+    "sortName": "s.a.l. s.r.l.",
+    "suffix": ""
+  },
+  {
+    "id": "ferrovial",
+    "mapSet": "Promods",
+    "name": "Ferrovial",
+    "sortName": "ferrovial",
+    "suffix": ""
+  },
+  {
+    "id": "omv1",
+    "mapSet": "Promods",
+    "name": "OMV Raffinerie Tor 1",
+    "sortName": "omv",
+    "suffix": ""
+  },
+  {
+    "id": "aerobalt_ru",
+    "mapSet": "Promods",
+    "name": "АэроБалтика",
+    "sortName": "aerobaltica",
+    "suffix": ""
+  },
+  {
+    "id": "te_logistica",
+    "mapSet": "Promods",
+    "name": "TE Logistica",
+    "sortName": "te logistica",
+    "suffix": ""
+  },
+  {
+    "id": "flex",
+    "mapSet": "Promods",
+    "name": "Flex",
+    "sortName": "flex",
+    "suffix": ""
+  },
+  {
+    "id": "omv2",
+    "mapSet": "Promods",
+    "name": "OMV Raffinerie Tor 2",
+    "sortName": "omv",
+    "suffix": ""
+  },
+  {
+    "id": "agrominta",
+    "mapSet": "Promods",
+    "name": "Agrominta UAB",
+    "sortName": "agrominta uab",
+    "suffix": ""
+  },
+  {
+    "id": "tras_med",
+    "mapSet": "Promods",
+    "name": "Trasporti Mediterraneo",
+    "sortName": "trasporti mediterraneo",
+    "suffix": ""
+  },
+  {
+    "id": "forfarmers",
+    "mapSet": "Promods",
+    "name": "ForFarmers",
+    "sortName": "forfarmers",
+    "suffix": ""
+  },
+  {
+    "id": "omv3",
+    "mapSet": "Promods",
+    "name": "OMV Raffinerie Tor 3",
+    "sortName": "omv",
+    "suffix": ""
+  },
+  {
+    "id": "agrominta_a",
+    "mapSet": "Promods",
+    "name": "Agrominta UAB",
+    "sortName": "agrominta uab",
+    "suffix": ""
+  },
+  {
+    "id": "agronord",
+    "mapSet": "Promods",
+    "name": "Agronord",
+    "sortName": "agronord",
+    "suffix": ""
+  },
+  {
+    "id": "fuel_depot",
+    "mapSet": "Promods",
+    "name": "Fuel Depot",
+    "sortName": "fuel depot",
+    "suffix": ""
+  },
+  {
+    "id": "omv4",
+    "mapSet": "Promods",
+    "name": "OMV Raffinerie Tor 4",
+    "sortName": "omv",
+    "suffix": ""
+  },
+  {
+    "id": "ateria",
+    "mapSet": "Promods",
+    "name": "Ateria",
+    "sortName": "ateria",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_albg",
+    "mapSet": "Promods",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "fujikura",
+    "mapSet": "Promods",
+    "name": "Fujikura",
+    "sortName": "fujikura",
+    "suffix": ""
+  },
+  {
+    "id": "orkan",
+    "mapSet": "Promods",
+    "name": "Orkan",
+    "sortName": "orkan",
+    "suffix": ""
+  },
+  {
+    "id": "baltomors_ru",
+    "mapSet": "Promods",
+    "name": "Балтоморск",
+    "sortName": "baltomorsk",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_esbj",
+    "mapSet": "Promods",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "gallia_f_in",
+    "mapSet": "Promods",
+    "name": "Gallia Ferries",
+    "sortName": "gallia ferries",
+    "suffix": ""
+  },
+  {
+    "id": "orlen_retail",
+    "mapSet": "Promods",
+    "name": "Orlen",
+    "sortName": "orlen retail",
+    "suffix": ""
+  },
+  {
+    "id": "baltomorsk",
+    "mapSet": "Promods",
+    "name": "Baltomorsk",
+    "sortName": "baltomorsk",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_jnpg",
+    "mapSet": "Promods",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "gardshorn",
+    "mapSet": "Promods",
+    "name": "Garðshorn",
+    "sortName": "gardshorn",
+    "suffix": ""
+  },
+  {
+    "id": "ot_port",
+    "mapSet": "Promods",
+    "name": "OT Port Świnoujście",
+    "sortName": "ot port",
+    "suffix": ""
+  },
+  {
+    "id": "blt",
+    "mapSet": "Promods",
+    "name": "BLT",
+    "sortName": "blt",
+    "suffix": ""
+  },
+  {
+    "id": "aria_fd_trbg",
+    "mapSet": "Promods",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "geodis",
+    "mapSet": "Promods",
+    "name": "Geodis",
+    "sortName": "geodis",
+    "suffix": ""
+  },
+  {
+    "id": "paec",
+    "mapSet": "Promods",
+    "name": "Рівненська АЕС",
+    "sortName": "rivnenska",
+    "suffix": ""
+  },
+  {
+    "id": "blt_ru",
+    "mapSet": "Promods",
+    "name": "БЛТ",
+    "sortName": "blt",
+    "suffix": ""
+  },
+  {
+    "id": "bjork",
+    "mapSet": "Promods",
+    "name": "Björk",
+    "sortName": "bjork",
+    "suffix": ""
+  },
+  {
+    "id": "ghb_raf",
+    "mapSet": "Promods",
+    "name": "GHB la Raffinerie",
+    "sortName": "ghb la raffinerie",
+    "suffix": ""
+  },
+  {
+    "id": "penny_at",
+    "mapSet": "Promods",
+    "name": "Penny Markt",
+    "sortName": "penny",
+    "suffix": ""
+  },
+  {
+    "id": "blt_yacht",
+    "mapSet": "Promods",
+    "name": "Balteus Yachts",
+    "sortName": "balteus yachts",
+    "suffix": ""
+  },
+  {
+    "id": "drekkar",
+    "mapSet": "Promods",
+    "name": "Drekkar Trans",
+    "sortName": "drekkar trans",
+    "suffix": ""
+  },
+  {
+    "id": "gnt_auto",
+    "mapSet": "Promods",
+    "name": "GNT",
+    "sortName": "gnt",
+    "suffix": ""
+  },
+  {
+    "id": "peugeot1",
+    "mapSet": "Promods",
+    "name": "PSA Peugeot",
+    "sortName": "peugeot",
+    "suffix": ""
+  },
+  {
+    "id": "blt_yacht_ru",
+    "mapSet": "Promods",
+    "name": "Балтеус Яхты",
+    "sortName": "balteus yachts",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr",
+    "mapSet": "Promods",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "gospodarstwo",
+    "mapSet": "Promods",
+    "name": "Gospodarstwo Rolne",
+    "sortName": "gospodarstwo rolne",
+    "suffix": ""
+  },
+  {
+    "id": "peugeot2",
+    "mapSet": "Promods",
+    "name": "PSA Peugeot",
+    "sortName": "peugeot",
+    "suffix": ""
+  },
+  {
+    "id": "bltmetal",
+    "mapSet": "Promods",
+    "name": "Baltic Metallurgy",
+    "sortName": "baltic metallurgy",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr_br",
+    "mapSet": "Promods",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "handlopex",
+    "mapSet": "Promods",
+    "name": "Handlopex S.A.",
+    "sortName": "handlopex",
+    "suffix": ""
+  },
+  {
+    "id": "pfi",
+    "mapSet": "Promods",
+    "name": "Port Fruitier International",
+    "sortName": "port fruitier",
+    "suffix": ""
+  },
+  {
+    "id": "bltmetal_ru",
+    "mapSet": "Promods",
+    "name": "Балтийская Металлургия",
+    "sortName": "baltic metallurgy",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr_hs",
+    "mapSet": "Promods",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "hawesmarket",
+    "mapSet": "Promods",
+    "name": "Hawes Marketplace",
+    "sortName": "Hawes Marketplace",
+    "suffix": ""
+  },
+  {
+    "id": "pkn_orlen",
+    "mapSet": "Promods",
+    "name": "Orlen",
+    "sortName": "orlen",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_bas",
+    "mapSet": "Promods",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "konstnr_wind",
+    "mapSet": "Promods",
+    "name": "Konstnorr",
+    "sortName": "konstnorr",
+    "suffix": ""
+  },
+  {
+    "id": "hb_grandi",
+    "mapSet": "Promods",
+    "name": "HB Grandi",
+    "sortName": "hb grandi",
+    "suffix": ""
+  },
+  {
+    "id": "plastimet",
+    "mapSet": "Promods",
+    "name": "Plastimet Sp. z o.o.",
+    "sortName": "Plastimet",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_hal",
+    "mapSet": "Promods",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "marina",
+    "mapSet": "Promods",
+    "name": "Marina",
+    "sortName": "marina",
+    "suffix": ""
+  },
+  {
+    "id": "heineken",
+    "mapSet": "Promods",
+    "name": "Heineken",
+    "sortName": "heineken",
+    "suffix": ""
+  },
+  {
+    "id": "podlogi_elk",
+    "mapSet": "Promods",
+    "name": "Fachowiec Podłogi i Drzwi",
+    "sortName": "podlogi_elk",
+    "suffix": ""
+  },
+  {
+    "id": "cemelt_win",
+    "mapSet": "Promods",
+    "name": "Cemeltex",
+    "sortName": "cemeltex",
+    "suffix": ""
+  },
+  {
+    "id": "ms_stein",
+    "mapSet": "Promods",
+    "name": "MS Stein",
+    "sortName": "ms stein",
+    "suffix": ""
+  },
+  {
+    "id": "hekla",
+    "mapSet": "Promods",
+    "name": "Hekla",
+    "sortName": "hekla",
+    "suffix": ""
+  },
+  {
+    "id": "polarisline1",
+    "mapSet": "Promods",
+    "name": "Polaris Lines",
+    "sortName": "pollines1",
+    "suffix": ""
+  },
+  {
+    "id": "cont_port_ru",
+    "mapSet": "Promods",
+    "name": "Контейнерный пункт",
+    "sortName": "container port",
+    "suffix": ""
+  },
+  {
+    "id": "nord_crown",
+    "mapSet": "Promods",
+    "name": "Nordic Crown",
+    "sortName": "nordic crown",
+    "suffix": ""
+  },
+  {
+    "id": "highberry",
+    "mapSet": "Promods",
+    "name": "Хайберрі",
+    "sortName": "highberry",
+    "suffix": ""
+  },
+  {
+    "id": "polar_fish2",
+    "mapSet": "Promods",
+    "name": "Polar Fish",
+    "sortName": "polar fish",
+    "suffix": ""
+  },
+  {
+    "id": "ee_paper",
+    "mapSet": "Promods",
+    "name": "Estonian Paper AS",
+    "sortName": "estonian paper as",
+    "suffix": ""
+  },
+  {
+    "id": "nord_sten",
+    "mapSet": "Promods",
+    "name": "Nordic Stenbrott",
+    "sortName": "nordic stenbrott",
+    "suffix": ""
+  },
+  {
+    "id": "hofer",
+    "mapSet": "Promods",
+    "name": "Hofer",
+    "sortName": "hofer",
+    "suffix": ""
+  },
+  {
+    "id": "port_blond",
+    "mapSet": "Promods",
+    "name": "Blönduóshöfn",
+    "sortName": "blonduoshofn",
+    "suffix": ""
+  },
+  {
+    "id": "ai",
+    "mapSet": "Base",
+    "name": "AI Automotive",
+    "sortName": "ai automotive",
+    "suffix": ""
+  },
+  {
+    "id": "dfh",
+    "mapSet": "Base",
+    "name": "Deutsche Frachthäfen",
+    "sortName": "deutsche frachthafen",
+    "suffix": ""
+  },
+  {
+    "id": "han_expo",
+    "mapSet": "Base",
+    "name": "Hannover Expo",
+    "sortName": "hannover expo",
+    "suffix": ""
+  },
+  {
+    "id": "itcc_scrap",
+    "mapSet": "Base",
+    "name": "ITCC",
+    "sortName": "itcc",
+    "suffix": ""
+  },
+  {
+    "id": "kathode",
+    "mapSet": "Base",
+    "name": "Kathode",
+    "sortName": "kathode",
+    "suffix": ""
+  },
+  {
+    "id": "muromec",
+    "mapSet": "Base",
+    "name": "Муромец",
+    "sortName": "muromec",
+    "suffix": ""
+  },
+  {
+    "id": "nos_pat",
+    "mapSet": "Base",
+    "name": "Nos Pâturages",
+    "sortName": "nos paturages",
+    "suffix": ""
+  },
+  {
+    "id": "sanbuild_cem",
+    "mapSet": "Base",
+    "name": "Sanbuilders",
+    "sortName": "sanbuilders",
+    "suffix": ""
+  },
+  {
+    "id": "sanbuild_hms",
+    "mapSet": "Base",
+    "name": "Sanbuilders",
+    "sortName": "sanbuilders",
+    "suffix": ""
+  },
+  {
+    "id": "sirin",
+    "mapSet": "Base",
+    "name": "Сирин Эйр",
+    "sortName": "sirin air",
+    "suffix": ""
+  },
+  {
+    "id": "steinbr_str",
+    "mapSet": "Base",
+    "name": "Steinbruch",
+    "sortName": "steinbruch",
+    "suffix": "Storage"
+  },
+  {
+    "id": "tree_et_log",
+    "mapSet": "Base",
+    "name": "Tree-ET",
+    "sortName": "tree-et",
+    "suffix": ""
+  },
+  {
+    "id": "feldbinder",
+    "mapSet": "Base",
+    "name": "Feldbinder",
+    "sortName": "feldbinder",
+    "suffix": ""
+  },
+  {
+    "id": "feldbinder_t",
+    "mapSet": "Base",
+    "name": "Feldbinder",
+    "sortName": "feldbinder",
+    "suffix": ""
+  },
+  {
+    "id": "elcano_hms",
+    "mapSet": "Base",
+    "name": "Construcciones Elcano, S.L.",
+    "sortName": "construcciones elcano, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "krone",
+    "mapSet": "Base",
+    "name": "Krone",
+    "sortName": "krone",
+    "suffix": ""
+  },
+  {
+    "id": "krone_t",
+    "mapSet": "Base",
+    "name": "Krone",
+    "sortName": "krone",
+    "suffix": ""
+  },
+  {
+    "id": "aria_food",
+    "mapSet": "Base",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "ai",
+    "mapSet": "Promods",
+    "name": "AI Automotive",
+    "sortName": "ai automotive",
+    "suffix": ""
+  },
+  {
+    "id": "dfh",
+    "mapSet": "Promods",
+    "name": "Deutsche Frachthäfen",
+    "sortName": "deutsche frachthafen",
+    "suffix": ""
+  },
+  {
+    "id": "han_expo",
+    "mapSet": "Promods",
+    "name": "Hannover Expo",
+    "sortName": "hannover expo",
+    "suffix": ""
+  },
+  {
+    "id": "itcc_scrap",
+    "mapSet": "Promods",
+    "name": "ITCC",
+    "sortName": "itcc",
+    "suffix": ""
+  },
+  {
+    "id": "kathode",
+    "mapSet": "Promods",
+    "name": "Kathode",
+    "sortName": "kathode",
+    "suffix": ""
+  },
+  {
+    "id": "muromec",
+    "mapSet": "Promods",
+    "name": "Муромец",
+    "sortName": "muromec",
+    "suffix": ""
+  },
+  {
+    "id": "sanbuild_cem",
+    "mapSet": "Promods",
+    "name": "Sanbuilders",
+    "sortName": "sanbuilders",
+    "suffix": ""
+  },
+  {
+    "id": "sanbuild_hms",
+    "mapSet": "Promods",
+    "name": "Sanbuilders",
+    "sortName": "sanbuilders",
+    "suffix": ""
+  },
+  {
+    "id": "sirin",
+    "mapSet": "Promods",
+    "name": "Сирин Эйр",
+    "sortName": "sirin air",
+    "suffix": ""
+  },
+  {
+    "id": "steinbr_str",
+    "mapSet": "Promods",
+    "name": "Steinbruch",
+    "sortName": "steinbruch",
+    "suffix": "Storage"
+  },
+  {
+    "id": "tree_et_log",
+    "mapSet": "Promods",
+    "name": "Tree-ET",
+    "sortName": "tree-et",
+    "suffix": ""
+  },
+  {
+    "id": "feldbinder",
+    "mapSet": "Promods",
+    "name": "Feldbinder",
+    "sortName": "feldbinder",
+    "suffix": ""
+  },
+  {
+    "id": "feldbinder_t",
+    "mapSet": "Promods",
+    "name": "Feldbinder",
+    "sortName": "feldbinder",
+    "suffix": ""
+  },
+  {
+    "id": "elcano_hms",
+    "mapSet": "Promods",
+    "name": "Construcciones Elcano, S.L.",
+    "sortName": "construcciones elcano, s.l.",
+    "suffix": ""
+  },
+  {
+    "id": "krone",
+    "mapSet": "Promods",
+    "name": "Krone",
+    "sortName": "krone",
+    "suffix": ""
+  },
+  {
+    "id": "krone_t",
+    "mapSet": "Promods",
+    "name": "Krone",
+    "sortName": "krone",
+    "suffix": ""
+  },
+  {
+    "id": "aria_food",
+    "mapSet": "Promods",
+    "name": "ARIA Food",
+    "sortName": "aria food",
+    "suffix": ""
+  },
+  {
+    "id": "heidel_kz",
+    "mapSet": "Promods",
+    "name": "Heidelberg Cement",
+    "sortName": "heidelberg cement",
+    "suffix": ""
+  },
+  {
+    "id": "helios",
+    "mapSet": "Promods",
+    "name": "АЗС Гелиос",
+    "sortName": "helios",
+    "suffix": ""
+  },
+  {
+    "id": "kazpost",
+    "mapSet": "Promods",
+    "name": "Kazpost",
+    "sortName": "kazpost",
+    "suffix": ""
+  },
+  {
+    "id": "kublei",
+    "mapSet": "Promods",
+    "name": "ТОО Кублей",
+    "sortName": "kublei",
+    "suffix": ""
+  },
+  {
+    "id": "neftek",
+    "mapSet": "Promods",
+    "name": "АЗС НЕФТЭК",
+    "sortName": "neftek",
+    "suffix": ""
+  },
+  {
+    "id": "tauekel",
+    "mapSet": "Promods",
+    "name": "ТАУЕКЕЛ",
+    "sortName": "tauekel",
+    "suffix": ""
+  },
+  {
+    "id": "ur_poultry",
+    "mapSet": "Promods",
+    "name": "Уральская птицефабрика",
+    "sortName": "uralsk poultry",
+    "suffix": ""
+  },
+  {
+    "id": "a101",
+    "mapSet": "Promods",
+    "name": "A101 Yeni Mağazacılık A.Ş",
+    "sortName": "a101",
+    "suffix": ""
+  },
+  {
+    "id": "a101_in",
+    "mapSet": "Promods",
+    "name": "A101 Yeni Mağazacılık A.Ş",
+    "sortName": "a101",
+    "suffix": ""
+  },
+  {
+    "id": "bim",
+    "mapSet": "Promods",
+    "name": "BİM",
+    "sortName": "bim",
+    "suffix": ""
+  },
+  {
+    "id": "bim_in",
+    "mapSet": "Promods",
+    "name": "BİM",
+    "sortName": "bim",
+    "suffix": ""
+  },
+  {
+    "id": "eurotunnel_1",
+    "mapSet": "Promods",
+    "name": "Eurotunnel",
+    "sortName": "eurotunnel",
+    "suffix": ""
+  },
+  {
+    "id": "eurotunnel_2",
+    "mapSet": "Promods",
+    "name": "Eurotunnel",
+    "sortName": "eurotunnel",
+    "suffix": ""
+  },
+  {
+    "id": "maspex",
+    "mapSet": "Promods",
+    "name": "Maspex sp. z o.o.",
+    "sortName": "maspex",
+    "suffix": ""
+  },
+  {
+    "id": "moya",
+    "mapSet": "Promods",
+    "name": "Moya",
+    "sortName": "moya",
+    "suffix": ""
+  },
+  {
+    "id": "vw",
+    "mapSet": "Promods",
+    "name": "Volkswagen Poznań Sp. z o.o.",
+    "sortName": "volkswagen",
+    "suffix": ""
+  },
+  {
+    "id": "shuttle",
+    "mapSet": "Base",
+    "name": "Shuttle Cola",
+    "sortName": "shuttle cola",
+    "suffix": ""
+  },
+  {
+    "id": "adrica",
+    "mapSet": "Base",
+    "name": "Adrica",
+    "sortName": "adrica",
+    "suffix": ""
+  },
+  {
+    "id": "aluxion",
+    "mapSet": "Base",
+    "name": "Aluxion",
+    "sortName": "aluxion",
+    "suffix": ""
+  },
+  {
+    "id": "aluxion_str",
+    "mapSet": "Base",
+    "name": "Aluxion",
+    "sortName": "aluxion",
+    "suffix": "Storage"
+  },
+  {
+    "id": "betunia",
+    "mapSet": "Base",
+    "name": "Betunia",
+    "sortName": "betunia",
+    "suffix": ""
+  },
+  {
+    "id": "bosfir",
+    "mapSet": "Base",
+    "name": "Bosfir Komerc",
+    "sortName": "bosfir komerc",
+    "suffix": ""
+  },
+  {
+    "id": "ccg_bas",
+    "mapSet": "Base",
+    "name": "Celler Construction Group",
+    "sortName": "celler construction group",
+    "suffix": ""
+  },
+  {
+    "id": "ccg_fla",
+    "mapSet": "Base",
+    "name": "Celler Construction Group",
+    "sortName": "celler construction group",
+    "suffix": ""
+  },
+  {
+    "id": "ccg_hal",
+    "mapSet": "Base",
+    "name": "Celler Construction Group",
+    "sortName": "celler construction group",
+    "suffix": ""
+  },
+  {
+    "id": "cnp_str",
+    "mapSet": "Base",
+    "name": "CNP",
+    "sortName": "cnp",
+    "suffix": "Storage"
+  },
+  {
+    "id": "cnp_well",
+    "mapSet": "Base",
+    "name": "CNP",
+    "sortName": "cnp",
+    "suffix": ""
+  },
+  {
+    "id": "crnodrvo",
+    "mapSet": "Base",
+    "name": "Crno Drvo",
+    "sortName": "crno drvo",
+    "suffix": ""
+  },
+  {
+    "id": "crnodrvo_log",
+    "mapSet": "Base",
+    "name": "Crno Drvo",
+    "sortName": "crno drvo",
+    "suffix": ""
+  },
+  {
+    "id": "dunavia",
+    "mapSet": "Base",
+    "name": "DunaVia",
+    "sortName": "dunavia",
+    "suffix": ""
+  },
+  {
+    "id": "eumefa",
+    "mapSet": "Base",
+    "name": "Eumefa",
+    "sortName": "eumefa",
+    "suffix": ""
+  },
+  {
+    "id": "jastuk",
+    "mapSet": "Base",
+    "name": "Jastuk",
+    "sortName": "jastuk",
+    "suffix": ""
+  },
+  {
+    "id": "larus",
+    "mapSet": "Base",
+    "name": "Larus",
+    "sortName": "larus",
+    "suffix": ""
+  },
+  {
+    "id": "rock_eat_str",
+    "mapSet": "Base",
+    "name": "Rock Eater",
+    "sortName": "rock eater",
+    "suffix": "Storage"
+  },
+  {
+    "id": "slava",
+    "mapSet": "Base",
+    "name": "Slava Auto",
+    "sortName": "slava auto",
+    "suffix": ""
+  },
+  {
+    "id": "syllurgy",
+    "mapSet": "Base",
+    "name": "Syllurgy",
+    "sortName": "syllurgy",
+    "suffix": ""
+  },
+  {
+    "id": "syschema",
+    "mapSet": "Base",
+    "name": "SysChema",
+    "sortName": "syschema",
+    "suffix": ""
+  },
+  {
+    "id": "vesna",
+    "mapSet": "Base",
+    "name": "Vesna",
+    "sortName": "vesna",
+    "suffix": ""
+  },
+  {
+    "id": "villco",
+    "mapSet": "Base",
+    "name": "Villco",
+    "sortName": "villco",
+    "suffix": ""
+  },
+  {
+    "id": "villco_mkt",
+    "mapSet": "Base",
+    "name": "Villco",
+    "sortName": "villco",
+    "suffix": "Market"
+  }
+]

@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "tucumcari",
+    "mapSet": "Base",
+    "name": "Tucumcari",
+    "localizedName": "Tucumcari",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "clovis",
+    "mapSet": "Base",
+    "name": "Clovis",
+    "localizedName": "Clovis",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "hobbs",
+    "mapSet": "Base",
+    "name": "Hobbs",
+    "localizedName": "Hobbs",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "raton",
+    "mapSet": "Base",
+    "name": "Raton",
+    "localizedName": "Raton",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "carlsbad_nm",
+    "mapSet": "Base",
+    "name": "Carlsbad",
+    "localizedName": "Carlsbad",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "artesia",
+    "mapSet": "Base",
+    "name": "Artesia",
+    "localizedName": "Artesia",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "las_cruces",
+    "mapSet": "Base",
+    "name": "Las Cruces",
+    "localizedName": "Las Cruces",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "cody",
+    "mapSet": "Base",
+    "name": "Cody",
+    "localizedName": "Cody",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "durango",
+    "mapSet": "Base",
+    "name": "Durango",
+    "localizedName": "Durango",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "rangely",
+    "mapSet": "Base",
+    "name": "Rangely",
+    "localizedName": "Rangely",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "vernal",
+    "mapSet": "Base",
+    "name": "Vernal",
+    "localizedName": "Vernal",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "evanston",
+    "mapSet": "Base",
+    "name": "Evanston",
+    "localizedName": "Evanston",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "ogden",
+    "mapSet": "Base",
+    "name": "Ogden",
+    "localizedName": "Ogden",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "logan",
+    "mapSet": "Base",
+    "name": "Logan",
+    "localizedName": "Logan",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "coeur_dalene",
+    "mapSet": "Base",
+    "name": "Coeur d'Alene",
+    "localizedName": "Coeur d'Alene",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "sandpoint",
+    "mapSet": "Base",
+    "name": "Sandpoint",
+    "localizedName": "Sandpoint",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "nampa",
+    "mapSet": "Base",
+    "name": "Nampa",
+    "localizedName": "Nampa",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "boise",
+    "mapSet": "Base",
+    "name": "Boise",
+    "localizedName": "Boise",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "spokane",
+    "mapSet": "Base",
+    "name": "Spokane",
+    "localizedName": "Spokane",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "ehrenberg",
+    "mapSet": "Base",
+    "name": "Ehrenberg",
+    "localizedName": "Ehrenberg",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "ontario",
+    "mapSet": "Base",
+    "name": "Ontario",
+    "localizedName": "Ontario",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "yuma",
+    "mapSet": "Base",
+    "name": "Yuma",
+    "localizedName": "Yuma",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "pendleton",
+    "mapSet": "Base",
+    "name": "Pendleton",
+    "localizedName": "Pendleton",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "el_centro",
+    "mapSet": "Base",
+    "name": "El Centro",
+    "localizedName": "El Centro",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "barstow",
+    "mapSet": "Base",
+    "name": "Barstow",
+    "localizedName": "Barstow",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "san_diego",
+    "mapSet": "Base",
+    "name": "San Diego",
+    "localizedName": "San Diego",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "los_angeles",
+    "mapSet": "Base",
+    "name": "Los Angeles",
+    "localizedName": "Los Angeles",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "carlsbad",
+    "mapSet": "Base",
+    "name": "Carlsbad",
+    "localizedName": "Carlsbad",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "vancouver",
+    "mapSet": "Base",
+    "name": "Vancouver",
+    "localizedName": "Vancouver",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "bakersfield",
+    "mapSet": "Base",
+    "name": "Bakersfield",
+    "localizedName": "Bakersfield",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "oxnard",
+    "mapSet": "Base",
+    "name": "Oxnard",
+    "localizedName": "Oxnard",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "fresno",
+    "mapSet": "Base",
+    "name": "Fresno",
+    "localizedName": "Fresno",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "truckee",
+    "mapSet": "Base",
+    "name": "Truckee",
+    "localizedName": "Truckee",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "portland",
+    "mapSet": "Base",
+    "name": "Portland",
+    "localizedName": "Portland",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "astoria",
+    "mapSet": "Base",
+    "name": "Astoria",
+    "localizedName": "Astoria",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "longview",
+    "mapSet": "Base",
+    "name": "Longview",
+    "localizedName": "Longview",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "huron",
+    "mapSet": "Base",
+    "name": "Huron",
+    "localizedName": "Huron",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "santa_maria",
+    "mapSet": "Base",
+    "name": "Santa Maria",
+    "localizedName": "Santa Maria",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "oakdale",
+    "mapSet": "Base",
+    "name": "Oakdale",
+    "localizedName": "Oakdale",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "stockton",
+    "mapSet": "Base",
+    "name": "Stockton",
+    "localizedName": "Stockton",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "sacramento",
+    "mapSet": "Base",
+    "name": "Sacramento",
+    "localizedName": "Sacramento",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "redding",
+    "mapSet": "Base",
+    "name": "Redding",
+    "localizedName": "Redding",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "medford",
+    "mapSet": "Base",
+    "name": "Medford",
+    "localizedName": "Medford",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "hilt",
+    "mapSet": "Base",
+    "name": "Hilt",
+    "localizedName": "Hilt",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "santa_cruz",
+    "mapSet": "Base",
+    "name": "Santa Cruz",
+    "localizedName": "Santa Cruz",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "oakland",
+    "mapSet": "Base",
+    "name": "Oakland",
+    "localizedName": "Oakland",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "san_francisc",
+    "mapSet": "Base",
+    "name": "San Francisco",
+    "localizedName": "San Francisco",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "ukiah",
+    "mapSet": "Base",
+    "name": "Ukiah",
+    "localizedName": "Ukiah",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "eureka",
+    "mapSet": "Base",
+    "name": "Eureka",
+    "localizedName": "Eureka",
+    "country": "california",
+    "countryLocalizedName": "California",
+    "companies": []
+  },
+  {
+    "id": "clifton",
+    "mapSet": "Base",
+    "name": "Clifton",
+    "localizedName": "Clifton",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "san_simon",
+    "mapSet": "Base",
+    "name": "San Simon",
+    "localizedName": "San Simon",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "kayenta",
+    "mapSet": "Base",
+    "name": "Kayenta",
+    "localizedName": "Kayenta",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "holbrook",
+    "mapSet": "Base",
+    "name": "Holbrook",
+    "localizedName": "Holbrook",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "show_low",
+    "mapSet": "Base",
+    "name": "Show Low",
+    "localizedName": "Show Low",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "page",
+    "mapSet": "Base",
+    "name": "Page",
+    "localizedName": "Page",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "flagstaff",
+    "mapSet": "Base",
+    "name": "Flagstaff",
+    "localizedName": "Flagstaff",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "tucson",
+    "mapSet": "Base",
+    "name": "Tucson",
+    "localizedName": "Tucson",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "sierra_vista",
+    "mapSet": "Base",
+    "name": "Sierra Vista",
+    "localizedName": "Sierra Vista",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "g_canyon_vlg",
+    "mapSet": "Base",
+    "name": "Grand Canyon Village",
+    "localizedName": "Grand Canyon Village",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "camp_verde",
+    "mapSet": "Base",
+    "name": "Camp Verde",
+    "localizedName": "Camp Verde",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "nogales",
+    "mapSet": "Base",
+    "name": "Nogales",
+    "localizedName": "Nogales",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "phoenix",
+    "mapSet": "Base",
+    "name": "Phoenix",
+    "localizedName": "Phoenix",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "kingman",
+    "mapSet": "Base",
+    "name": "Kingman",
+    "localizedName": "Kingman",
+    "country": "arizona",
+    "countryLocalizedName": "Arizona",
+    "companies": []
+  },
+  {
+    "id": "burlington",
+    "mapSet": "Base",
+    "name": "Burlington",
+    "localizedName": "Burlington",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "lamar",
+    "mapSet": "Base",
+    "name": "Lamar",
+    "localizedName": "Lamar",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "sterling",
+    "mapSet": "Base",
+    "name": "Sterling",
+    "localizedName": "Sterling",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "pueblo",
+    "mapSet": "Base",
+    "name": "Pueblo",
+    "localizedName": "Pueblo",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "colorado_spr",
+    "mapSet": "Base",
+    "name": "Colorado Springs",
+    "localizedName": "Colorado Springs",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "denver",
+    "mapSet": "Base",
+    "name": "Denver",
+    "localizedName": "Denver",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "fort_collins",
+    "mapSet": "Base",
+    "name": "Fort Collins",
+    "localizedName": "Fort Collins",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "alamosa",
+    "mapSet": "Base",
+    "name": "Alamosa",
+    "localizedName": "Alamosa",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "steamboat_sp",
+    "mapSet": "Base",
+    "name": "Steamboat Springs",
+    "localizedName": "Steamboat Springs",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "montrose",
+    "mapSet": "Base",
+    "name": "Montrose",
+    "localizedName": "Montrose",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "grand_juncti",
+    "mapSet": "Base",
+    "name": "Grand Junction",
+    "localizedName": "Grand Junction",
+    "country": "colorado",
+    "countryLocalizedName": "Colorado",
+    "companies": []
+  },
+  {
+    "id": "pocatello",
+    "mapSet": "Base",
+    "name": "Pocatello",
+    "localizedName": "Pocatello",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "idaho_falls",
+    "mapSet": "Base",
+    "name": "Idaho Falls",
+    "localizedName": "Idaho Falls",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "salmon",
+    "mapSet": "Base",
+    "name": "Salmon",
+    "localizedName": "Salmon",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "twin_falls",
+    "mapSet": "Base",
+    "name": "Twin Falls",
+    "localizedName": "Twin Falls",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "ketchum",
+    "mapSet": "Base",
+    "name": "Ketchum",
+    "localizedName": "Ketchum",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "grangeville",
+    "mapSet": "Base",
+    "name": "Grangeville",
+    "localizedName": "Grangeville",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "lewiston",
+    "mapSet": "Base",
+    "name": "Lewiston",
+    "localizedName": "Lewiston",
+    "country": "idaho",
+    "countryLocalizedName": "Idaho",
+    "companies": []
+  },
+  {
+    "id": "jackpot",
+    "mapSet": "Base",
+    "name": "Jackpot",
+    "localizedName": "Jackpot",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "pioche",
+    "mapSet": "Base",
+    "name": "Pioche",
+    "localizedName": "Pioche",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "ely",
+    "mapSet": "Base",
+    "name": "Ely",
+    "localizedName": "Ely",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "elko",
+    "mapSet": "Base",
+    "name": "Elko",
+    "localizedName": "Elko",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "las_vegas",
+    "mapSet": "Base",
+    "name": "Las Vegas",
+    "localizedName": "Las Vegas",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "primm",
+    "mapSet": "Base",
+    "name": "Primm",
+    "localizedName": "Primm",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "winnemucca",
+    "mapSet": "Base",
+    "name": "Winnemucca",
+    "localizedName": "Winnemucca",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "tonopah",
+    "mapSet": "Base",
+    "name": "Tonopah",
+    "localizedName": "Tonopah",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "carson_city",
+    "mapSet": "Base",
+    "name": "Carson City",
+    "localizedName": "Carson City",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "reno",
+    "mapSet": "Base",
+    "name": "Reno",
+    "localizedName": "Reno",
+    "country": "nevada",
+    "countryLocalizedName": "Nevada",
+    "companies": []
+  },
+  {
+    "id": "roswell",
+    "mapSet": "Base",
+    "name": "Roswell",
+    "localizedName": "Roswell",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "santa_fe",
+    "mapSet": "Base",
+    "name": "Santa Fe",
+    "localizedName": "Santa Fe",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "alamogordo",
+    "mapSet": "Base",
+    "name": "Alamogordo",
+    "localizedName": "Alamogordo",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "albuquerque",
+    "mapSet": "Base",
+    "name": "Albuquerque",
+    "localizedName": "Albuquerque",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "socorro",
+    "mapSet": "Base",
+    "name": "Socorro",
+    "localizedName": "Socorro",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "farmington",
+    "mapSet": "Base",
+    "name": "Farmington",
+    "localizedName": "Farmington",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "gallup",
+    "mapSet": "Base",
+    "name": "Gallup",
+    "localizedName": "Gallup",
+    "country": "new_mexico",
+    "countryLocalizedName": "New Mexico",
+    "companies": []
+  },
+  {
+    "id": "burns",
+    "mapSet": "Base",
+    "name": "Burns",
+    "localizedName": "Burns",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "the_dalles",
+    "mapSet": "Base",
+    "name": "The Dalles",
+    "localizedName": "The Dalles",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "lakeview",
+    "mapSet": "Base",
+    "name": "Lakeview",
+    "localizedName": "Lakeview",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "bend",
+    "mapSet": "Base",
+    "name": "Bend",
+    "localizedName": "Bend",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "klamath_f",
+    "mapSet": "Base",
+    "name": "Klamath Falls",
+    "localizedName": "Klamath Falls",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "eugene",
+    "mapSet": "Base",
+    "name": "Eugene",
+    "localizedName": "Eugene",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "salem",
+    "mapSet": "Base",
+    "name": "Salem",
+    "localizedName": "Salem",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "newport",
+    "mapSet": "Base",
+    "name": "Newport",
+    "localizedName": "Newport",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "coos_bay",
+    "mapSet": "Base",
+    "name": "Coos Bay",
+    "localizedName": "Coos Bay",
+    "country": "oregon",
+    "countryLocalizedName": "Oregon",
+    "companies": []
+  },
+  {
+    "id": "moab",
+    "mapSet": "Base",
+    "name": "Moab",
+    "localizedName": "Moab",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "price",
+    "mapSet": "Base",
+    "name": "Price",
+    "localizedName": "Price",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "provo",
+    "mapSet": "Base",
+    "name": "Provo",
+    "localizedName": "Provo",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "salina",
+    "mapSet": "Base",
+    "name": "Salina",
+    "localizedName": "Salina",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "salt_lake",
+    "mapSet": "Base",
+    "name": "Salt Lake City",
+    "localizedName": "Salt Lake City",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "cedar_city",
+    "mapSet": "Base",
+    "name": "Cedar City",
+    "localizedName": "Cedar City",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "st_george",
+    "mapSet": "Base",
+    "name": "St. George",
+    "localizedName": "St. George",
+    "country": "utah",
+    "countryLocalizedName": "Utah",
+    "companies": []
+  },
+  {
+    "id": "colville",
+    "mapSet": "Base",
+    "name": "Colville",
+    "localizedName": "Colville",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "grand_coulee",
+    "mapSet": "Base",
+    "name": "Grand Coulee",
+    "localizedName": "Grand Coulee",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "osoyoos_bc",
+    "mapSet": "Promods",
+    "name": "Osoyoos",
+    "localizedName": "Osoyoos",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "kennewick",
+    "mapSet": "Base",
+    "name": "Kennewick",
+    "localizedName": "Kennewick",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "omak",
+    "mapSet": "Base",
+    "name": "Omak",
+    "localizedName": "Omak",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "princeton_bc",
+    "mapSet": "Promods",
+    "name": "Princeton",
+    "localizedName": "Princeton",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "yakima",
+    "mapSet": "Base",
+    "name": "Yakima",
+    "localizedName": "Yakima",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "wenatchee",
+    "mapSet": "Base",
+    "name": "Wenatchee",
+    "localizedName": "Wenatchee",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "seattle",
+    "mapSet": "Base",
+    "name": "Seattle",
+    "localizedName": "Seattle",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "everett",
+    "mapSet": "Base",
+    "name": "Everett",
+    "localizedName": "Everett",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "bellingham",
+    "mapSet": "Base",
+    "name": "Bellingham",
+    "localizedName": "Bellingham",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "coquitlam_bc",
+    "mapSet": "Promods",
+    "name": "Coquitlam",
+    "localizedName": "Coquitlam",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "abbotsfrd_bc",
+    "mapSet": "Promods",
+    "name": "Abbotsford",
+    "localizedName": "Abbotsford",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "surrey_bc",
+    "mapSet": "Promods",
+    "name": "Surrey",
+    "localizedName": "Surrey",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "olympia",
+    "mapSet": "Base",
+    "name": "Olympia",
+    "localizedName": "Olympia",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "tacoma",
+    "mapSet": "Base",
+    "name": "Tacoma",
+    "localizedName": "Tacoma",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "port_angeles",
+    "mapSet": "Base",
+    "name": "Port Angeles",
+    "localizedName": "Port Angeles",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "delta_bc",
+    "mapSet": "Promods",
+    "name": "Delta",
+    "localizedName": "Delta",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "aberdeen_wa",
+    "mapSet": "Base",
+    "name": "Aberdeen",
+    "localizedName": "Aberdeen",
+    "country": "washington",
+    "countryLocalizedName": "Washington",
+    "companies": []
+  },
+  {
+    "id": "cheyenne",
+    "mapSet": "Base",
+    "name": "Cheyenne",
+    "localizedName": "Cheyenne",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "gillette",
+    "mapSet": "Base",
+    "name": "Gillette",
+    "localizedName": "Gillette",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "laramie",
+    "mapSet": "Base",
+    "name": "Laramie",
+    "localizedName": "Laramie",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "casper",
+    "mapSet": "Base",
+    "name": "Casper",
+    "localizedName": "Casper",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "sheridan",
+    "mapSet": "Base",
+    "name": "Sheridan",
+    "localizedName": "Sheridan",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "rawlins",
+    "mapSet": "Base",
+    "name": "Rawlins",
+    "localizedName": "Rawlins",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "riverton",
+    "mapSet": "Base",
+    "name": "Riverton",
+    "localizedName": "Riverton",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "rock_springs",
+    "mapSet": "Base",
+    "name": "Rock Springs",
+    "localizedName": "Rock Springs",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "jackson",
+    "mapSet": "Base",
+    "name": "Jackson",
+    "localizedName": "Jackson",
+    "country": "wyoming",
+    "countryLocalizedName": "Wyoming",
+    "companies": []
+  },
+  {
+    "id": "salmonarm_bc",
+    "mapSet": "Promods",
+    "name": "Salmon Arm",
+    "localizedName": "Salmon Arm",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "penticton_bc",
+    "mapSet": "Promods",
+    "name": "Penticton",
+    "localizedName": "Penticton",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "kelowna_bc",
+    "mapSet": "Promods",
+    "name": "Kelowna",
+    "localizedName": "Kelowna",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "vernon_bc",
+    "mapSet": "Promods",
+    "name": "Vernon",
+    "localizedName": "Vernon",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "kamloops_bc",
+    "mapSet": "Promods",
+    "name": "Kamloops",
+    "localizedName": "Kamloops",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "merritt_bc",
+    "mapSet": "Promods",
+    "name": "Merritt",
+    "localizedName": "Merritt",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "cachecrk_bc",
+    "mapSet": "Promods",
+    "name": "Cache Creek",
+    "localizedName": "Cache Creek",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "hope_bc",
+    "mapSet": "Promods",
+    "name": "Hope",
+    "localizedName": "Hope",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "lillooet_bc",
+    "mapSet": "Promods",
+    "name": "Lillooet",
+    "localizedName": "Lillooet",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "pemberton_bc",
+    "mapSet": "Promods",
+    "name": "Pemberton",
+    "localizedName": "Pemberton",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "bralorne_bc",
+    "mapSet": "Promods",
+    "name": "Bralorne",
+    "localizedName": "Bralorne",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "vancouver_bc",
+    "mapSet": "Promods",
+    "name": "Vancouver",
+    "localizedName": "Vancouver",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "horseshoe_bc",
+    "mapSet": "Promods",
+    "name": "Horseshoe Bay",
+    "localizedName": "Horseshoe Bay",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "squamish_bc",
+    "mapSet": "Promods",
+    "name": "Squamish",
+    "localizedName": "Squamish",
+    "country": "bc",
+    "countryLocalizedName": "British Columbia",
+    "companies": []
+  },
+  {
+    "id": "sidney",
+    "mapSet": "Base",
+    "name": "Sidney",
+    "localizedName": "Sidney",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "glendive",
+    "mapSet": "Base",
+    "name": "Glendive",
+    "localizedName": "Glendive",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "miles_city",
+    "mapSet": "Base",
+    "name": "Miles City",
+    "localizedName": "Miles City",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "glasgow_mt",
+    "mapSet": "Base",
+    "name": "Glasgow",
+    "localizedName": "Glasgow",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "laurel",
+    "mapSet": "Base",
+    "name": "Laurel",
+    "localizedName": "Laurel",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "billings",
+    "mapSet": "Base",
+    "name": "Billings",
+    "localizedName": "Billings",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "lewistown",
+    "mapSet": "Base",
+    "name": "Lewistown",
+    "localizedName": "Lewistown",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "havre",
+    "mapSet": "Base",
+    "name": "Havre",
+    "localizedName": "Havre",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "bozeman",
+    "mapSet": "Base",
+    "name": "Bozeman",
+    "localizedName": "Bozeman",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "great_falls",
+    "mapSet": "Base",
+    "name": "Great Falls",
+    "localizedName": "Great Falls",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "helena",
+    "mapSet": "Base",
+    "name": "Helena",
+    "localizedName": "Helena",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "butte",
+    "mapSet": "Base",
+    "name": "Butte",
+    "localizedName": "Butte",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "missoula",
+    "mapSet": "Base",
+    "name": "Missoula",
+    "localizedName": "Missoula",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "kalispell",
+    "mapSet": "Base",
+    "name": "Kalispell",
+    "localizedName": "Kalispell",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "thompson_f",
+    "mapSet": "Base",
+    "name": "Thompson Falls",
+    "localizedName": "Thompson Falls",
+    "country": "montana",
+    "countryLocalizedName": "Montana",
+    "companies": []
+  },
+  {
+    "id": "el_paso",
+    "mapSet": "Base",
+    "name": "El Paso",
+    "localizedName": "El Paso",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "tyler",
+    "mapSet": "Base",
+    "name": "Tyler",
+    "localizedName": "Tyler",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "huntsville",
+    "mapSet": "Base",
+    "name": "Huntsville",
+    "localizedName": "Huntsville",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "houston",
+    "mapSet": "Base",
+    "name": "Houston",
+    "localizedName": "Houston",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "longview_tx",
+    "mapSet": "Base",
+    "name": "Longview",
+    "localizedName": "Longview",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "lufkin",
+    "mapSet": "Base",
+    "name": "Lufkin",
+    "localizedName": "Lufkin",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "galveston",
+    "mapSet": "Base",
+    "name": "Galveston",
+    "localizedName": "Galveston",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "beaumont",
+    "mapSet": "Base",
+    "name": "Beaumont",
+    "localizedName": "Beaumont",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "dallas",
+    "mapSet": "Base",
+    "name": "Dallas",
+    "localizedName": "Dallas",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "fort_worth",
+    "mapSet": "Base",
+    "name": "Fort Worth",
+    "localizedName": "Fort Worth",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "waco",
+    "mapSet": "Base",
+    "name": "Waco",
+    "localizedName": "Waco",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "victoria",
+    "mapSet": "Base",
+    "name": "Victoria",
+    "localizedName": "Victoria",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "corpus_chris",
+    "mapSet": "Base",
+    "name": "Corpus Christi",
+    "localizedName": "Corpus Christi",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "brownsville",
+    "mapSet": "Base",
+    "name": "Brownsville",
+    "localizedName": "Brownsville",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "wichita_fall",
+    "mapSet": "Base",
+    "name": "Wichita Falls",
+    "localizedName": "Wichita Falls",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "austin",
+    "mapSet": "Base",
+    "name": "Austin",
+    "localizedName": "Austin",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "san_antonio",
+    "mapSet": "Base",
+    "name": "San Antonio",
+    "localizedName": "San Antonio",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "mcallen",
+    "mapSet": "Base",
+    "name": "McAllen",
+    "localizedName": "McAllen",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "abilene",
+    "mapSet": "Base",
+    "name": "Abilene",
+    "localizedName": "Abilene",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "junction",
+    "mapSet": "Base",
+    "name": "Junction",
+    "localizedName": "Junction",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "laredo",
+    "mapSet": "Base",
+    "name": "Laredo",
+    "localizedName": "Laredo",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "san_angelo",
+    "mapSet": "Base",
+    "name": "San Angelo",
+    "localizedName": "San Angelo",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "amarillo",
+    "mapSet": "Base",
+    "name": "Amarillo",
+    "localizedName": "Amarillo",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "lubbock",
+    "mapSet": "Base",
+    "name": "Lubbock",
+    "localizedName": "Lubbock",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "del_rio",
+    "mapSet": "Base",
+    "name": "Del Rio",
+    "localizedName": "Del Rio",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "dalhart",
+    "mapSet": "Base",
+    "name": "Dalhart",
+    "localizedName": "Dalhart",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "odessa",
+    "mapSet": "Base",
+    "name": "Odessa",
+    "localizedName": "Odessa",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "fort_stockto",
+    "mapSet": "Base",
+    "name": "Fort Stockton",
+    "localizedName": "Fort Stockton",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "van_horn",
+    "mapSet": "Base",
+    "name": "Van Horn",
+    "localizedName": "Van Horn",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "mcalester",
+    "mapSet": "Base",
+    "name": "McAlester",
+    "localizedName": "McAlester",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "idabel",
+    "mapSet": "Base",
+    "name": "Idabel",
+    "localizedName": "Idabel",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "tulsa",
+    "mapSet": "Base",
+    "name": "Tulsa",
+    "localizedName": "Tulsa",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "oklahoma_cit",
+    "mapSet": "Base",
+    "name": "Oklahoma City",
+    "localizedName": "Oklahoma City",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "ardmore",
+    "mapSet": "Base",
+    "name": "Ardmore",
+    "localizedName": "Ardmore",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "enid",
+    "mapSet": "Base",
+    "name": "Enid",
+    "localizedName": "Enid",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "lawton",
+    "mapSet": "Base",
+    "name": "Lawton",
+    "localizedName": "Lawton",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "woodward",
+    "mapSet": "Base",
+    "name": "Woodward",
+    "localizedName": "Woodward",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "clinton",
+    "mapSet": "Base",
+    "name": "Clinton",
+    "localizedName": "Clinton",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "guymon",
+    "mapSet": "Base",
+    "name": "Guymon",
+    "localizedName": "Guymon",
+    "country": "oklahoma",
+    "countryLocalizedName": "Oklahoma",
+    "companies": []
+  },
+  {
+    "id": "texarkana",
+    "mapSet": "Base",
+    "name": "Texarkana",
+    "localizedName": "Texarkana",
+    "country": "texas",
+    "countryLocalizedName": "Texas",
+    "companies": []
+  },
+  {
+    "id": "marysville",
+    "mapSet": "Base",
+    "name": "Marysville",
+    "localizedName": "Marysville",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "phillipsburg",
+    "mapSet": "Base",
+    "name": "Phillipsburg",
+    "localizedName": "Phillipsburg",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "topeka",
+    "mapSet": "Base",
+    "name": "Topeka",
+    "localizedName": "Topeka",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "pittsburg",
+    "mapSet": "Base",
+    "name": "Pittsburg",
+    "localizedName": "Pittsburg",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "kansas_ci_ks",
+    "mapSet": "Base",
+    "name": "Kansas City",
+    "localizedName": "Kansas City",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "emporia",
+    "mapSet": "Base",
+    "name": "Emporia",
+    "localizedName": "Emporia",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "salina_ks",
+    "mapSet": "Base",
+    "name": "Salina",
+    "localizedName": "Salina",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "wichita",
+    "mapSet": "Base",
+    "name": "Wichita",
+    "localizedName": "Wichita",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "junction_cty",
+    "mapSet": "Base",
+    "name": "Junction City",
+    "localizedName": "Junction City",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "hutchinson",
+    "mapSet": "Base",
+    "name": "Hutchinson",
+    "localizedName": "Hutchinson",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "hays",
+    "mapSet": "Base",
+    "name": "Hays",
+    "localizedName": "Hays",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "dodge_city",
+    "mapSet": "Base",
+    "name": "Dodge City",
+    "localizedName": "Dodge City",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "garden_city",
+    "mapSet": "Base",
+    "name": "Garden City",
+    "localizedName": "Garden City",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  },
+  {
+    "id": "colby",
+    "mapSet": "Base",
+    "name": "Colby",
+    "localizedName": "Colby",
+    "country": "kansas",
+    "countryLocalizedName": "Kansas",
+    "companies": []
+  }
+]
