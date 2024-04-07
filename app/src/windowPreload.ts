@@ -1,5 +1,5 @@
-import api from './api';
-import logging from './logging';
+import api from './api/api';
+import logging from './logging/api';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { contextBridge } = require('electron');
 

@@ -5,10 +5,10 @@
     "baseUrl": ".",
     "outDir": "dist",
     "paths": {
-      "*": ["node_modules/*"],
       "@common/*": ["src/common/*"],
       "@api/*": ["src/api/*"],
-      "@modules/*": ["src/modules/*"]
+      "@modules/*": ["src/modules/*"],
+      "@data/*": ["src/data/*"]
     }
   },
   "include": ["src/**/*"]

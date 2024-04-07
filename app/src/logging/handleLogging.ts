@@ -1,4 +1,4 @@
-import { logger } from '@common/utils';
+import logger from './logger';
 
 export type LoggingArgs = { obj?: object; message?: string; args?: any[] };
 

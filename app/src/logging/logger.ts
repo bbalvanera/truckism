@@ -1,5 +1,5 @@
 import createLogger, { Logger, destination } from 'pino';
-import { deletefile } from '.';
+import { deletefile } from '../common/utils';
 
 const logFile = 'app.log';
 let logger = null as Logger | null;
