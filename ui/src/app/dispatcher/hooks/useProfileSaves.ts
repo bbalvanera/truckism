@@ -13,6 +13,20 @@ function useProfileSaves(profilePath: string): UseProfileSavesResult {
     queryFn: () => getProfileSaves(profilePath),
     queryKey: [QUERY_KEY, profilePath],
     enabled: profilePath.length > 0,
+    select: (data) => {
+      let retVal = data;
+
+      if (data) {
+        const autosaveIdx = data.findIndex((save) => save.name?.toLowerCase() === 'autosave');
+        if (autosaveIdx > -1) {
+          const autosave = data[autosaveIdx];
+          const newData = [...data.slice(0, autosaveIdx), ...data.slice(autosaveIdx + 1)];
+          retVal = [autosave, ...newData];
+        }
+      }
+
+      return retVal;
+    },
   });
 
   return { saves, ...rest };

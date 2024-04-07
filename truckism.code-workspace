@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "git.ignoreLimitWarning": true,
+    "explorer.compactFolders": false,
+    "explorer.excludeGitIgnore": true,
+    "files.exclude": {
+      ".*/": true,
+      "*.code-workspace": true,
+      "README*": true,
+    },
+  },
+}

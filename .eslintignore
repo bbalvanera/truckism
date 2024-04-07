@@ -2,5 +2,7 @@ forge.config.ts
 webpack
 craco*
 **/node_modules
+__tests__
 **/*tests.ts
-**/*test.ts
+**/*test*.ts
+jest.config.js
