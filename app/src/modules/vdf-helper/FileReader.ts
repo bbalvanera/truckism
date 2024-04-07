@@ -2,18 +2,28 @@ import { readFileSync } from 'node:fs';
 
 export default class FileReader {
   #lines: string[] = [];
+  #idx = 0;
+  #count = 0;
 
-  constructor(filePath: string) {
-    const content = readFileSync(filePath, 'utf8');
-    this.#lines = content.split('\n');
+  constructor(source: string | string[]) {
+    let content = source;
+
+    if (typeof source === 'string') {
+      content = readFileSync(source, 'utf8');
+      content = content.split('\n');
+    }
+
+    this.#lines = content as string[];
+    this.#count = this.#lines.length;
+    this.#idx = 0;
   }
 
   peek(): string {
-    return this.#canRead() ? this.#lines[0] : '';
+    return this.#canRead() ? this.#lines[this.#idx] : '';
   }
 
   next(): string {
-    return this.#canRead() ? this.#lines.shift() ?? '' : '';
+    return this.#canRead() ? this.#lines[this.#idx++] ?? '' : '';
   }
 
   done(): boolean {
@@ -21,6 +31,6 @@ export default class FileReader {
   }
 
   #canRead(): boolean {
-    return this.#lines.length > 0;
+    return this.#idx < this.#count;
   }
 }

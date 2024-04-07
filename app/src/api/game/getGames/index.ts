@@ -31,7 +31,7 @@ async function getGames(): Promise<AvailableGames> {
   }
 
   const userDir = getUserDirectory(steamInstallPath, personaName);
-  if (userDir === undefined) {
+  if (userDir === null) {
     return availableGames('noLoginUser');
   }
 

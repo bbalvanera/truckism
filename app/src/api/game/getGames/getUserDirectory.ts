@@ -29,12 +29,12 @@ function findUserDir(personaName: string): (value: { name: string; path: string 
   };
 }
 
-function getUserDirectory(steamInstallPath: string, personaName: string): string | undefined {
+function getUserDirectory(steamInstallPath: string, personaName: string): string | null {
   const userData = joinPath(steamInstallPath, 'userdata');
   const userDirs = getDirectories(userData).filter((userDir) => isNumeric(userDir.name));
   const userDir = userDirs.find(findUserDir(personaName));
 
-  return userDir?.path ?? undefined;
+  return userDir?.path ?? null;
 }
 
 export default getUserDirectory;
