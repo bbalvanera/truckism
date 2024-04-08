@@ -1,7 +1,7 @@
 import React from 'react';
 import CenterCenterStack from '@components/CenterCenterStack';
 import If from '@components/If';
-import { useCities, useCurrentProfile } from '../hooks';
+import { useCurrentProfile } from '../hooks';
 import Actions from './Actions';
 import JobForm from './JobForm';
 import JobGrid from './JobGrid';
@@ -19,9 +19,6 @@ const Other = () => (
 const Body = () => {
   const sx = useSx();
   const [currentProfile] = useCurrentProfile();
-  const cities = useCities();
-
-  console.log('cities', cities);
   return (
     <If condition={currentProfile !== undefined} fallback={<Other />}>
       <JobGrid sx={sx}>

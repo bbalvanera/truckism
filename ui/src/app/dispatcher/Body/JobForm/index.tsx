@@ -1,22 +1,30 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import TsdAutocomplete from '@components/TsdAutocomplete';
+import { useCities } from 'app/dispatcher/hooks';
 import JobGridCell from '../JobGridCell';
 import JobUrgencySelector, { Urgency } from '../JobUrgencySelector';
+import CityAutocomplete from './CityAutocomplete';
 
 const options = [
-  { label: 'The Godfather', id: 1 },
-  { label: 'Pulp Fiction', id: 2 },
+  { name: 'The Godfather', id: 1 },
+  { name: 'Pulp Fiction', id: 2 },
 ];
 
 const JobForm = () => {
   const [urgency, setUrgency] = useState<Urgency>('Standard');
   const { t } = useTranslation();
+  const { cities, isLoading: loadingCities } = useCities();
+
   return (
     <>
       {/* Row 1 */}
       <JobGridCell align="left">
-        <TsdAutocomplete label={t('dispatcher.jobFrom')} options={options} />
+        <CityAutocomplete
+          label={t('dispatcher.jobFrom')}
+          cities={cities}
+          loadingText={loadingCities ? t('dispatcher.jobFromLoading') : undefined}
+        />
       </JobGridCell>
       <JobGridCell align="right">
         <TsdAutocomplete label={t('dispatcher.jobCompanyFrom')} options={options} />

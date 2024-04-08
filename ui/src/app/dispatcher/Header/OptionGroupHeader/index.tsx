@@ -3,7 +3,7 @@ import { GameName } from 'truckism-types';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { AtsIcon, Ets2Icon } from '../GameIcons';
+import { AtsIcon, Ets2Icon } from '@components/Icons';
 
 export interface OptionGroupHeaderProps {
   gameName: GameName;

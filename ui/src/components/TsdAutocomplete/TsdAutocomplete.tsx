@@ -1,17 +1,24 @@
 import React from 'react';
-import Autocomplete from '@mui/material/Autocomplete';
+import Autocomplete, { AutocompleteProps } from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 
-export interface TsdAutocompleteProps {
+export type TsdAutocompleteProps<Value = any> = {
   label: string;
-  options: { label: string }[];
   error?: boolean;
   helperText?: string;
-}
+} & Omit<AutocompleteProps<Value, false, false, false>, 'renderInput'>;
 
-const TsdAutocomplete = ({ label, options, error, helperText }: TsdAutocompleteProps) => (
+// prettier-ignore
+const TsdAutocomplete = <Value = any>({
+  label,
+  options,
+  error,
+  helperText,
+  ...rest
+}: TsdAutocompleteProps<Value>) => (
   <div>
     <Autocomplete
+      {...rest}
       disablePortal
       options={options}
       renderInput={(params) => (
@@ -19,6 +26,6 @@ const TsdAutocomplete = ({ label, options, error, helperText }: TsdAutocompleteP
       )}
     />
   </div>
-);
+  );
 
 export default TsdAutocomplete;

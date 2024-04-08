@@ -8,4 +8,5 @@ export default interface City {
   country: string;
   countryLocalizedName: string;
   companies: Company[];
+  visited: boolean;
 }

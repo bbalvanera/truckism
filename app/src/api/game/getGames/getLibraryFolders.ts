@@ -3,13 +3,13 @@ import { fileexists } from '@common/utils';
 import parseVdfFile, { FileReader, LibraryFolder } from '@modules/vdf-helper';
 
 function getLibraryFolders(steamInstallPath: string): LibraryFolder[] {
-  const configFile = joinPath(steamInstallPath, 'steamapps', 'libraryfolders.vdf');
+  const libFoldersFile = joinPath(steamInstallPath, 'steamapps', 'libraryfolders.vdf');
 
-  if (!fileexists(configFile)) {
+  if (!fileexists(libFoldersFile)) {
     return [];
   }
 
-  const fr = new FileReader(configFile);
+  const fr = new FileReader(libFoldersFile);
   const vdf = parseVdfFile(fr);
 
   if (!vdf) {

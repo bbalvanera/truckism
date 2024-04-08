@@ -31,8 +31,8 @@ function handleStdOut(data: Buffer) {
   success
     ? resolve(result)
     : reject({
-        errorType: errorType,
-        errorDescription: errorDescription,
+        errorType,
+        errorDescription,
       });
 }
 

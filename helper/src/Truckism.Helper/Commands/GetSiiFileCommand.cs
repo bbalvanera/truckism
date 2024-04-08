@@ -1,7 +1,4 @@
-
-using Serilog;
 using SIIDecryptSharp;
-using System.Text;
 using static Truckism.Helper.SiiCommandResult;
 
 namespace Truckism.Helper.Commands;
@@ -17,10 +14,11 @@ public class GetSiiFileCommand() : ISiiCommand
                 () =>
                 {
                     var decrypted = Decryptor.Decrypt(filepath);
-                    var result = Encoding.UTF8.GetString(decrypted);
-                    var lines = result.Split("\r\n").ToArray();
+                    var temp = Path.GetTempFileName();
+                    using (var file = File.Create(temp))
+                        file.Write(decrypted, 0, decrypted.Length);
 
-                    return Successful(id, lines);
+                    return Successful(id, temp);
                 });
 
             return result;

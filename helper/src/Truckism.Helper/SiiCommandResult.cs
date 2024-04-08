@@ -18,6 +18,11 @@ public class SiiCommandResult
 
     public string ToJson() => JsonConvert.SerializeObject(this, settings);
 
+    public override string ToString()
+    {
+        return $"{(Success ? "success" : ErrorType)}|{(Success ? Result : ErrorDescription)}";
+    }
+
     internal static SiiCommandResult Successful(string id, dynamic result) => new()
     {
         Id = id,

@@ -24,6 +24,9 @@ const resources = {
       'dispatcher.saveFileSelect-placeholder': 'Select a saved game',
       'dispatcher.saveSelect-loading': 'Loading saves...',
       'dispatcher.saveSelect': 'Saves',
+      'dispatcher.visitedCityTooltip': 'City already visited',
+      'dispatcher.notVisitedCityTooltip': 'City not yet visited',
+      'dispatcher.jobFromLoading': 'Loading cities...',
       'message.generalException':
         'An unexpected error has occurred. Please contact the application developer.',
       'message.steamNotInstalled': 'Unable to find Steam installation.',
@@ -52,6 +55,9 @@ const resources = {
       'dispatcher.saveFileSelect-placeholder': 'Selecciona un juego guardado',
       'dispatcher.saveSelect-loading': 'Cargando juegos guardados...',
       'dispatcher.saveSelect': 'Juegos guardados',
+      'dispatcher.visitedCityTooltip': 'Ciudad ya visitada',
+      'dispatcher.notVisitedCityTooltip': 'Ciudad aún no visitada',
+      'dispatcher.jobFromLoading': 'Cargando ciudades...',
       'message.generalException':
         'Ha ocurrido un error inesperado. Favor de contactar al autor de esta aplicación.',
       'message.steamNotInstalled': 'No se ha podido encontrar la instalación de Steam.',

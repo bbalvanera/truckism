@@ -10,7 +10,7 @@ const api = {
     ipcRenderer.invoke(channels.profiles.getProfileSaves, profilePath) as Promise<SaveSlot[]>,
   getCitiesFromSavefile: (savefilePath: string, game: GameName) =>
     ipcRenderer.invoke(channels.savefile.getCitiesFromSavefile, savefilePath, game) as Promise<
-      Map<string, City>
+      City[]
     >,
 };
 

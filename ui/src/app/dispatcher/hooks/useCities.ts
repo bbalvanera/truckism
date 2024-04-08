@@ -3,8 +3,8 @@ import { City } from 'truckism-types';
 import getCities from '../api/getCities';
 import useCurrentProfile, { CurrentProfile } from './useCurrentProfile';
 
-export type UseUserProfilesResult = Omit<UseQueryResult<Map<string, City>, any>, 'data'> & {
-  cities?: Map<string, City>;
+export type UseUserProfilesResult = Omit<UseQueryResult<City[], any>, 'data'> & {
+  cities?: City[];
 };
 
 const QUERY_KEY = 'useCities';
@@ -15,8 +15,8 @@ function useCities(): UseUserProfilesResult {
   const { data: cities, ...rest } = useQuery({
     queryFn: () => getCities(save?.gamePath, profile?.gameName),
     queryKey: [QUERY_KEY, save?.gamePath],
-    // select: (data) => data.sort((l, r) => l.gameName.localeCompare(r.gameName)),
     enabled: !!current,
+    staleTime: 1000 * 60 * 10, // 10 minutes
   });
 
   return { cities, ...rest };

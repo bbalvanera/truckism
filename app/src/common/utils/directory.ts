@@ -22,4 +22,8 @@ function deletefile(path: string) {
   }
 }
 
-export { existsdir, fileexists, deletefile, getDirectories };
+function openFileStream(path: string) {
+  return fs.createReadStream(path, 'utf8');
+}
+
+export { existsdir, fileexists, deletefile, getDirectories, openFileStream };
