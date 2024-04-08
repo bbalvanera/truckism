@@ -1,15 +1,32 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Form, Formik } from 'formik';
+import * as Yup from 'yup';
 import TsdAutocomplete from '@components/TsdAutocomplete';
 import { useCities } from 'app/dispatcher/hooks';
+import JobFromCity from '../JobFromCity';
+import JobFromCompany from '../JobFromCompany';
 import JobGridCell from '../JobGridCell';
+import JobToCity from '../JobToCity';
+import JobToCompany from '../JobToCompany';
 import JobUrgencySelector, { Urgency } from '../JobUrgencySelector';
-import CityAutocomplete from './CityAutocomplete';
+import FormResetter from './FormResetter';
 
 const options = [
   { name: 'The Godfather', id: 1 },
   { name: 'Pulp Fiction', id: 2 },
 ];
+
+const validationSchema = Yup.object().shape({
+  jobFrom: Yup.object().required('Please select a city').nonNullable('Please select a city'),
+  jobCompanyFrom: Yup.object()
+    .required('Please select a company')
+    .nonNullable('Please select a company'),
+  jobTo: Yup.object().required('Please select a city').nonNullable('Please select a city'),
+  jobCompanyTo: Yup.object()
+    .required('Please select a company')
+    .nonNullable('Please select a company'),
+});
 
 const JobForm = () => {
   const [urgency, setUrgency] = useState<Urgency>('Standard');
@@ -17,35 +34,33 @@ const JobForm = () => {
   const { cities, isLoading: loadingCities } = useCities();
 
   return (
-    <>
-      {/* Row 1 */}
-      <JobGridCell align="left">
-        <CityAutocomplete
-          label={t('dispatcher.jobFrom')}
-          cities={cities}
-          loadingText={loadingCities ? t('dispatcher.jobFromLoading') : undefined}
-        />
-      </JobGridCell>
-      <JobGridCell align="right">
-        <TsdAutocomplete label={t('dispatcher.jobCompanyFrom')} options={options} />
-      </JobGridCell>
+    <Formik
+      onSubmit={(...all) => {
+        console.log('all', all);
+      }}
+      validationSchema={validationSchema}
+      initialValues={{} as any}
+    >
+      {({ values, resetForm }) => (
+        <Form>
+          <FormResetter cities={cities} resetForm={resetForm} />
 
-      {/* Row 2 */}
-      <JobGridCell align="left">
-        <TsdAutocomplete label={t('dispatcher.jobTo')} options={options} />
-      </JobGridCell>
-      <JobGridCell align="right">
-        <TsdAutocomplete label={t('dispatcher.jobCompanyTo')} options={options} />
-      </JobGridCell>
+          <JobFromCity cities={cities} loading={loadingCities} />
+          <JobFromCompany companies={values?.jobFrom?.companies} />
 
-      {/* Row 3 */}
-      <JobGridCell align="left">
-        <TsdAutocomplete label={t('dispatcher.cargo')} options={options} />
-      </JobGridCell>
-      <JobGridCell align="right">
-        <JobUrgencySelector urgency={urgency} onChange={setUrgency} />
-      </JobGridCell>
-    </>
+          <JobToCity cities={cities} loading={loadingCities} />
+          <JobToCompany companies={values?.jobTo?.companies} />
+
+          <JobGridCell align="left">
+            <TsdAutocomplete label={t('dispatcher.cargo')} options={options} />
+          </JobGridCell>
+          <JobGridCell align="right">
+            <JobUrgencySelector urgency={urgency} onChange={setUrgency} />
+          </JobGridCell>
+          <button type="submit">Submit</button>
+        </Form>
+      )}
+    </Formik>
   );
 };
 

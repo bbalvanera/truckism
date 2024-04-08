@@ -18,6 +18,7 @@ const TsdAutocomplete = <Value = any>({
 }: TsdAutocompleteProps<Value>) => (
   <div>
     <Autocomplete
+      blurOnSelect
       {...rest}
       disablePortal
       options={options}

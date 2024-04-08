@@ -40,8 +40,6 @@ export default class GameFile extends SCSFileReader {
 
     this.#citiesDb = new CitiesDb(this.#game);
     this.#companiesDb = new CompaniesDb(this.#game);
-
-    this.threadid = Math.floor(Math.random() * 1000);
   }
 
   async getCompanyCount(): Promise<number> {

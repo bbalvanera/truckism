@@ -13,7 +13,8 @@ export default class CitiesDb {
   }
 
   find(id: string): City | null {
-    return this.#db.find((c) => c.id === id) ?? null;
+    const found = this.#db.find((c) => c.id === id);
+    return found ? { ...found, companies: [] } : null;
   }
 
   findOrDefault(id: string): City {

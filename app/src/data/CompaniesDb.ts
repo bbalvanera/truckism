@@ -13,7 +13,8 @@ export default class CompaniesDb {
   }
 
   find(id: string): Company | null {
-    return this.#db.find((c) => c.id === id && c.mapSet === 'Base') ?? null;
+    const found = this.#db.find((c) => c.id === id && c.mapSet === 'Base');
+    return found ? { ...found } : null;
   }
 
   findOrDefault(id: string): Company {

@@ -9,7 +9,6 @@ export default abstract class SCSFileReader {
   #siiFile = '';
   protected loaded = false;
   protected loading = false;
-  protected threadid = 0;
 
   error = false;
 

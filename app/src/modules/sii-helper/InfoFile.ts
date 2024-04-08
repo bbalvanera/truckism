@@ -7,7 +7,6 @@ export default class InfoFile extends SCSFileReader {
 
   constructor(infoFilePath: string) {
     super(infoFilePath);
-    this.threadid = Math.floor(Math.random() * 1000);
   }
 
   async getName(): Promise<string | null> {
