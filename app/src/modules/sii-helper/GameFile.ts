@@ -1,53 +1,66 @@
-import { City, GameName } from 'truckism-types';
+import { Cargo, City, GameName } from 'truckism-types';
 import SCSFileReader, { EndProcessFn } from './SCSFileReader';
 import {
   ProcessorFn,
-  citiesProcessor,
+  cityProcessor,
   firstLineProcessor,
   lastVisitedCityProcessor,
   visitedCityCountProcessor,
   visitedCityProcessor,
+  cargoProcessor,
 } from './processors';
 
 export default class GameFile extends SCSFileReader {
-  #game = 'ats' as GameName;
   #cities = [] as City[];
+  #cargoes = [] as Cargo[];
   #lastVisitedCity: City | null = null;
   #visitedCitiesCount = 0;
+  readonly #processors = [] as ProcessorFn[];
 
-  readonly #onCityProcessed = (city: City) => this.#cities.push(city);
-  readonly #onLastCityVisited = (city: City) => (this.#lastVisitedCity = city);
-  readonly #onVisitedCityCount = (count: number) => (this.#visitedCitiesCount = count);
-  readonly #onVisitedCity = (cityId: string) => {
+  readonly #addCity = (city: City) => this.#cities.push(city);
+  readonly #setLastCityVisited = (city: City) => (this.#lastVisitedCity = city);
+  readonly #setVisitedCitiesCount = (count: number) => (this.#visitedCitiesCount = count);
+  readonly #setVisitedCity = (cityId: string) => {
     const found = this.#cities.find((c) => c.id === cityId);
     if (found) {
       found.visited = true;
     }
   };
+  readonly #addCargo = (cargo: Cargo) => {
+    const found = this.#cargoes.find((c) => c.id === cargo.id);
 
-  readonly #processors = [] as ProcessorFn[];
+    if (!found) {
+      this.#cargoes.push(cargo);
+    }
+  };
 
   constructor(gameFilePath: string, game: GameName = 'ats') {
     super(gameFilePath);
-    this.#game = game;
 
     this.#processors = [
       firstLineProcessor(),
-      citiesProcessor(game, this.#onCityProcessed),
-      lastVisitedCityProcessor(game, this.#onLastCityVisited),
-      visitedCityCountProcessor(this.#onVisitedCityCount),
-      visitedCityProcessor(this.#visitedCitiesCount, this.#onVisitedCity),
+      cityProcessor(game, this.#addCity),
+      lastVisitedCityProcessor(game, this.#setLastCityVisited),
+      visitedCityCountProcessor(this.#setVisitedCitiesCount),
+      visitedCityProcessor(this.#visitedCitiesCount, this.#setVisitedCity),
+      cargoProcessor(game, this.#addCargo),
     ];
   }
 
-  async getCities(): Promise<City[]> {
-    await this.loadFile();
+  get cities(): City[] {
     return this.#cities;
   }
 
-  async getLastVisitedCity(): Promise<City | null> {
-    await this.loadFile();
+  get cargoes(): Cargo[] {
+    return this.#cargoes;
+  }
+
+  get lastVisitedCity(): City | null {
     return this.#lastVisitedCity;
+  }
+
+  async load() {
+    await this.loadFile();
   }
 
   protected processLine(line: string, end: EndProcessFn): void {

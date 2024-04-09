@@ -7,7 +7,7 @@ const channels = {
     getProfileSaves: 'profiles:getProfileSaves',
   },
   savefile: {
-    getCitiesFromSavefile: 'savefile:getCitiesFromSavefile',
+    getGameData: 'savefile:getGameData',
   },
 };
 

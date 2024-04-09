@@ -1,5 +1,5 @@
 import { Company, GameName } from 'truckism-types';
-import defaultCompany from './companyOrDefault';
+import defaultCompany from './defaultCompany';
 
 export default class CompaniesDb {
   #db = [] as Company[];

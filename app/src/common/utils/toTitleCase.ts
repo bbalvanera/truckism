@@ -1,4 +1,4 @@
-function toProperCase(str: string) {
+function toTitleCase(str: string) {
   return str
     .replace(/_/g, ' ')
     .split(' ')
@@ -6,4 +6,4 @@ function toProperCase(str: string) {
     .join(' ');
 }
 
-export default toProperCase;
+export default toTitleCase;

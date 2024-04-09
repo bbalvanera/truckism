@@ -1,5 +1,5 @@
 import { ipcRenderer } from 'electron';
-import { AvailableGames, City, GameName, GameProfile, SaveSlot } from 'truckism-types';
+import { AvailableGames, GameData, GameName, GameProfile, SaveSlot } from 'truckism-types';
 import channels from './channels';
 
 const api = {
@@ -8,10 +8,8 @@ const api = {
     ipcRenderer.invoke(channels.profiles.getUserProfiles) as Promise<GameProfile[]>,
   getProfileSaves: (profilePath: string) =>
     ipcRenderer.invoke(channels.profiles.getProfileSaves, profilePath) as Promise<SaveSlot[]>,
-  getCitiesFromSavefile: (savefilePath: string, game: GameName) =>
-    ipcRenderer.invoke(channels.savefile.getCitiesFromSavefile, savefilePath, game) as Promise<
-      City[]
-    >,
+  getGameData: (savePath: string, game: GameName) =>
+    ipcRenderer.invoke(channels.savefile.getGameData, savePath, game) as Promise<GameData>,
 };
 
 export default api;

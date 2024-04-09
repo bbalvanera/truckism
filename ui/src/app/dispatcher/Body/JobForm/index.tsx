@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Form, Formik } from 'formik';
 import * as Yup from 'yup';
 import TsdAutocomplete from '@components/TsdAutocomplete';
-import { useCities } from 'app/dispatcher/hooks';
+import { useGameData } from 'app/dispatcher/hooks';
 import JobFromCity from '../JobFromCity';
 import JobFromCompany from '../JobFromCompany';
 import JobGridCell from '../JobGridCell';
@@ -31,7 +31,9 @@ const validationSchema = Yup.object().shape({
 const JobForm = () => {
   const [urgency, setUrgency] = useState<Urgency>('Standard');
   const { t } = useTranslation();
-  const { cities, isLoading: loadingCities } = useCities();
+  const { gameData, isLoading: loadingCities } = useGameData();
+
+  const { cities } = gameData || {};
 
   return (
     <Formik

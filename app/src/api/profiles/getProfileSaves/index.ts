@@ -1,5 +1,5 @@
 import { SaveSlot } from 'truckism-types';
-import { getDirectories, fileexists, toProperCase } from '@common/utils';
+import { getDirectories, fileexists, toTitleCase } from '@common/utils';
 import { InfoFile } from '@modules/sii-helper';
 
 const defaults = ['autosave', 'multiplayer_backup', 'quicksave'];
@@ -20,7 +20,7 @@ async function getProfileSaves(profilePath: string): Promise<SaveSlot[]> {
       // Check that both info.sii and game.sii exist
       // to declare this as a valid save
       if (fileexists(infoPath) && fileexists(gamePath)) {
-        return { name: toProperCase(name), infoPath, gamePath } as SaveSlot;
+        return { name: toTitleCase(name), infoPath, gamePath } as SaveSlot;
       }
     } else if (fileexists(infoPath)) {
       try {

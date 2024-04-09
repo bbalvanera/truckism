@@ -6,7 +6,7 @@ import { ProcessorFn } from './types';
 const COMPANY_REGEX =
   /^\s*companies\[\d+\]:\scompany\.volatile\.(?<companyId>[a-z0-9_]+)\.(?<cityId>[a-z0-9_]+)$/;
 
-function citiesProcessor(game: GameName, callback: (city: City) => void): ProcessorFn {
+function cityProcessor(game: GameName, processed: (city: City) => void): ProcessorFn {
   const citiesDb = new CitiesDb(game);
   const companiesDb = new CompaniesDb(game);
 
@@ -22,7 +22,7 @@ function citiesProcessor(game: GameName, callback: (city: City) => void): Proces
     if (!citiesMap.has(cityId)) {
       const city = citiesDb.findOrDefault(cityId);
       citiesMap.set(cityId, city);
-      callback(city);
+      processed(city);
     }
 
     const company = companiesDb.findOrDefault(companyId);
@@ -30,4 +30,4 @@ function citiesProcessor(game: GameName, callback: (city: City) => void): Proces
   };
 }
 
-export default citiesProcessor;
+export default cityProcessor;

@@ -6,7 +6,7 @@ const LAST_VISITED_CITY_REGEX = /^\s*last_visited_city:\s(?<cityId>.*)$/;
 
 function lastVisitedCityProcessor(
   game: GameName,
-  callback: (lastVisitedCity: City) => void,
+  processed: (lastVisitedCity: City) => void,
 ): ProcessorFn {
   const citiesDb = new CitiesDb(game);
 
@@ -19,7 +19,7 @@ function lastVisitedCityProcessor(
     const cityId = match.groups.cityId ?? '';
     const lastVisitedCity = citiesDb.findOrDefault(cityId);
 
-    callback(lastVisitedCity);
+    processed(lastVisitedCity);
   };
 }
 
