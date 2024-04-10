@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import img from '@assets/img/not_visited_city.png';
+import img from '@assets/img/city_indicator/not_visited.png';
 import IconProps from './IconProps';
 
 const NotVisitedCityIcon = (props: IconProps) => {

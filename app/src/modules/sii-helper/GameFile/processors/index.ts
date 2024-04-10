@@ -6,3 +6,4 @@ export { default as lastVisitedCityProcessor } from './lastVisitedCityProcessor'
 export { default as visitedCityCountProcessor } from './visitedCityCountProcessor';
 export { default as visitedCityProcessor } from './visitedCityProcessor';
 export { default as cargoProcessor } from './cargoProcessor';
+export { default as endProcessor } from './endProcessor';

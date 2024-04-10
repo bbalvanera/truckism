@@ -8,6 +8,7 @@ export default interface Cargo {
   unitLoadTime?: number;
   unitRewardPerKm?: number;
   volume?: number;
+  valuable?: boolean;
   bodyTypes?: string[];
   groups?: string[];
 }

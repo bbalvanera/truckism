@@ -1,15 +1,22 @@
-import React, { useEffect, useState } from 'react';
-import { useField } from 'formik';
+import React, { useMemo } from 'react';
 import { Company } from 'truckism-types';
-import TsdAutocomplete from '@components/TsdAutocomplete';
+import JobFormAutocomplete, { JobFormAutocompleteOption } from '../JobFormAutocomplete';
 import renderCompanyOption from './renderCompanyOption';
 
-export interface CityAutocompleteProps {
+export interface CompanyAutocompleteProps {
   id: string;
   name: string;
   label: string;
   companies: Company[] | undefined;
   loadingText?: string;
+}
+
+function toJobFormAutocompleteOption(opt: Company): JobFormAutocompleteOption<Company> {
+  return {
+    key: opt.id,
+    label: opt.name,
+    value: opt,
+  };
 }
 
 const CompanyAutocomplete = ({
@@ -18,44 +25,17 @@ const CompanyAutocomplete = ({
   label,
   companies,
   loadingText,
-}: CityAutocompleteProps) => {
-  const [value, setValue] = useState<Company | null>(null);
-  const [inputValue, setInputValue] = useState('');
-  const [{ onBlur }, { error, touched }, { setValue: setFieldValue }] = useField<Company | null>(
-    name,
-  );
-
-  const handleValueChange = (e: any, newValue: Company | null) => {
-    setValue(newValue);
-    setFieldValue(newValue);
-  };
-
-  const handleInputChange = (e: any, newValue: string) => {
-    setInputValue(newValue);
-  };
-
-  useEffect(() => {
-    setValue(null);
-    setFieldValue(null);
-  }, [companies, setFieldValue]);
+}: CompanyAutocompleteProps) => {
+  const options = useMemo(() => companies?.map(toJobFormAutocompleteOption), [companies]);
 
   return (
-    <TsdAutocomplete
+    <JobFormAutocomplete
       id={id}
+      name={name}
       label={label}
-      options={companies || []}
-      getOptionLabel={(o) => o.name}
-      getOptionKey={(o) => o.id}
-      renderOption={renderCompanyOption}
-      value={value}
-      inputValue={inputValue}
-      onChange={handleValueChange}
-      onInputChange={handleInputChange}
-      onBlur={onBlur}
-      loading={!!loadingText}
+      options={options}
       loadingText={loadingText}
-      error={!!(touched && error)}
-      helperText={touched ? error : undefined}
+      renderOption={renderCompanyOption}
     />
   );
 };

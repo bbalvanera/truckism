@@ -1,11 +1,7 @@
 import React from 'react';
-import etsLogoDisabled from '@assets/img/ets2-disabled.png';
-import etsLogo from '@assets/img/ets2.png';
+import ets2Logo from '@assets/img/ets2.png';
 import IconProps from './IconProps';
 
-const Ets2Icon = ({ disabled, ...props }: IconProps) => {
-  const logo = disabled ? etsLogoDisabled : etsLogo;
-  return <img src={logo} alt="ETS2" {...props} />;
-};
+const Ets2Icon = (props: IconProps) => <img {...props} src={ets2Logo} alt="ETS2" />;
 
 export default Ets2Icon;

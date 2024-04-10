@@ -9,6 +9,7 @@ import {
   visitedCityCountProcessor,
   visitedCityProcessor,
   cargoProcessor,
+  endProcessor,
 } from './processors';
 
 export default class GameFile extends SCSFileReader {
@@ -63,8 +64,9 @@ export default class GameFile extends SCSFileReader {
       cityProcessor(game, this.#addCity),
       lastVisitedCityProcessor(game, this.#setLastCityVisited),
       visitedCityCountProcessor(this.#setVisitedCitiesCount),
-      visitedCityProcessor(this.#visitedCitiesCount, this.#setVisitedCity),
+      visitedCityProcessor(this.#setVisitedCity),
       cargoProcessor(game, this.#addCargo),
+      endProcessor(),
     ];
   }
 

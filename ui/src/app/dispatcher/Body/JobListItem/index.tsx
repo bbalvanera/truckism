@@ -5,7 +5,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import example from '@assets/img/aport_pcc.png';
+import example from '@assets/img/company_logos/ats/aport_pcc.png';
 import Job from '@core/types/Job';
 import JobFlagsDisplay from '../JobFlagsDisplay';
 import JobGridCell from '../JobGridCell';
