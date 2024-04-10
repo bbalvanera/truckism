@@ -1,6 +1,6 @@
 import { Cargo, City, GameData, GameName } from 'truckism-types';
 import { fileexists, toTitleCase } from '@common/utils';
-import GameFile from '@modules/sii-helper/GameFile';
+import { GameFile } from '@modules/sii-helper';
 
 function fixCargoName(cargo: Cargo): Cargo {
   const name = cargo.name;

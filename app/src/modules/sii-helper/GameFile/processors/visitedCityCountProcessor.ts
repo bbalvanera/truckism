@@ -1,4 +1,4 @@
-import { ProcessorFn } from './types';
+import { ProcessorFn } from '../types';
 
 const VISITED_CITY_COUNT_REGEX = /^\s*visited_cities:\s(?<count>\d+)$/;
 

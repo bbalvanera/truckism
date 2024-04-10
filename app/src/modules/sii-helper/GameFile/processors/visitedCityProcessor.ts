@@ -1,4 +1,4 @@
-import { EndProcessFn, ProcessorFn } from './types';
+import { EndProcessFn, ProcessorFn } from '../types';
 
 const VISITED_CITY_REGEX = /^\s*visited_cities\[\d+\]:\s(?<cityId>.*)$/;
 

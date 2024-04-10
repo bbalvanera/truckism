@@ -1,4 +1,4 @@
-export * from './types';
+export * from '../types';
 
 export { default as firstLineProcessor } from './firstLineProcessor';
 export { default as cityProcessor } from './cityProcessor';

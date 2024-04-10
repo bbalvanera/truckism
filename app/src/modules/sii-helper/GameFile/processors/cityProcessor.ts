@@ -1,16 +1,17 @@
-import { City, GameName } from 'truckism-types';
+import { City, Company, GameName } from 'truckism-types';
 import CitiesDb from '@data/CitiesDb';
 import CompaniesDb from '@data/CompaniesDb';
-import { ProcessorFn } from './types';
+import { ProcessorFn } from '../types';
 
 const COMPANY_REGEX =
   /^\s*companies\[\d+\]:\scompany\.volatile\.(?<companyId>[a-z0-9_]+)\.(?<cityId>[a-z0-9_]+)$/;
 
-function cityProcessor(game: GameName, processed: (city: City) => void): ProcessorFn {
+function cityProcessor(
+  game: GameName,
+  processed: (city: City, company: Company) => void,
+): ProcessorFn {
   const citiesDb = new CitiesDb(game);
   const companiesDb = new CompaniesDb(game);
-
-  const citiesMap = new Map<string, City>();
 
   return function (line: string) {
     const match = line.match(COMPANY_REGEX);
@@ -19,14 +20,10 @@ function cityProcessor(game: GameName, processed: (city: City) => void): Process
     }
 
     const { companyId, cityId } = match.groups;
-    if (!citiesMap.has(cityId)) {
-      const city = citiesDb.findOrDefault(cityId);
-      citiesMap.set(cityId, city);
-      processed(city);
-    }
-
+    const city = citiesDb.findOrDefault(cityId);
     const company = companiesDb.findOrDefault(companyId);
-    citiesMap.get(cityId)?.companies.push(company);
+
+    processed(city, company);
   };
 }
 

@@ -1,4 +1,4 @@
-import SCSFileReader, { EndProcessFn } from './SCSFileReader';
+import SCSFileReader, { EndProcessFn } from '../SCSFileReader';
 
 const NAME_REGEX = /^\s*name:\s*"*(?<name>[^"]*)"*$/;
 

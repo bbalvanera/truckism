@@ -1,6 +1,6 @@
 import { spawn, ChildProcess } from 'node:child_process';
 import { resolve as resolvePath } from 'node:path';
-import { extras } from '../../environment';
+import { extras } from '../../../environment';
 import SiiCommandResult from './SiiCommandResult';
 import type CommandArgs from './CommandArgs';
 

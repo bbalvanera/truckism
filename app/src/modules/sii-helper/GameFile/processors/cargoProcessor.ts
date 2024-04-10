@@ -1,6 +1,6 @@
 import { Cargo, GameName } from 'truckism-types';
 import CargoesDb from '@data/CargoesDb';
-import { ProcessorFn } from './types';
+import { ProcessorFn } from '../types';
 
 const CARGO_REGEX = /^\scargo:\scargo\.(?<cargoName>.*)$/;
 

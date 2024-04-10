@@ -1,4 +1,4 @@
-import { ProcessorFn } from './types';
+import { ProcessorFn } from '../types';
 
 function firstLineProcessor(): ProcessorFn {
   let isFirstLine = true;

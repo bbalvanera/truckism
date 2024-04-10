@@ -1,6 +1,6 @@
 import { City, GameName } from 'truckism-types';
 import CitiesDb from '@data/CitiesDb';
-import { ProcessorFn } from './types';
+import { ProcessorFn } from '../types';
 
 const LAST_VISITED_CITY_REGEX = /^\s*last_visited_city:\s(?<cityId>.*)$/;
 
